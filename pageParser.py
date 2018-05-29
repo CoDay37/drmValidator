@@ -3,7 +3,8 @@
 import requests
 from bs4 import BeautifulSoup
 
-def parse_videoHTML():
+
+
     header = {'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3'}
     sb_get = requests.get("https://www.youtube.com", headers = header)
     sb_get.content

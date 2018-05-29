@@ -1,19 +1,36 @@
 import requests 
 from bs4 import BeautifulSoup
 
-archive_url = "http://www-personal.umich.edu/~csev/books/py4inf/media/"
- 
-def get_video_links(): 
+input_link = "http://www-personal.umich.edu/~csev/books/py4inf/media/"
+header = {'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3'}
+
+def get_video_links(link): 
     # create response object
-    r = requests.get(archive_url)
+    r = requests.get(input_link)
     # create beautiful-soup object
     soup = BeautifulSoup(r.content,'html5lib')
     # find all links on web-page
     links = soup.findAll('a')
     # filter the link sending with .mp4
-    video_links = [archive_url + link['href'] for link in links if link['href'].endswith('mp4')]
+    video_links = [input_link + link['href'] for link in links if link['href'].endswith('mp4')]
     return video_links
- 
+
+def downloadVideo(link):
+    url_get = requests.get(link, header)
+    soupData = BeautifulSoup(url_get.content,'html.parser')
+    videoLinks = soupData.find_all("a")
+    for x in videoLinks:
+        href = x.get("href")
+        title = x.get("title")
+    print("Link: " + link + "\n")
+    print(title)
+    #print("Title: " + title + "\n")
+
+    #links = soup.findAll("a")
+    #video_links = [link + link['href'] for link in links if link['href'].endswith('mp4')]
+    print(videoLinks)
+    #print(r.content)
+
 def download_videos(video_links):
      for link in video_links:
         # obtain filename by splitting url and getting 
@@ -31,6 +48,7 @@ def download_videos(video_links):
         print ("All videos downloaded!")
         return
 
-video_links = get_video_links()
-download_videos(video_links)
- 
+def formatOutput(videoList):
+    for line in videoList:
+        holder = videoList
+        holder.replace("</a>", "/n")
