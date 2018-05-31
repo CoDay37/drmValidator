@@ -1,8 +1,6 @@
 #This file will check if a website is valid or not
 import http.client
 
-
-
 filepath = 'output/formatWebsiteList.txt'
 holder = ""
 with open(filepath) as websiteList:
@@ -34,3 +32,9 @@ with open(filepath) as websiteList:
  #       line = line[5:]
  #       outputFile.write(line + '\n')
 #outputFile.close()
+
+
+
+#check for on sites
+#mpeg-dash
+#http live streaming

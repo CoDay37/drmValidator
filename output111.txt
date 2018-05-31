@@ -1,0 +1,1491 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" id="metaViewport" name="viewport"/>
+<meta content="1004164229" property="fb:admins"/>
+<meta content="249997999009" property="fb:pages"/>
+<meta content="1460388157605817" property="fb:app_id"/>
+<meta content="DcypRFLQvgYQL5Acx7feoGWbblSsmKv6HpPI7mM_1uw" name="google-site-verification"/>
+<link href="/img/static/favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="/img/static/favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="/img/static/favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="/img/static/favicon/manifest.json" rel="manifest"/>
+<link color="#5bbad5" href="/img/static/favicon/safari-pinned-tab.svg" rel="mask-icon"/>
+<meta content="#ffffff" name="theme-color"/>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i|Oswald:700&amp;amp;subset=latin-ext" rel="stylesheet"/>
+<link href="/vendor/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<script data-day-css="a056dbce055a2a15d412645130fb8ee2" data-night-css="56b257f1904d6abd10ac5fcb4f9f19cc" src="/scripts/hltv-csstheme.js?hash=c9103d6d9b8175ce7ed5670e22cba314" type="text/javascript"></script>
+<script src="/scripts/hltv.js?hash=a6d13ac6118ff80d6d3ba92fa91e0681" type="text/javascript"></script>
+<script async="async" src="https://notification-secure.hltv.org/hltvNotification.js?v4" type="text/javascript"></script>
+<script async="async" src="https://scorebot-secure.hltv.org/scorebotClientApi.js?v9" type="text/javascript"></script>
+<title>CS:GO News &amp; Coverage | HLTV.org</title>
+<link href="/rss/news" rel="alternate" type="application/rss+xml"/>
+<meta content="Welcome to the leading CS:GO site in the world, featuring news, demos, pictures, statistics, on-site coverage and much much more!" name="description"/>
+<meta content="HLTV.org - The home of competitive Counter-Strike" property="og:title"/>
+<meta content="https://www.hltv.org/img/static/openGraphHltvLogo.png" property="og:image"/>
+<meta content="HLTV.org" property="og:site_name"/>
+</head>
+<body class="preload cols1111" data-livescore-server-url="https://scorebot-secure.hltv.org">
+<div class="navbar">
+<nav class="navcon"><a class="small-logo" href="/"><img alt="HLTV.org" class="small-logo-img" src="/img/static/TopSmallLogo2x.png"/></a><a class="navnews" href="/">News</a><a class="navmatches" href="/matches">Matches</a><a class="navresults" href="/results">Results</a><a class="navevents" href="/events">Events</a>
+<div class="navburger navburger1"><i aria-hidden="true" class="fa fa-bars"></i></div>
+<div class="navbreakline1"></div>
+<a class="navstats" href="/stats">Stats</a><a class="navgalleries" href="/galleries">Galleries</a><a class="navranking smartphone-only" href="/ranking/teams">Rankings</a><a class="navforums" href="/forums">Forums</a><a class="navbets" href="/bets">Bets</a>
+<div class="navburger navburger2"><i aria-hidden="true" class="fa fa-bars"></i></div>
+<div class="navbreakline2"></div>
+<div class="navsearch search-typeahead">
+<form action="/search?term="><input class="navsearchinput" data-topbar-search-url="/search?term=" name="query" placeholder="Search..." type="text"/>
+<div class="search-submit-hidden"><input tabindex="-1" type="submit"/></div>
+</form>
+<div class="navsearchborder"></div>
+<span class="navsearchicon"><i class="fa fa-search"></i></span></div>
+<div class="navborder"></div>
+<div class="hidden">
+<div class="fixed-overlay-popup-content-con" id="loginpopup">
+<div class="fixed-overlay-popup-content">
+<div class="login-dialog standard-box" data-login-url="/login" id="loginpopup">
+<div class="logo"><img alt="HLTV.org" height="46px" src="/img/static/TopSmallLogo2x.png"/></div>
+<form><input class="loginInput" name="username" placeholder="Username" required="required" type="text"/><input class="loginInput" name="password" placeholder="Password" required="required" type="password"/>
+<div class="login-elm clearfix"><span class="remember-me left"><input checked="checked" class="loginCheckbox" name="autologin" type="checkbox"/> Remember me</span><span class="forgot-link right" data-overlay-popup-content="forgotpopup">Forgot password</span></div>
+<div class="login-error"></div>
+<button class="login-button button" name="login" type="submit">Login</button></form>
+<hr class="login-elm"/>
+<a class="signup-button button" href="/signup">Sign up</a></div>
+</div>
+</div>
+</div>
+<div class="hidden">
+<div class="fixed-overlay-popup-content-con" id="forgotpopup">
+<div class="fixed-overlay-popup-content">
+<div class="forgot-password-dialog standard-box">
+<div>
+<div class="logo"><img alt="HLTV.org" height="46px" src="/img/static/TopSmallLogo2x.png"/></div>
+<div id="forgot-password-username"><input class="loginInput" name="username" placeholder="Username" required="required" type="text"/><span class="validation-error hidden"><i aria-hidden="true" class=" fa fa-times"></i><span class="message"></span></span></div>
+</div>
+<div>
+<div class="g-recaptcha" id="forgot-password-recaptcha"></div>
+<button class="recover-button button" data-forgot-password-location="/forgotpassword" type="button">Recover</button>
+<hr class="login-elm"/>
+<button class="back-button button" data-overlay-popup-button="" data-overlay-popup-content="loginpopup" type="button">Back</button></div>
+</div>
+</div>
+</div>
+</div>
+<div class="navsignin" data-overlay-popup-button="" data-overlay-popup-content="loginpopup">Sign in</div>
+<div class="navborder"></div>
+<div class="navdown"><i class="fa fa-caret-down"></i>
+<div class="arrow"></div>
+<div class="arrow2"></div>
+</div>
+<div class="navpopup" id="popupsettings">
+<div class="nav-popup-header">Settings</div>
+<div class="nav-popup-elm"><span>Toggle nightmode</span><span class="right"><span class="toggleUserTheme userTheme-night" data-url="/profile/settings/changetheme?theme=night">On</span><span> / </span><span class="toggleUserTheme userTheme-day selected" data-url="/profile/settings/changetheme?theme=day">off</span></span></div>
+<div class="nav-popup-elm"><span title="Show/hide results in results section &amp; on match pages.">Show spoilers</span><span class="right"><span class="toggleSpoilers show-spoilers">On</span><span> / </span><span class="toggleSpoilers hide-spoilers">off</span></span></div>
+<div class="nav-popup-elm"><span>Timezone</span><span class="right">
+<form action=""><select class="timezoneSelector" data-timezone-update-on-select="1" id="timezoneSelector" name="timezone"></select></form>
+</span></div>
+<div class="nav-popup-elm desktop-mode-con"><span>Force desktop mode</span><span class="right"><span class="toggleDesktopMode desktopModeOn">On</span><span> / </span><span class="toggleDesktopMode desktopModeOff">off</span></span></div>
+</div>
+</nav>
+</div>
+<div class="bgPadding">
+<div class="widthControl">
+<div class="logoCon"><a href="/">
+<div class="hltv-logo-container"></div>
+</a>
+<div class="" id="g0_middle"></div>
+<div class="" id="g0_right"></div>
+</div>
+<div class="colCon">
+<div class="contentCol">
+<div class="index">
+<div class="todays-matches-con">
+<div class="columns"><a class="col standard-box block a-reset" data-livescore-match="2323135" href="/matches/2323135/sk-vs-liquid-starseries-i-league-season-5">
+<table class="match-table ">
+<tbody>
+<tr>
+<td class="match-table-name-col">StarSeries i-League Season 5</td>
+<td class="match-table-map-col">bo3</td>
+</tr>
+<tr>
+<td class="match-table-name-col"><img alt="SK" class="match-table-team-logo" src="https://static.hltv.org/images/team/logo/6137" title="SK"/> <span class="a-default">SK</span></td>
+<td class="match-table-map-col"><span data-livescore-current-map-score="" data-livescore-team="6137"></span> (<span data-livescore-maps-won-for="" data-livescore-team="6137"></span>)</td>
+</tr>
+<tr>
+<td class="match-table-name-col"><img alt="Liquid" class="match-table-team-logo" src="https://static.hltv.org/images/team/logo/5973" title="Liquid"/> <span class="a-default">Liquid</span></td>
+<td class="match-table-map-col"><span data-livescore-current-map-score="" data-livescore-team="5973"></span> (<span data-livescore-maps-won-for="" data-livescore-team="5973"></span>)</td>
+</tr>
+</tbody>
+</table>
+</a><a class="col standard-box block a-reset" data-livescore-match="2323396" href="/matches/2323396/windigo-vs-alternate-attax-zotac-cup-masters-2018-europe-closed-qualifier">
+<table class="match-table ">
+<tbody>
+<tr>
+<td class="match-table-name-col">ZOTAC Cup Masters 2018 Europe Closed Qualifier</td>
+<td class="match-table-map-col">inf</td>
+</tr>
+<tr>
+<td class="match-table-name-col"><img alt="Windigo" class="match-table-team-logo" src="https://static.hltv.org/images/team/logo/8513" title="Windigo"/> <span class="a-default">Windigo</span></td>
+<td class="match-table-map-col"><span data-livescore-current-map-score="" data-livescore-team="8513"></span></td>
+</tr>
+<tr>
+<td class="match-table-name-col"><img alt="ALTERNATE aTTaX" class="match-table-team-logo" src="https://static.hltv.org/images/team/logo/4501" title="ALTERNATE aTTaX"/> <span class="a-default">ALTERNATE aTTaX</span></td>
+<td class="match-table-map-col"><span data-livescore-current-map-score="" data-livescore-team="4501"></span></td>
+</tr>
+</tbody>
+</table>
+</a><a class="col standard-box block a-reset" data-livescore-match="2323397" href="/matches/2323397/sprout-vs-without-warning-zotac-cup-masters-2018-europe-closed-qualifier">
+<table class="match-table ">
+<tbody>
+<tr>
+<td class="match-table-name-col">ZOTAC Cup Masters 2018 Europe Closed Qualifier</td>
+<td class="match-table-map-col">nuke</td>
+</tr>
+<tr>
+<td class="match-table-name-col"><img alt="Sprout" class="match-table-team-logo" src="https://static.hltv.org/images/team/logo/8637" title="Sprout"/> <span class="a-default">Sprout</span></td>
+<td class="match-table-map-col"><span data-livescore-current-map-score="" data-livescore-team="8637"></span></td>
+</tr>
+<tr>
+<td class="match-table-name-col"><img alt="Without Warning" class="match-table-team-logo" src="https://static.hltv.org/images/team/logo/8582" title="Without Warning"/> <span class="a-default">Without Warning</span></td>
+<td class="match-table-map-col"><span data-livescore-current-map-score="" data-livescore-team="8582"></span></td>
+</tr>
+</tbody>
+</table>
+</a><a class="col standard-box block a-reset" data-livescore-match="2323395" href="/matches/2323395/tempo-storm-vs-valiance-zotac-cup-masters-2018-europe-closed-qualifier">
+<table class="match-table ">
+<tbody>
+<tr>
+<td class="match-table-name-col">ZOTAC Cup Masters 2018 Europe Closed Qualifier</td>
+<td class="match-table-map-col">inf</td>
+</tr>
+<tr>
+<td class="match-table-name-col"><img alt="Tempo Storm" class="match-table-team-logo" src="https://static.hltv.org/images/team/logo/6118" title="Tempo Storm"/> <span class="a-default">Tempo Storm</span></td>
+<td class="match-table-map-col"><span data-livescore-current-map-score="" data-livescore-team="6118"></span></td>
+</tr>
+<tr>
+<td class="match-table-name-col"><img alt="Valiance" class="match-table-team-logo" src="https://static.hltv.org/images/team/logo/8481" title="Valiance"/> <span class="a-default">Valiance</span></td>
+<td class="match-table-map-col"><span data-livescore-current-map-score="" data-livescore-team="8481"></span></td>
+</tr>
+</tbody>
+</table>
+</a><a class="col standard-box block a-reset" data-livescore-match="2323394" href="/matches/2323394/kinguin-vs-tomorrow-zotac-cup-masters-2018-europe-closed-qualifier">
+<table class="match-table ">
+<tbody>
+<tr>
+<td class="match-table-name-col">ZOTAC Cup Masters 2018 Europe Closed Qualifier</td>
+<td class="match-table-map-col">trn</td>
+</tr>
+<tr>
+<td class="match-table-name-col"><img alt="Kinguin" class="match-table-team-logo" src="https://static.hltv.org/images/team/logo/6134" title="Kinguin"/> <span class="a-default">Kinguin</span></td>
+<td class="match-table-map-col"><span data-livescore-current-map-score="" data-livescore-team="6134"></span></td>
+</tr>
+<tr>
+<td class="match-table-name-col"><img alt="tomorrow" class="match-table-team-logo" src="https://static.hltv.org/images/team/logo/7000" title="tomorrow"/> <span class="a-default">tomorrow</span></td>
+<td class="match-table-map-col"><span data-livescore-current-map-score="" data-livescore-team="7000"></span></td>
+</tr>
+</tbody>
+</table>
+</a><a class="col standard-box block a-reset" data-livescore-match="2323393" href="/matches/2323393/prodigy-vs-euronics-zotac-cup-masters-2018-europe-closed-qualifier">
+<table class="match-table ">
+<tbody>
+<tr>
+<td class="match-table-name-col">ZOTAC Cup Masters 2018 Europe Closed Qualifier</td>
+<td class="match-table-map-col">inf</td>
+</tr>
+<tr>
+<td class="match-table-name-col"><img alt="Prodigy" class="match-table-team-logo" src="https://static.hltv.org/images/team/logo/9042" title="Prodigy"/> <span class="a-default">Prodigy</span></td>
+<td class="match-table-map-col"><span data-livescore-current-map-score="" data-livescore-team="9042"></span></td>
+</tr>
+<tr>
+<td class="match-table-name-col"><img alt="EURONICS" class="match-table-team-logo" src="https://static.hltv.org/images/team/logo/6343" title="EURONICS"/> <span class="a-default">EURONICS</span></td>
+<td class="match-table-map-col"><span data-livescore-current-map-score="" data-livescore-team="6343"></span></td>
+</tr>
+</tbody>
+</table>
+</a><a class="col standard-box block a-reset" data-livescore-match="2323392" href="/matches/2323392/forge-vs-singularity-zotac-cup-masters-2018-europe-closed-qualifier">
+<table class="match-table ">
+<tbody>
+<tr>
+<td class="match-table-name-col">ZOTAC Cup Masters 2018 Europe Closed Qualifier</td>
+<td class="match-table-map-col">nuke</td>
+</tr>
+<tr>
+<td class="match-table-name-col"><img alt="Forge" class="match-table-team-logo" src="https://static.hltv.org/images/team/logo/8444" title="Forge"/> <span class="a-default">Forge</span></td>
+<td class="match-table-map-col"><span data-livescore-current-map-score="" data-livescore-team="8444"></span></td>
+</tr>
+<tr>
+<td class="match-table-name-col"><img alt="Singularity" class="match-table-team-logo" src="https://static.hltv.org/images/team/logo/6978" title="Singularity"/> <span class="a-default">Singularity</span></td>
+<td class="match-table-map-col"><span data-livescore-current-map-score="" data-livescore-team="6978"></span></td>
+</tr>
+</tbody>
+</table>
+</a><a class="col standard-box block a-reset" data-livescore-match="2323390" href="/matches/2323390/x-kom-vs-superjymy-zotac-cup-masters-2018-europe-closed-qualifier">
+<table class="match-table ">
+<tbody>
+<tr>
+<td class="match-table-name-col">ZOTAC Cup Masters 2018 Europe Closed Qualifier</td>
+<td class="match-table-map-col">mrg</td>
+</tr>
+<tr>
+<td class="match-table-name-col"><img alt="x-kom" class="match-table-team-logo" src="https://static.hltv.org/images/team/logo/8846" title="x-kom"/> <span class="a-default">x-kom</span></td>
+<td class="match-table-map-col"><span data-livescore-current-map-score="" data-livescore-team="8846"></span></td>
+</tr>
+<tr>
+<td class="match-table-name-col"><img alt="SuperJymy" class="match-table-team-logo" src="https://static.hltv.org/images/team/logo/8504" title="SuperJymy"/> <span class="a-default">SuperJymy</span></td>
+<td class="match-table-map-col"><span data-livescore-current-map-score="" data-livescore-team="8504"></span></td>
+</tr>
+</tbody>
+</table>
+</a><a class="col standard-box block a-reset" data-livescore-match="2323391" href="/matches/2323391/ldlc-vs-ftw-zotac-cup-masters-2018-europe-closed-qualifier">
+<table class="match-table ">
+<tbody>
+<tr>
+<td class="match-table-name-col">ZOTAC Cup Masters 2018 Europe Closed Qualifier</td>
+<td class="match-table-map-col">d2</td>
+</tr>
+<tr>
+<td class="match-table-name-col"><img alt="LDLC" class="match-table-team-logo" src="https://static.hltv.org/images/team/logo/4674" title="LDLC"/> <span class="a-default">LDLC</span></td>
+<td class="match-table-map-col"><span data-livescore-current-map-score="" data-livescore-team="4674"></span></td>
+</tr>
+<tr>
+<td class="match-table-name-col"><img alt="FTW" class="match-table-team-logo" src="https://static.hltv.org/images/team/logo/7959" title="FTW"/> <span class="a-default">FTW</span></td>
+<td class="match-table-map-col"><span data-livescore-current-map-score="" data-livescore-team="7959"></span></td>
+</tr>
+</tbody>
+</table>
+</a></div>
+</div>
+<div class="event-coverage-holder">
+<div class="event-coverage-logo gtSmartphone-only"><a class="a-reset" href="/events/3666/starseries-i-league-season-5"><img alt="StarSeries i-League Season 5" class="" src="https://static.hltv.org/images/eventLogos/3666.png" title="StarSeries i-League Season 5"/></a></div>
+<div class="event-coverage-hub">
+<div class="event-coverage-hub-name"><span class="gtSmartphone-only">StarSeries i-League Season 5 coverage hub</span><span class="smartphone-only">StarSeries S5 coverage hub</span></div>
+<div class="event-coverage-hub-links"><span class="event-coverage-hub-link"><a class="a-reset" href="/events/3666/starseries-i-league-season-5">Overview</a></span><span class="event-coverage-hub-link"><a class="a-reset" href="/matches?event=3666">Matches</a></span><span class="event-coverage-hub-link"><a class="a-reset" href="/results?event=3666">Results</a></span><span class="event-coverage-hub-link"><a class="a-reset" href="/stats?event=3666">Stats</a></span></div>
+</div>
+</div>
+<div class="hero-con"><a class="big-image-news a-reset" href="https://www.hltv.org/news/23723/olofmeister-returns-from-inactivity"><img class="hero-image" src="https://static.hltv.org//images/galleries/1693-full/1527278716.8687.jpeg"/></a></div>
+<h2 class="newsheader">Today's news</h2>
+<div class="standard-box standard-list"><a class="newsline" href="/news/23782/nip-natus-vincere-beat-tyloo-virtuspro-2-0"><img alt="Ukraine" class="newsflag flag" src="https://static.hltv.org/images/bigflags/30x20/UA.gif" title="Ukraine"/>
+<div class="newstext">NiP, Natus Vincere beat TyLoo, Virtus.pro 2-0</div>
+<div class="newstc">
+<div class="newsrecent">an hour ago</div>
+<div>45 comments</div>
+</div>
+</a><a class="newsline" href="/news/23781/optic-finalize-dreamhack-open-summer-team-list"><img alt="Sweden" class="newsflag flag" src="https://static.hltv.org/images/bigflags/30x20/SE.gif" title="Sweden"/>
+<div class="newstext">OpTic finalize DreamHack Open Summer team list</div>
+<div class="newstc">
+<div class="newsrecent">2 hours ago</div>
+<div>39 comments</div>
+</div>
+</a><a class="newsline" href="/news/23780/avangar-ence-round-out-ggbet-majestic-list"><img alt="Russia" class="newsflag flag" src="https://static.hltv.org/images/bigflags/30x20/RU.gif" title="Russia"/>
+<div class="newstext">AVANGAR, ENCE round out GG.BET Majestic list</div>
+<div class="newstc">
+<div class="newsrecent">3 hours ago</div>
+<div>98 comments</div>
+</div>
+</a><a class="newsline" href="/news/23779/ago-invited-to-dreamhack-open-summer"><img alt="Sweden" class="newsflag flag" src="https://static.hltv.org/images/bigflags/30x20/SE.gif" title="Sweden"/>
+<div class="newstext">AGO invited to DreamHack Open Summer</div>
+<div class="newstc">
+<div class="newsrecent">4 hours ago</div>
+<div>59 comments</div>
+</div>
+</a><a class="newsline" href="/news/23776/north-avangar-beat-hellraisers-godsent-go-2-1-at-starseries"><img alt="Ukraine" class="newsflag flag" src="https://static.hltv.org/images/bigflags/30x20/UA.gif" title="Ukraine"/>
+<div class="newstext">North, AVANGAR beat HellRaisers, GODSENT; go 2-1 at StarSeries</div>
+<div class="newstc">
+<div class="newsrecent">4 hours ago</div>
+<div>55 comments</div>
+</div>
+</a><a class="newsline" href="/news/23778/nifty-we-would-really-like-to-have-someone-behind-us-who-is-hyping-us-up"><img alt="Ukraine" class="newsflag flag" src="https://static.hltv.org/images/bigflags/30x20/UA.gif" title="Ukraine"/>
+<div class="newstext">Nifty: "We would really like to have someone behind us who is hyping us up"</div>
+<div class="newstc">
+<div class="newsrecent">5 hours ago</div>
+<div>40 comments</div>
+</div>
+</a><a class="newsline" href="/news/23777/cromen-to-play-with-heroic-at-dreamhack-austin"><img alt="United States" class="newsflag flag" src="https://static.hltv.org/images/bigflags/30x20/US.gif" title="United States"/>
+<div class="newstext">cromen to play with Heroic at DreamHack Austin</div>
+<div class="newstc">
+<div class="newsrecent">7 hours ago</div>
+<div>54 comments</div>
+</div>
+</a><a class="newsline" href="/news/23771/kpi-add-kamil-zelin-to-only-play-roster-locked-leagues"><img alt="Poland" class="newsflag flag" src="https://static.hltv.org/images/bigflags/30x20/PL.gif" title="Poland"/>
+<div class="newstext">KPI add kamil; ZELIN to only play roster locked leagues</div>
+<div class="newstc">
+<div class="newsrecent">7 hours ago</div>
+<div>72 comments</div>
+</div>
+</a><a class="newsline" href="/news/23774/renegades-nrg-survive-gambit-vgflash-eliminated-at-0-3"><img alt="Ukraine" class="newsflag flag" src="https://static.hltv.org/images/bigflags/30x20/UA.gif" title="Ukraine"/>
+<div class="newstext">Renegades, NRG survive; Gambit, VG.Flash eliminated at 0-3</div>
+<div class="newstc">
+<div class="newsrecent">8 hours ago</div>
+<div>69 comments</div>
+</div>
+</a><a class="newsline" href="/news/23775/brehze-about-playing-on-lan-our-communication-tends-to-get-so-slow"><img alt="Ukraine" class="newsflag flag" src="https://static.hltv.org/images/bigflags/30x20/UA.gif" title="Ukraine"/>
+<div class="newstext">Brehze about playing on LAN: "Our communication tends to get so slow"</div>
+<div class="newstc">
+<div class="newsrecent">10 hours ago</div>
+<div>27 comments</div>
+</div>
+</a></div>
+<h2 class="newsheader">Yesterday's news</h2>
+<div class="standard-box standard-list"><a class="newsline" href="/news/23773/starseries-day-three-match-ups-revealed"><img alt="Ukraine" class="newsflag flag" src="https://static.hltv.org/images/bigflags/30x20/UA.gif" title="Ukraine"/>
+<div class="newstext">StarSeries day three match-ups revealed</div>
+<div class="newstc">
+<div class="newsrecent">a day ago</div>
+<div>188 comments</div>
+</div>
+</a><a class="newsline" href="/news/23768/ago-liquid-go-2-0-at-starseries"><img alt="Ukraine" class="newsflag flag" src="https://static.hltv.org/images/bigflags/30x20/UA.gif" title="Ukraine"/>
+<div class="newstext">AGO, Liquid go 2-0 at StarSeries</div>
+<div class="newstc">
+<div class="newsrecent">a day ago</div>
+<div>63 comments</div>
+</div>
+</a><a class="newsline" href="/news/23772/video-phr-vs-nip"><img alt="Ukraine" class="newsflag flag" src="https://static.hltv.org/images/bigflags/30x20/UA.gif" title="Ukraine"/>
+<div class="newstext">Video: phr vs. NiP</div>
+<div class="newstc">
+<div class="newsrecent">a day ago</div>
+<div>60 comments</div>
+</div>
+</a><a class="newsline" href="/news/23770/adwokacik-mix-to-play-for-tomorrow"><img alt="Poland" class="newsflag flag" src="https://static.hltv.org/images/bigflags/30x20/PL.gif" title="Poland"/>
+<div class="newstext">adwokacik mix to play for tomorrow</div>
+<div class="newstc">
+<div class="newsrecent">a day ago</div>
+<div>132 comments</div>
+</div>
+</a><a class="newsline" href="/news/23769/ropz-we-are-becoming-more-consistent"><img alt="Ukraine" class="newsflag flag" src="https://static.hltv.org/images/bigflags/30x20/UA.gif" title="Ukraine"/>
+<div class="newstext">ropz: "We are becoming more consistent"</div>
+<div class="newstc">
+<div class="newsrecent">a day ago</div>
+<div>41 comments</div>
+</div>
+</a><a class="newsline" href="/news/23765/mouz-sk-move-into-2-0-pool-in-ukraine"><img alt="Ukraine" class="newsflag flag" src="https://static.hltv.org/images/bigflags/30x20/UA.gif" title="Ukraine"/>
+<div class="newstext">mouz, SK move into 2-0 pool in Ukraine</div>
+<div class="newstc">
+<div class="newsrecent">a day ago</div>
+<div>57 comments</div>
+</div>
+</a><a class="newsline" href="/news/23767/wind-and-rain-change-two"><img alt="United Kingdom" class="newsflag flag" src="https://static.hltv.org/images/bigflags/30x20/GB.gif" title="United Kingdom"/>
+<div class="newstext">Wind and Rain change two</div>
+<div class="newstc">
+<div class="newsrecent">a day ago</div>
+<div>42 comments</div>
+</div>
+</a><a class="newsline" href="/news/23766/msl-i-have-begun-to-mid-round-call-a-lot-more"><img alt="Ukraine" class="newsflag flag" src="https://static.hltv.org/images/bigflags/30x20/UA.gif" title="Ukraine"/>
+<div class="newstext">MSL: "I have begun to mid-round call a lot more"</div>
+<div class="newstc">
+<div class="newsrecent">a day ago</div>
+<div>52 comments</div>
+</div>
+</a><a class="newsline" href="/news/23760/hellraisers-navi-pick-up-first-victories-in-kiev"><img alt="Ukraine" class="newsflag flag" src="https://static.hltv.org/images/bigflags/30x20/UA.gif" title="Ukraine"/>
+<div class="newstext">HellRaisers, Na`Vi pick up first victories in Kiev</div>
+<div class="newstc">
+<div class="newsrecent">a day ago</div>
+<div>44 comments</div>
+</div>
+</a><a class="newsline" href="/news/23764/pashabiceps-i-was-watching-a-lot-of-replays-for-the-first-time-in-a-few-years"><img alt="Ukraine" class="newsflag flag" src="https://static.hltv.org/images/bigflags/30x20/UA.gif" title="Ukraine"/>
+<div class="newstext">pashaBiceps: "I was watching a lot of replays for the first time in a few years"</div>
+<div class="newstc">
+<div class="newsrecent">a day ago</div>
+<div>172 comments</div>
+</div>
+</a><a class="newsline" href="/news/23762/video-ropz-vs-north"><img alt="Ukraine" class="newsflag flag" src="https://static.hltv.org/images/bigflags/30x20/UA.gif" title="Ukraine"/>
+<div class="newstext">Video: ropz vs. North</div>
+<div class="newstc">
+<div class="newsrecent">a day ago</div>
+<div>67 comments</div>
+</div>
+</a><a class="newsline" href="/news/23763/singularity-bench-hugoxd-trial-znajder"><img alt="Sweden" class="newsflag flag" src="https://static.hltv.org/images/bigflags/30x20/SE.gif" title="Sweden"/>
+<div class="newstext">Singularity bench HugoXD; trial znajder</div>
+<div class="newstc">
+<div class="newsrecent">a day ago</div>
+<div>79 comments</div>
+</div>
+</a><a class="newsline" href="/news/23759/girlgamer-esports-festival-with-11550-female-tournament"><img alt="Portugal" class="newsflag flag" src="https://static.hltv.org/images/bigflags/30x20/PT.gif" title="Portugal"/>
+<div class="newstext">GIRLGAMER Esports Festival with $11,550 female tournament</div>
+<div class="newstc">
+<div class="newsrecent">a day ago</div>
+<div>57 comments</div>
+</div>
+</a><a class="newsline" href="/news/23761/zeves-signs-for-nordavind"><img alt="Norway" class="newsflag flag" src="https://static.hltv.org/images/bigflags/30x20/NO.gif" title="Norway"/>
+<div class="newstext">zEVES signs for Nordavind</div>
+<div class="newstc">
+<div class="newsrecent">a day ago</div>
+<div>112 comments</div>
+</div>
+</a><a class="newsline" href="/news/23758/north-take-down-nrg-vp-beat-gambit-at-starseries"><img alt="Ukraine" class="newsflag flag" src="https://static.hltv.org/images/bigflags/30x20/UA.gif" title="Ukraine"/>
+<div class="newstext">North take down NRG; VP beat Gambit at StarSeries</div>
+<div class="newstc">
+<div class="newsrecent">a day ago</div>
+<div>47 comments</div>
+</div>
+</a><a class="newsline" href="/news/23751/vexed-release-french-roster"><img alt="France" class="newsflag flag" src="https://static.hltv.org/images/bigflags/30x20/FR.gif" title="France"/>
+<div class="newstext">Vexed release French roster</div>
+<div class="newstc">
+<div class="newsrecent">a day ago</div>
+<div>72 comments</div>
+</div>
+</a><a class="newsline" href="/news/23757/ago-sprout-headline-invite-list-for-zotac-cup-master-eu-closed-qualifier"><img alt="Europe" class="newsflag flag" src="https://static.hltv.org/images/bigflags/30x20/EU.gif" title="Europe"/>
+<div class="newstext">AGO, Sprout headline invite list for ZOTAC Cup Master EU closed qualifier</div>
+<div class="newstc">
+<div class="newsrecent">a day ago</div>
+<div>56 comments</div>
+</div>
+</a><a class="newsline" href="/news/23755/nip-and-godsent-win-their-starseries-i-league-season-5-openers-in-kiev"><img alt="Ukraine" class="newsflag flag" src="https://static.hltv.org/images/bigflags/30x20/UA.gif" title="Ukraine"/>
+<div class="newstext">NiP and GODSENT win their StarSeries i-League Season 5 openers in Kiev</div>
+<div class="newstc">
+<div class="newsrecent">a day ago</div>
+<div>36 comments</div>
+</div>
+</a></div>
+<div class="old-news-con">
+<h2 class="newsheader">Previous news</h2>
+<div class="standard-box standard-list"><a class="newsline" href="/news/23756/freddieb-we-were-playing-really-well-on-ct-today-which-weve-been-struggling-a-bit-with"><img alt="Ukraine" class="newsflag flag" src="https://static.hltv.org/images/bigflags/30x20/UA.gif" title="Ukraine"/>
+<div class="newstext">freddieb: "We were playing really well on CT today, which we've been struggling a bit with"</div>
+<div class="newstc">
+<div class="newsrecent">2 days ago</div>
+<div>18 comments</div>
+</div>
+</a><a class="newsline" href="/news/23754/starseries-day-two-match-ups-determined"><img alt="Ukraine" class="newsflag flag" src="https://static.hltv.org/images/bigflags/30x20/UA.gif" title="Ukraine"/>
+<div class="newstext">StarSeries day two match-ups determined</div>
+<div class="newstc">
+<div class="newsrecent">2 days ago</div>
+<div>114 comments</div>
+</div>
+</a></div>
+</div>
+<a class="button-more" href="/news/archive/2018/may">More news</a><br/>
+<div class="activity-con">
+<h2 class="newsheader">Recent activity</h2>
+<div class="activitylist"><a class="col-box activity a-reset csCat" href="/forums/threads/1788778/coldzera"><span class="topic a-default" title="Cs: COLDZERA">COLDZERA</span>42</a><a class="col-box activity a-reset csCat" href="/forums/threads/1788586/styko-apex"><span class="topic a-default" title="Cs: -styko +apEX">-styko +apEX</span>22</a><a class="col-box activity a-reset csCat" href="/forums/threads/1788787/ago-vp"><span class="topic a-default" title="Cs: AGO - VP">AGO - VP</span>3</a><a class="col-box activity a-reset matchCat" href="/matches/2323392/forge-vs-singularity-zotac-cup-masters-2018-europe-closed-qualifier"><span class="topic a-default" title="Match: Forge vs Singularity">Forge vs Singularity</span>2</a><a class="col-box activity a-reset csCat" href="/forums/threads/1775632/friendzone"><span class="topic a-default" title="Cs: Friendzone">Friendzone</span>335</a><a class="col-box activity a-reset csCat" href="/forums/threads/1788786/rip"><span class="topic a-default" title="Cs: rip">rip</span>2</a><a class="col-box activity a-reset csCat" href="/forums/threads/1788659/0330-pm"><span class="topic a-default" title="Cs: 03:30 PM">03:30 PM</span>40</a><a class="col-box activity a-reset csCat" href="/forums/threads/1786332/tell-me-ur-country"><span class="topic a-default" title="Cs: tell me ur country">tell me ur country</span>447</a><a class="col-box activity a-reset csCat" href="/forums/threads/1788785/styko-24-kills"><span class="topic a-default" title="Cs: Styko 24 kills">Styko 24 kills</span>4</a><a class="col-box activity a-reset csCat" href="/forums/threads/1788260/most-underrated-players"><span class="topic a-default" title="Cs: most underrated players">most underrated players</span>59</a><a class="col-box activity a-reset csCat" href="/forums/threads/1788664/michu-snatchie"><span class="topic a-default" title="Cs: -MICHU +snatchie">-MICHU +snatchie</span>30</a><a class="col-box activity a-reset matchCat" href="/matches/2323136/ago-vs-mousesports-starseries-i-league-season-5"><span class="topic a-default" title="Match: AGO vs mousesports">AGO vs mousesports</span>518</a><a class="col-box activity a-reset matchCat" href="/matches/2323135/sk-vs-liquid-starseries-i-league-season-5"><span class="topic a-default" title="Match: SK vs Liquid">SK vs Liquid</span>268</a><a class="col-box activity a-reset matchCat" href="/matches/2323396/windigo-vs-alternate-attax-zotac-cup-masters-2018-europe-closed-qualifier"><span class="topic a-default" title="Match: Windigo vs ALTERNATE aTTaX">Windigo vs ALTERNATE aTTaX</span>4</a><a class="col-box activity a-reset csCat" href="/forums/threads/1788061/greeceger"><span class="topic a-default" title="Cs: GREECE&gt;&gt;GER">GREECE&gt;&gt;GER</span>55</a><a class="col-box activity a-reset csCat" href="/forums/threads/1788790/any-good-betting-site"><span class="topic a-default" title="Cs: Any good betting site">Any good betting site</span>0</a><a class="col-box activity a-reset csCat" href="/forums/threads/1788750/germany"><span class="topic a-default" title="Cs: germany">germany</span>13</a><a class="col-box activity a-reset csCat" href="/forums/threads/1788780/if-sk"><span class="topic a-default" title="Cs: IF SK">IF SK</span>17</a><a class="col-box activity a-reset csCat" href="/forums/threads/1788759/movies-to-watch"><span class="topic a-default" title="Cs: MOVIES TO WATCH">MOVIES TO WATCH</span>11</a><a class="col-box activity a-reset csCat" href="/forums/threads/1788746/lot-of-ago-fans-suddenly"><span class="topic a-default" title="Cs: LOT OF AGO FANS SUDDENLY">LOT OF AGO FANS SUDDENLY</span>65</a></div><a class="button-more" href="/forums">All forums</a></div>
+</div>
+</div>
+<div class="leftCol">
+<aside class="standard-box">
+<div class="featured-match-container"><span class="featured-header">FEATURED MATCH</span>
+<div class="featured-match-teams">
+<div class="team"><img alt="SK" class="" src="https://static.hltv.org/images/team/logo/6137" title="SK"/><a href="http://iotahit.click/gg/bet/?param=hltv_native&amp;lg=en&amp;mid=4:145617"><span class="team-odds">1.34</span></a></div>
+<div class="featured-vs-box">vs<span class="time-box"><span class="" data-time-countdown="LIVE" data-unix="1527704700000">LIVE</span></span></div>
+<div class="team"><img alt="Liquid" class="" src="https://static.hltv.org/images/team/logo/5973" title="Liquid"/><a href="http://iotahit.click/gg/bet/?param=hltv_native&amp;lg=en&amp;mid=4:145617"><span class="team-odds">3.01</span></a></div>
+</div>
+<a href="/matches/2323135/sk-vs-liquid-starseries-i-league-season-5">
+<div class="featured-match-matchpage">Match page</div>
+</a></div>
+</aside>
+<aside class="player-of-the-week-box">
+<h1><a class="a-reset" href="/stats/leaderboards?startDate=2018-05-23&amp;endDate=2018-05-30">PLAYER OF THE WEEK</a></h1>
+<div class="col-box-con"><a href="/stats/leaderboards?startDate=2018-05-23&amp;endDate=2018-05-30">
+<div class="col-box potw-Holder"><img alt="Caio 'zqkS' Fonseca" class="potwPic" src="https://static.hltv.org/images/playerprofile/thumb/7383/400.jpeg?v=2" title="Caio 'zqkS' Fonseca"/></div>
+<div class="rating">
+<div class="rating-text">
+<div class="col-box nick"><img alt="Brazil" class="flag" src="https://static.hltv.org/images/bigflags/30x20/BR.gif" title="Brazil"/> zqkS</div>
+<div class="col-box rating-value-desc"><span class="rating-value">67.4%</span><br/>Best in opening duels</div>
+</div>
+<img alt="YeaH!" class="rating-logo" src="https://static.hltv.org/images/team/logo/8728" title="YeaH!"/></div>
+</a></div>
+</aside>
+<a href="http://sports.betway.com/esports/cs-go/starseries-i-league/sk-liquid?a=AFF2048097100875303">
+<aside class="standard-box">
+<div class="live-match-container"><span class="live-match-header"><img class="live-match-site" src="/img/static/betting/betway.svg"/><span>LIVE MATCH
+                      <div class="live-dot"></div>
+</span></span>
+<div class="live-match-teams">
+<div class="team"><img alt="SK" class="" src="https://static.hltv.org/images/team/logo/6137" title="SK"/><span class="team-odds">1.25</span></div>
+<div class="live-match-vs-box">vs</div>
+<div class="team"><img alt="Liquid" class="" src="https://static.hltv.org/images/team/logo/5973" title="Liquid"/><span class="team-odds">3.30</span></div>
+</div>
+</div>
+<span class="live-match-sub-text">18+ Odds Subject to Change* Support Responsible Gaming</span></aside>
+</a>
+<aside>
+<h1><a class="a-reset" href="/ranking/teams">RANKING</a></h1>
+<div class="col-box-con">
+<div class="col-box rank"><a class="rankNum" href="/ranking/teams">1.</a><img alt="Astralis" class="teamImg" src="https://static.hltv.org/images/team/logo/6665" title="Astralis"/><a class="text-ellipsis" href="/team/6665/astralis"> Astralis</a></div>
+<div class="col-box rank"><a class="rankNum" href="/ranking/teams">2.</a><img alt="FaZe" class="teamImg" src="https://static.hltv.org/images/team/logo/6667" title="FaZe"/><a class="text-ellipsis" href="/team/6667/faze"> FaZe</a></div>
+<div class="col-box rank"><a class="rankNum" href="/ranking/teams">3.</a><img alt="Natus Vincere" class="teamImg" src="https://static.hltv.org/images/team/logo/4608" title="Natus Vincere"/><a class="text-ellipsis" href="/team/4608/natus-vincere"> Natus Vincere</a></div>
+<div class="col-box rank"><a class="rankNum" href="/ranking/teams">4.</a><img alt="mousesports" class="teamImg" src="https://static.hltv.org/images/team/logo/4494" title="mousesports"/><a class="text-ellipsis" href="/team/4494/mousesports"> mousesports</a></div>
+<div class="col-box rank"><a class="rankNum" href="/ranking/teams">5.</a><img alt="fnatic" class="teamImg" src="https://static.hltv.org/images/team/logo/4991" title="fnatic"/><a class="text-ellipsis" href="/team/4991/fnatic"> fnatic</a></div>
+</div>
+<a class="block button text-center" href="/ranking/teams">Complete ranking<br/><span class="normal-weight">Last updated: </span><span class="normal-weight">28th of May</span></a></aside>
+<aside>
+<h1><a class="a-reset" href="/events">EVENTS</a></h1>
+<div class="col-box-con"><a class="event" href="/events/3666/starseries-i-league-season-5"><img alt="StarSeries i-League Season 5" class="eventlogo" src="https://static.hltv.org/images/eventLogos/3666.png" title="StarSeries i-League Season 5"/><span class="live">Live</span><span class="eventname">StarSeries S5</span></a><a class="event" href="/events/3426/dreamhack-open-austin-2018"><img alt="DreamHack Open Austin 2018" class="eventlogo" src="https://static.hltv.org/images/eventLogos/3426.png" title="DreamHack Open Austin 2018"/><span class="upcomingeventname">DH Austin 2018</span><span class="eventcountdown">2 days</span></a><a class="event" href="/events/3460/ecs-season-5-finals"><img alt="ECS Season 5 Finals" class="eventlogo" src="https://static.hltv.org/images/eventLogos/3460.png" title="ECS Season 5 Finals"/><span class="upcomingeventname">ECS S5 Finals</span><span class="eventcountdown">9 days</span></a><a class="event" href="/events/3649/esl-one-belo-horizonte-2018"><img alt="ESL One Belo Horizonte 2018" class="eventlogo" src="https://static.hltv.org/images/eventLogos/3649.png" title="ESL One Belo Horizonte 2018"/><span class="upcomingeventname">ESL One Belo Horizonte</span><span class="eventcountdown">14 days</span></a><a class="event" href="/events/3714/csgo-asia-championships-2018"><img alt="CS:GO Asia Championships 2018" class="eventlogo" src="https://static.hltv.org/images/eventLogos/3714.png" title="CS:GO Asia Championships 2018"/><span class="upcomingeventname">CAC 2018</span><span class="eventcountdown">15 days</span></a></div>
+</aside>
+<aside>
+<h1><a class="a-reset" href="/galleries">GALLERIES</a></h1>
+<div class="col-box-con">
+<div class="col-box"><a href="/gallery/view/34250"><img alt="" class="thumb" src="https://static.hltv.org/./images/galleries/converted/6232-thumbretina/1414247133.4579.jpeg" title=""/></a>
+<div class="col-box text-center"><a href="/gallery/6232/faceit-league-season-2-lan-finals-day-two">FACEIT League Season 2 LAN Finals - Day two</a></div>
+</div>
+</div>
+</aside>
+<div class="col-rek3" id="g1_bottom"></div>
+</div>
+<div class="rightCol">
+<aside>
+<h1 class="clearfix todaysMatches"><a class="todays-matches" href="/matches">TODAY'S MATCHES</a><i class="hotmatch-star-unselected fa fa-star-o" title="Only show top matches"></i><i class="hotmatch-star-selected fa fa-star" title="Show all matches"></i></h1>
+<div class="top-border-hide"><a class="hotmatch-box a-reset" data-livescore-match="2323135" href="/matches/2323135/sk-vs-liquid-starseries-i-league-season-5" title="Two top 10 teams playing - StarSeries i-League Season 5">
+<div class="teambox match star3-filter ">
+<div class="teamrows">
+<div class="teamrow"><img alt="Brazil" class="flag" src="https://static.hltv.org/images/bigflags/30x20/BR.gif" title="Brazil"/> <span class="team">SK</span></div>
+<div class="teamrow"><img alt="North America" class="flag" src="https://static.hltv.org/images/bigflags/30x20/NAM.gif" title="North America"/> <span class="team">Liquid</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="livescore twoRowExtraRow"><span data-livescore-current-map-score="" data-livescore-team="6137"></span><span class="spacing">(<span class="" data-livescore-maps-won-for="" data-livescore-team="6137"></span>)</span></div>
+<div class="livescore twoRowExtraRow"><span data-livescore-current-map-score="" data-livescore-team="5973"></span><span class="spacing">(<span class="" data-livescore-maps-won-for="" data-livescore-team="5973"></span>)</span></div>
+</div>
+</div>
+</a><a class="hotmatch-box a-reset" data-livescore-match="2323397" href="/matches/2323397/sprout-vs-without-warning-zotac-cup-masters-2018-europe-closed-qualifier" title="ZOTAC Cup Masters 2018 Europe Closed Qualifier">
+<div class="teambox match star0-filter ">
+<div class="teamrows">
+<div class="teamrow"><img alt="Denmark" class="flag" src="https://static.hltv.org/images/bigflags/30x20/DK.gif" title="Denmark"/> <span class="team">Sprout</span></div>
+<div class="teamrow"><img alt="Europe" class="flag" src="https://static.hltv.org/images/bigflags/30x20/EU.gif" title="Europe"/> <span class="team">Without Warning</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="livescore twoRowExtraRow"><span data-livescore-current-map-score="" data-livescore-team="8637"></span></div>
+<div class="livescore twoRowExtraRow"><span data-livescore-current-map-score="" data-livescore-team="8582"></span></div>
+</div>
+</div>
+</a><a class="hotmatch-box a-reset" data-livescore-match="2323396" href="/matches/2323396/windigo-vs-alternate-attax-zotac-cup-masters-2018-europe-closed-qualifier" title="ZOTAC Cup Masters 2018 Europe Closed Qualifier">
+<div class="teambox match star0-filter ">
+<div class="teamrows">
+<div class="teamrow"><img alt="Bulgaria" class="flag" src="https://static.hltv.org/images/bigflags/30x20/BG.gif" title="Bulgaria"/> <span class="team">Windigo</span></div>
+<div class="teamrow"><img alt="Germany" class="flag" src="https://static.hltv.org/images/bigflags/30x20/DE.gif" title="Germany"/> <span class="team">ALTERNATE aTTaX</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="livescore twoRowExtraRow"><span data-livescore-current-map-score="" data-livescore-team="8513"></span></div>
+<div class="livescore twoRowExtraRow"><span data-livescore-current-map-score="" data-livescore-team="4501"></span></div>
+</div>
+</div>
+</a><a class="hotmatch-box a-reset" data-livescore-match="2323395" href="/matches/2323395/tempo-storm-vs-valiance-zotac-cup-masters-2018-europe-closed-qualifier" title="ZOTAC Cup Masters 2018 Europe Closed Qualifier">
+<div class="teambox match star0-filter ">
+<div class="teamrows">
+<div class="teamrow"><img alt="Europe" class="flag" src="https://static.hltv.org/images/bigflags/30x20/EU.gif" title="Europe"/> <span class="team">Tempo Storm</span></div>
+<div class="teamrow"><img alt="Serbia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/RS.gif" title="Serbia"/> <span class="team">Valiance</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="livescore twoRowExtraRow"><span data-livescore-current-map-score="" data-livescore-team="6118"></span></div>
+<div class="livescore twoRowExtraRow"><span data-livescore-current-map-score="" data-livescore-team="8481"></span></div>
+</div>
+</div>
+</a><a class="hotmatch-box a-reset" data-livescore-match="2323394" href="/matches/2323394/kinguin-vs-tomorrow-zotac-cup-masters-2018-europe-closed-qualifier" title="ZOTAC Cup Masters 2018 Europe Closed Qualifier">
+<div class="teambox match star0-filter ">
+<div class="teamrows">
+<div class="teamrow"><img alt="Poland" class="flag" src="https://static.hltv.org/images/bigflags/30x20/PL.gif" title="Poland"/> <span class="team">Kinguin</span></div>
+<div class="teamrow"><img alt="Poland" class="flag" src="https://static.hltv.org/images/bigflags/30x20/PL.gif" title="Poland"/> <span class="team">tomorrow</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="livescore twoRowExtraRow"><span data-livescore-current-map-score="" data-livescore-team="6134"></span></div>
+<div class="livescore twoRowExtraRow"><span data-livescore-current-map-score="" data-livescore-team="7000"></span></div>
+</div>
+</div>
+</a><a class="hotmatch-box a-reset" data-livescore-match="2323391" href="/matches/2323391/ldlc-vs-ftw-zotac-cup-masters-2018-europe-closed-qualifier" title="ZOTAC Cup Masters 2018 Europe Closed Qualifier">
+<div class="teambox match star0-filter ">
+<div class="teamrows">
+<div class="teamrow"><img alt="France" class="flag" src="https://static.hltv.org/images/bigflags/30x20/FR.gif" title="France"/> <span class="team">LDLC</span></div>
+<div class="teamrow"><img alt="Latvia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/LV.gif" title="Latvia"/> <span class="team">FTW</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="livescore twoRowExtraRow"><span data-livescore-current-map-score="" data-livescore-team="4674"></span></div>
+<div class="livescore twoRowExtraRow"><span data-livescore-current-map-score="" data-livescore-team="7959"></span></div>
+</div>
+</div>
+</a><a class="hotmatch-box a-reset" data-livescore-match="2323392" href="/matches/2323392/forge-vs-singularity-zotac-cup-masters-2018-europe-closed-qualifier" title="ZOTAC Cup Masters 2018 Europe Closed Qualifier">
+<div class="teambox match star0-filter ">
+<div class="teamrows">
+<div class="teamrow"><img alt="Italy" class="flag" src="https://static.hltv.org/images/bigflags/30x20/IT.gif" title="Italy"/> <span class="team">Forge</span></div>
+<div class="teamrow"><img alt="Sweden" class="flag" src="https://static.hltv.org/images/bigflags/30x20/SE.gif" title="Sweden"/> <span class="team">Singularity</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="livescore twoRowExtraRow"><span data-livescore-current-map-score="" data-livescore-team="8444"></span></div>
+<div class="livescore twoRowExtraRow"><span data-livescore-current-map-score="" data-livescore-team="6978"></span></div>
+</div>
+</div>
+</a><a class="hotmatch-box a-reset" data-livescore-match="2323393" href="/matches/2323393/prodigy-vs-euronics-zotac-cup-masters-2018-europe-closed-qualifier" title="ZOTAC Cup Masters 2018 Europe Closed Qualifier">
+<div class="teambox match star0-filter ">
+<div class="teamrows">
+<div class="teamrow"><img alt="Europe" class="flag" src="https://static.hltv.org/images/bigflags/30x20/EU.gif" title="Europe"/> <span class="team">Prodigy</span></div>
+<div class="teamrow"><img alt="Germany" class="flag" src="https://static.hltv.org/images/bigflags/30x20/DE.gif" title="Germany"/> <span class="team">EURONICS</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="livescore twoRowExtraRow"><span data-livescore-current-map-score="" data-livescore-team="9042"></span></div>
+<div class="livescore twoRowExtraRow"><span data-livescore-current-map-score="" data-livescore-team="6343"></span></div>
+</div>
+</div>
+</a><a class="hotmatch-box a-reset" data-livescore-match="2323390" href="/matches/2323390/x-kom-vs-superjymy-zotac-cup-masters-2018-europe-closed-qualifier" title="ZOTAC Cup Masters 2018 Europe Closed Qualifier">
+<div class="teambox match star0-filter ">
+<div class="teamrows">
+<div class="teamrow"><img alt="Poland" class="flag" src="https://static.hltv.org/images/bigflags/30x20/PL.gif" title="Poland"/> <span class="team">x-kom</span></div>
+<div class="teamrow"><img alt="Finland" class="flag" src="https://static.hltv.org/images/bigflags/30x20/FI.gif" title="Finland"/> <span class="team">SuperJymy</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="livescore twoRowExtraRow"><span data-livescore-current-map-score="" data-livescore-team="8846"></span></div>
+<div class="livescore twoRowExtraRow"><span data-livescore-current-map-score="" data-livescore-team="8504"></span></div>
+</div>
+</div>
+</a><a class="hotmatch-box a-reset" href="/matches/2323360/malvinas-vs-sinisters-aorus-league-2018-season-2-latam-south" title="Aorus League 2018 Season 2 LatAm South">
+<div class="teambox match star0-filter star0 ">
+<div class="teamrows">
+<div class="teamrow"><img alt="Argentina" class="flag" src="https://static.hltv.org/images/bigflags/30x20/AR.gif" title="Argentina"/> <span class="team">Malvinas</span></div>
+<div class="teamrow"><img alt="Argentina" class="flag" src="https://static.hltv.org/images/bigflags/30x20/AR.gif" title="Argentina"/> <span class="team">Sinisters</span></div>
+</div>
+<div class="middleExtra" data-time-format="HH:mm" data-unix="1527728400000">03:00</div>
+</div>
+</a><a class="hotmatch-box a-reset" href="/matches/2323377/dignitas-vs-ex-torqued-esea-mdl-season-28-north-america" title="ESEA MDL Season 28 North America">
+<div class="teambox match star0-filter star0 ">
+<div class="teamrows">
+<div class="teamrow"><img alt="United States" class="flag" src="https://static.hltv.org/images/bigflags/30x20/US.gif" title="United States"/> <span class="team">Dignitas</span></div>
+<div class="teamrow"><img alt="United States" class="flag" src="https://static.hltv.org/images/bigflags/30x20/US.gif" title="United States"/> <span class="team">ex-Torqued</span></div>
+</div>
+<div class="middleExtra" data-time-format="HH:mm" data-unix="1527728400000">03:00</div>
+</div>
+</a><a class="hotmatch-box a-reset" href="/matches/2323306/furia-vs-yeah-alienware-liga-pro-gamers-club-may-18" title="Alienware Liga Pro Gamers Club - MAY/18">
+<div class="teambox match star0-filter star0 ">
+<div class="teamrows">
+<div class="teamrow"><img alt="Brazil" class="flag" src="https://static.hltv.org/images/bigflags/30x20/BR.gif" title="Brazil"/> <span class="team">FURIA</span></div>
+<div class="teamrow"><img alt="Brazil" class="flag" src="https://static.hltv.org/images/bigflags/30x20/BR.gif" title="Brazil"/> <span class="team">YeaH!</span></div>
+</div>
+<div class="middleExtra" data-time-format="HH:mm" data-unix="1527728400000">03:00</div>
+</div>
+</a><a class="hotmatch-box a-reset" href="/matches/2323171/the-entourage-vs-ex-atmosphere-esea-mdl-season-28-north-america" title="ESEA MDL Season 28 North America">
+<div class="teambox match star0-filter star0 ">
+<div class="teamrows">
+<div class="teamrow"><img alt="United States" class="flag" src="https://static.hltv.org/images/bigflags/30x20/US.gif" title="United States"/> <span class="team">The Entourage</span></div>
+<div class="teamrow"><img alt="United States" class="flag" src="https://static.hltv.org/images/bigflags/30x20/US.gif" title="United States"/> <span class="team">ex-Atmosphere</span></div>
+</div>
+<div class="middleExtra" data-time-format="HH:mm" data-unix="1527728400000">03:00</div>
+</div>
+</a><a class="hotmatch-box a-reset" href="/matches/2323343/clutch-solutions-vs-squirtle-squad-esea-mdl-season-28-north-america" title="ESEA MDL Season 28 North America">
+<div class="teambox match star0-filter star0 ">
+<div class="teamrows">
+<div class="teamrow"><img alt="United States" class="flag" src="https://static.hltv.org/images/bigflags/30x20/US.gif" title="United States"/> <span class="team">Clutch Solutions</span></div>
+<div class="teamrow"><img alt="United States" class="flag" src="https://static.hltv.org/images/bigflags/30x20/US.gif" title="United States"/> <span class="team">Squirtle Squad</span></div>
+</div>
+<div class="middleExtra" data-time-format="HH:mm" data-unix="1527730200000">03:30</div>
+</div>
+</a><a class="hotmatch-box a-reset" href="/matches/2323380/subtle-vs-ex-blackout-esea-mdl-season-28-north-america" title="ESEA MDL Season 28 North America">
+<div class="teambox match star0-filter star0 ">
+<div class="teamrows">
+<div class="teamrow"><img alt="United States" class="flag" src="https://static.hltv.org/images/bigflags/30x20/US.gif" title="United States"/> <span class="team">subtLe</span></div>
+<div class="teamrow"><img alt="United States" class="flag" src="https://static.hltv.org/images/bigflags/30x20/US.gif" title="United States"/> <span class="team">ex-BlackOut</span></div>
+</div>
+<div class="middleExtra" data-time-format="HH:mm" data-unix="1527732000000">04:00</div>
+</div>
+</a><a class="hotmatch-box a-reset" href="/matches/2323379/the-entourage-vs-fam143-esea-mdl-season-28-north-america" title="ESEA MDL Season 28 North America">
+<div class="teambox match star0-filter star0 ">
+<div class="teamrows">
+<div class="teamrow"><img alt="United States" class="flag" src="https://static.hltv.org/images/bigflags/30x20/US.gif" title="United States"/> <span class="team">The Entourage</span></div>
+<div class="teamrow"><img alt="United States" class="flag" src="https://static.hltv.org/images/bigflags/30x20/US.gif" title="United States"/> <span class="team">Fam143</span></div>
+</div>
+<div class="middleExtra" data-time-format="HH:mm" data-unix="1527732000000">04:00</div>
+</div>
+</a><a class="hotmatch-box a-reset" href="/matches/2323378/ex-era-vs-forty-six-and-2-esea-mdl-season-28-north-america" title="ESEA MDL Season 28 North America">
+<div class="teambox match star0-filter star0 ">
+<div class="teamrows">
+<div class="teamrow"><img alt="United States" class="flag" src="https://static.hltv.org/images/bigflags/30x20/US.gif" title="United States"/> <span class="team">ex-eRa</span></div>
+<div class="teamrow"><img alt="Mexico" class="flag" src="https://static.hltv.org/images/bigflags/30x20/MX.gif" title="Mexico"/> <span class="team">Forty Six and 2</span></div>
+</div>
+<div class="middleExtra" data-time-format="HH:mm" data-unix="1527732000000">04:00</div>
+</div>
+</a><a class="hotmatch-box a-reset" href="/matches/2323344/bravado-vs-ex-torqued-esea-mdl-season-28-north-america" title="ESEA MDL Season 28 North America">
+<div class="teambox match star0-filter star0 ">
+<div class="teamrows">
+<div class="teamrow"><img alt="South Africa" class="flag" src="https://static.hltv.org/images/bigflags/30x20/ZA.gif" title="South Africa"/> <span class="team">Bravado</span></div>
+<div class="teamrow"><img alt="United States" class="flag" src="https://static.hltv.org/images/bigflags/30x20/US.gif" title="United States"/> <span class="team">ex-Torqued</span></div>
+</div>
+<div class="middleExtra" data-time-format="HH:mm" data-unix="1527733800000">04:30</div>
+</div>
+</a><a class="hotmatch-box a-reset" href="/matches/2323243/order-vs-chiefs-esea-mdl-season-28-australia" title="ESEA MDL Season 28 Australia">
+<div class="teambox match star0-filter star0 ">
+<div class="teamrows">
+<div class="teamrow"><img alt="Australia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/AU.gif" title="Australia"/> <span class="team">ORDER</span></div>
+<div class="teamrow"><img alt="Australia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/AU.gif" title="Australia"/> <span class="team">Chiefs</span></div>
+</div>
+<div class="middleExtra" data-time-format="HH:mm" data-unix="1527757200000">11:00</div>
+</div>
+</a><a class="hotmatch-box a-reset" href="/matches/2323141/tyloo-vs-godsent-starseries-i-league-season-5" title="Two top 20 teams playing - StarSeries i-League Season 5">
+<div class="teambox match star2-filter star2 ">
+<div class="teamrows">
+<div class="teamrow"><img alt="China" class="flag" src="https://static.hltv.org/images/bigflags/30x20/CN.gif" title="China"/> <span class="team">TyLoo</span></div>
+<div class="teamrow"><img alt="Sweden" class="flag" src="https://static.hltv.org/images/bigflags/30x20/SE.gif" title="Sweden"/> <span class="team">GODSENT</span></div>
+</div>
+<div class="middleExtra" data-time-format="HH:mm" data-unix="1527757200000">11:00</div>
+</div>
+</a><a class="hotmatch-box a-reset" href="/matches/2323140/nrg-vs-hellraisers-starseries-i-league-season-5" title="Two top 30 teams, or one top20 team, playing - StarSeries i-League Season 5">
+<div class="teambox match star1-filter star1 ">
+<div class="teamrows">
+<div class="teamrow"><img alt="United States" class="flag" src="https://static.hltv.org/images/bigflags/30x20/US.gif" title="United States"/> <span class="team">NRG</span></div>
+<div class="teamrow"><img alt="World" class="flag" src="https://static.hltv.org/images/bigflags/30x20/WORLD.gif" title="World"/> <span class="team">HellRaisers</span></div>
+</div>
+<div class="middleExtra" data-time-format="HH:mm" data-unix="1527757200000">11:00</div>
+</div>
+</a><a class="hotmatch-box a-reset" href="/matches/2323324/legacy-vs-tainted-minds-esea-mdl-season-28-australia" title="ESEA MDL Season 28 Australia">
+<div class="teambox match star0-filter star0 ">
+<div class="teamrows">
+<div class="teamrow"><img alt="Australia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/AU.gif" title="Australia"/> <span class="team">Legacy</span></div>
+<div class="teamrow"><img alt="Australia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/AU.gif" title="Australia"/> <span class="team">Tainted Minds</span></div>
+</div>
+<div class="middleExtra" data-time-format="HH:mm" data-unix="1527760800000">12:00</div>
+</div>
+</a><a class="hotmatch-box a-reset" href="/matches/2323325/dark-sided-vs-control-esea-mdl-season-28-australia" title="ESEA MDL Season 28 Australia">
+<div class="teambox match star0-filter star0 ">
+<div class="teamrows">
+<div class="teamrow"><img alt="Australia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/AU.gif" title="Australia"/> <span class="team">Dark Sided</span></div>
+<div class="teamrow"><img alt="Australia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/AU.gif" title="Australia"/> <span class="team">Control</span></div>
+</div>
+<div class="middleExtra" data-time-format="HH:mm" data-unix="1527760800000">12:00</div>
+</div>
+</a><a class="hotmatch-box a-reset" href="/matches/2323327/conspiracy-vs-surge-esea-mdl-season-28-australia" title="ESEA MDL Season 28 Australia">
+<div class="teambox match star0-filter star0 ">
+<div class="teamrows">
+<div class="teamrow"><img alt="Australia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/AU.gif" title="Australia"/> <span class="team">Conspiracy</span></div>
+<div class="teamrow"><img alt="Australia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/AU.gif" title="Australia"/> <span class="team">Surge</span></div>
+</div>
+<div class="middleExtra" data-time-format="HH:mm" data-unix="1527760800000">12:00</div>
+</div>
+</a><a class="hotmatch-box a-reset" href="/matches/2323326/seadoggs-vs-dark-sided-esea-mdl-season-28-australia" title="ESEA MDL Season 28 Australia">
+<div class="teambox match star0-filter star0 ">
+<div class="teamrows">
+<div class="teamrow"><img alt="Australia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/AU.gif" title="Australia"/> <span class="team">seadoggs</span></div>
+<div class="teamrow"><img alt="Australia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/AU.gif" title="Australia"/> <span class="team">Dark Sided</span></div>
+</div>
+<div class="middleExtra" data-time-format="HH:mm" data-unix="1527764400000">13:00</div>
+</div>
+</a><a class="hotmatch-box a-reset" href="/matches/2323143/starseries-round-4-match-4-starseries-i-league-season-5" title="StarSeries i-League Season 5">
+<div class="teambox match star0-filter star0 ">
+<div class="placeholderrow">StarSeries Round 4 Match #4</div>
+<div class="middleExtra" data-time-format="HH:mm" data-unix="1527768000000">14:00</div>
+</div>
+</a><a class="hotmatch-box a-reset" href="/matches/2323142/renegades-vs-virtuspro-starseries-i-league-season-5" title="Two top 20 teams playing - StarSeries i-League Season 5">
+<div class="teambox match star2-filter star2 ">
+<div class="teamrows">
+<div class="teamrow"><img alt="Australia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/AU.gif" title="Australia"/> <span class="team">Renegades</span></div>
+<div class="teamrow"><img alt="Poland" class="flag" src="https://static.hltv.org/images/bigflags/30x20/PL.gif" title="Poland"/> <span class="team">Virtus.pro</span></div>
+</div>
+<div class="middleExtra" data-time-format="HH:mm" data-unix="1527768000000">14:00</div>
+</div>
+</a><a class="hotmatch-box a-reset" href="/matches/2323145/starseries-round-4-match-6-starseries-i-league-season-5" title="StarSeries i-League Season 5">
+<div class="teambox match star0-filter star0 ">
+<div class="placeholderrow">StarSeries Round 4 Match #6</div>
+<div class="middleExtra" data-time-format="HH:mm" data-unix="1527778800000">17:00</div>
+</div>
+</a><a class="hotmatch-box a-reset" href="/matches/2323144/starseries-round-4-match-5-starseries-i-league-season-5" title="StarSeries i-League Season 5">
+<div class="teambox match star0-filter star0 ">
+<div class="placeholderrow">StarSeries Round 4 Match #5</div>
+<div class="middleExtra" data-time-format="HH:mm" data-unix="1527778800000">17:00</div>
+</div>
+</a><a class="hotmatch-box a-reset" href="/matches/2323309/nexus-vs-spirit-legend-series-5" title="Legend Series #5">
+<div class="teambox match star0-filter star0 ">
+<div class="teamrows">
+<div class="teamrow"><img alt="Romania" class="flag" src="https://static.hltv.org/images/bigflags/30x20/RO.gif" title="Romania"/> <span class="team">Nexus</span></div>
+<div class="teamrow"><img alt="Russia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/RU.gif" title="Russia"/> <span class="team">Spirit</span></div>
+</div>
+<div class="middleExtra" data-time-format="HH:mm" data-unix="1527779100000">17:05</div>
+</div>
+</a><a class="hotmatch-box a-reset" href="/matches/2323389/hollywood-vs-hey-streamme-gauntlet-cis-vs-eu-21" title="Stream.me Gauntlet: CIS vs EU #21">
+<div class="teambox match star0-filter star0 ">
+<div class="teamrows">
+<div class="teamrow"><img alt="Russia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/RU.gif" title="Russia"/> <span class="team">HOLLYWOOD</span></div>
+<div class="teamrow"><img alt="Europe" class="flag" src="https://static.hltv.org/images/bigflags/30x20/EU.gif" title="Europe"/> <span class="team">HEY</span></div>
+</div>
+<div class="middleExtra" data-time-format="HH:mm" data-unix="1527782400000">18:00</div>
+</div>
+</a><a class="hotmatch-box a-reset" href="/matches/2323310/spirit-vs-x-kom-legend-series-5" title="Legend Series #5">
+<div class="teambox match star0-filter star0 ">
+<div class="teamrows">
+<div class="teamrow"><img alt="Russia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/RU.gif" title="Russia"/> <span class="team">Spirit</span></div>
+<div class="teamrow"><img alt="Poland" class="flag" src="https://static.hltv.org/images/bigflags/30x20/PL.gif" title="Poland"/> <span class="team">x-kom</span></div>
+</div>
+<div class="middleExtra" data-time-format="HH:mm" data-unix="1527786000000">19:00</div>
+</div>
+</a></div>
+</aside>
+<aside>
+<h1><a class="a-reset" href="/results">RESULTS</a><i class="hotmatch-star-unselected fa fa-star" title="Only show top matches"></i><i class="hotmatch-star-selected fa fa-star" title="Show all matches"></i></h1>
+</aside>
+<div class="col-box-con result-box star0-filter"><a class="eventname" href="/events/3720/zotac-cup-masters-2018-europe-closed-qualifier" title="ZOTAC Cup Masters 2018 Europe Closed Qualifier">ZOTAC Cup Masters 2018 Europe Closed Qualifier</a><a class="teambox a-reset" href="/matches/2323388/kinguin-vs-sprout-zotac-cup-masters-2018-europe-closed-qualifier">
+<div class="teamrows">
+<div class="teamrow "><img alt="Poland" class="flag" src="https://static.hltv.org/images/bigflags/30x20/PL.gif" title="Poland"/> <span class="team" title="Kinguin">Kinguin</span></div>
+<div class="teamrow teamLost"><img alt="Denmark" class="flag" src="https://static.hltv.org/images/bigflags/30x20/DK.gif" title="Denmark"/> <span class="team" title="Sprout">Sprout</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow won ">16</div>
+<div class="twoRowExtraRow lost teamLost">11</div>
+</div>
+</a></div>
+<div class="col-box-con result-box star2-filter"><a class="eventname" href="/events/3666/starseries-i-league-season-5" title="StarSeries i-League Season 5">StarSeries i-League Season 5</a><a class="teambox a-reset" href="/matches/2323136/ago-vs-mousesports-starseries-i-league-season-5">
+<div class="teamrows">
+<div class="teamrow "><img alt="Poland" class="flag" src="https://static.hltv.org/images/bigflags/30x20/PL.gif" title="Poland"/> <span class="team" title="AGO">AGO</span></div>
+<div class="teamrow teamLost"><img alt="Europe" class="flag" src="https://static.hltv.org/images/bigflags/30x20/EU.gif" title="Europe"/> <span class="team" title="mousesports">mousesports</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow won ">2</div>
+<div class="twoRowExtraRow lost teamLost">1</div>
+</div>
+</a></div>
+<div class="col-box-con result-box star0-filter"><a class="eventname" href="/events/3720/zotac-cup-masters-2018-europe-closed-qualifier" title="ZOTAC Cup Masters 2018 Europe Closed Qualifier">ZOTAC Cup Masters 2018 Europe Closed Qualifier</a><a class="teambox a-reset" href="/matches/2323384/ldlc-vs-singularity-zotac-cup-masters-2018-europe-closed-qualifier">
+<div class="teamrows">
+<div class="teamrow "><img alt="France" class="flag" src="https://static.hltv.org/images/bigflags/30x20/FR.gif" title="France"/> <span class="team" title="LDLC">LDLC</span></div>
+<div class="teamrow teamLost"><img alt="Sweden" class="flag" src="https://static.hltv.org/images/bigflags/30x20/SE.gif" title="Sweden"/> <span class="team" title="Singularity">Singularity</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow won ">16</div>
+<div class="twoRowExtraRow lost teamLost">13</div>
+</div>
+</a></div>
+<div class="col-box-con result-box star0-filter"><a class="eventname" href="/events/3720/zotac-cup-masters-2018-europe-closed-qualifier" title="ZOTAC Cup Masters 2018 Europe Closed Qualifier">ZOTAC Cup Masters 2018 Europe Closed Qualifier</a><a class="teambox a-reset" href="/matches/2323381/euronics-vs-x-kom-zotac-cup-masters-2018-europe-closed-qualifier">
+<div class="teamrows">
+<div class="teamrow teamLost"><img alt="Germany" class="flag" src="https://static.hltv.org/images/bigflags/30x20/DE.gif" title="Germany"/> <span class="team" title="EURONICS">EURONICS</span></div>
+<div class="teamrow "><img alt="Poland" class="flag" src="https://static.hltv.org/images/bigflags/30x20/PL.gif" title="Poland"/> <span class="team" title="x-kom">x-kom</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow lost teamLost">16</div>
+<div class="twoRowExtraRow won ">19</div>
+</div>
+</a></div>
+<div class="col-box-con result-box star0-filter"><a class="eventname" href="/events/3720/zotac-cup-masters-2018-europe-closed-qualifier" title="ZOTAC Cup Masters 2018 Europe Closed Qualifier">ZOTAC Cup Masters 2018 Europe Closed Qualifier</a><a class="teambox a-reset" href="/matches/2323383/forge-vs-ftw-zotac-cup-masters-2018-europe-closed-qualifier">
+<div class="teamrows">
+<div class="teamrow teamLost"><img alt="Italy" class="flag" src="https://static.hltv.org/images/bigflags/30x20/IT.gif" title="Italy"/> <span class="team" title="Forge">Forge</span></div>
+<div class="teamrow "><img alt="Latvia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/LV.gif" title="Latvia"/> <span class="team" title="FTW">FTW</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow lost teamLost">13</div>
+<div class="twoRowExtraRow won ">16</div>
+</div>
+</a></div>
+<div class="col-box-con result-box star0-filter"><a class="eventname" href="/events/3720/zotac-cup-masters-2018-europe-closed-qualifier" title="ZOTAC Cup Masters 2018 Europe Closed Qualifier">ZOTAC Cup Masters 2018 Europe Closed Qualifier</a><a class="teambox a-reset" href="/matches/2323387/superjymy-vs-valiance-zotac-cup-masters-2018-europe-closed-qualifier">
+<div class="teamrows">
+<div class="teamrow teamLost"><img alt="Finland" class="flag" src="https://static.hltv.org/images/bigflags/30x20/FI.gif" title="Finland"/> <span class="team" title="SuperJymy">SuperJymy</span></div>
+<div class="teamrow "><img alt="Serbia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/RS.gif" title="Serbia"/> <span class="team" title="Valiance">Valiance</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow lost teamLost">12</div>
+<div class="twoRowExtraRow won ">16</div>
+</div>
+</a></div>
+<div class="col-box-con result-box star0-filter"><a class="eventname" href="/events/3720/zotac-cup-masters-2018-europe-closed-qualifier" title="ZOTAC Cup Masters 2018 Europe Closed Qualifier">ZOTAC Cup Masters 2018 Europe Closed Qualifier</a><a class="teambox a-reset" href="/matches/2323386/tomorrow-vs-alternate-attax-zotac-cup-masters-2018-europe-closed-qualifier">
+<div class="teamrows">
+<div class="teamrow "><img alt="Poland" class="flag" src="https://static.hltv.org/images/bigflags/30x20/PL.gif" title="Poland"/> <span class="team" title="tomorrow">tomorrow</span></div>
+<div class="teamrow teamLost"><img alt="Germany" class="flag" src="https://static.hltv.org/images/bigflags/30x20/DE.gif" title="Germany"/> <span class="team" title="ALTERNATE aTTaX">ALTERNATE aTTaX</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow won ">16</div>
+<div class="twoRowExtraRow lost teamLost">11</div>
+</div>
+</a></div>
+<div class="col-box-con result-box star0-filter"><a class="eventname" href="/events/3720/zotac-cup-masters-2018-europe-closed-qualifier" title="ZOTAC Cup Masters 2018 Europe Closed Qualifier">ZOTAC Cup Masters 2018 Europe Closed Qualifier</a><a class="teambox a-reset" href="/matches/2323382/prodigy-vs-without-warning-zotac-cup-masters-2018-europe-closed-qualifier">
+<div class="teamrows">
+<div class="teamrow teamLost"><img alt="Europe" class="flag" src="https://static.hltv.org/images/bigflags/30x20/EU.gif" title="Europe"/> <span class="team" title="Prodigy">Prodigy</span></div>
+<div class="teamrow "><img alt="Europe" class="flag" src="https://static.hltv.org/images/bigflags/30x20/EU.gif" title="Europe"/> <span class="team" title="Without Warning">Without Warning</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow lost teamLost">9</div>
+<div class="twoRowExtraRow won ">16</div>
+</div>
+</a></div>
+<div class="col-box-con result-box star0-filter"><a class="eventname" href="/events/3720/zotac-cup-masters-2018-europe-closed-qualifier" title="ZOTAC Cup Masters 2018 Europe Closed Qualifier">ZOTAC Cup Masters 2018 Europe Closed Qualifier</a><a class="teambox a-reset" href="/matches/2323385/windigo-vs-tempo-storm-zotac-cup-masters-2018-europe-closed-qualifier">
+<div class="teamrows">
+<div class="teamrow teamLost"><img alt="Bulgaria" class="flag" src="https://static.hltv.org/images/bigflags/30x20/BG.gif" title="Bulgaria"/> <span class="team" title="Windigo">Windigo</span></div>
+<div class="teamrow "><img alt="Europe" class="flag" src="https://static.hltv.org/images/bigflags/30x20/EU.gif" title="Europe"/> <span class="team" title="Tempo Storm">Tempo Storm</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow lost teamLost">9</div>
+<div class="twoRowExtraRow won ">16</div>
+</div>
+</a></div>
+<div class="col-box-con result-box star0-filter"><a class="eventname" href="/events/3687/esea-mdl-season-28-europe" title="ESEA MDL Season 28 Europe">ESEA MDL Season 28 Europe</a><a class="teambox a-reset" href="/matches/2323353/movistar-riders-vs-igamecom-esea-mdl-season-28-europe">
+<div class="teamrows">
+<div class="teamrow "><img alt="Spain" class="flag" src="https://static.hltv.org/images/bigflags/30x20/ES.gif" title="Spain"/> <span class="team" title="Movistar Riders">Movistar Riders</span></div>
+<div class="teamrow teamLost"><img alt="Finland" class="flag" src="https://static.hltv.org/images/bigflags/30x20/FI.gif" title="Finland"/> <span class="team" title="iGame.com">iGame.com</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow won ">16</div>
+<div class="twoRowExtraRow lost teamLost">12</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star2-filter"><a class="eventname" href="/events/3666/starseries-i-league-season-5" title="StarSeries i-League Season 5">StarSeries i-League Season 5</a><a class="teambox a-reset" href="/matches/2323133/virtuspro-vs-natus-vincere-starseries-i-league-season-5">
+<div class="teamrows">
+<div class="teamrow teamLost"><img alt="Poland" class="flag" src="https://static.hltv.org/images/bigflags/30x20/PL.gif" title="Poland"/> <span class="team" title="Virtus.pro">Virtus.pro</span></div>
+<div class="teamrow "><img alt="Ukraine" class="flag" src="https://static.hltv.org/images/bigflags/30x20/UA.gif" title="Ukraine"/> <span class="team" title="Natus Vincere">Natus Vincere</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow lost teamLost">0</div>
+<div class="twoRowExtraRow won ">2</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star0-filter"><a class="eventname" href="/events/3720/zotac-cup-masters-2018-europe-closed-qualifier" title="ZOTAC Cup Masters 2018 Europe Closed Qualifier">ZOTAC Cup Masters 2018 Europe Closed Qualifier</a><a class="teambox a-reset" href="/matches/2323374/valiance-vs-forge-zotac-cup-masters-2018-europe-closed-qualifier">
+<div class="teamrows">
+<div class="teamrow "><img alt="Serbia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/RS.gif" title="Serbia"/> <span class="team" title="Valiance">Valiance</span></div>
+<div class="teamrow teamLost"><img alt="Italy" class="flag" src="https://static.hltv.org/images/bigflags/30x20/IT.gif" title="Italy"/> <span class="team" title="Forge">Forge</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow won ">19</div>
+<div class="twoRowExtraRow lost teamLost">15</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star0-filter"><a class="eventname" href="/events/3720/zotac-cup-masters-2018-europe-closed-qualifier" title="ZOTAC Cup Masters 2018 Europe Closed Qualifier">ZOTAC Cup Masters 2018 Europe Closed Qualifier</a><a class="teambox a-reset" href="/matches/2323376/alternate-attax-vs-ftw-zotac-cup-masters-2018-europe-closed-qualifier">
+<div class="teamrows">
+<div class="teamrow "><img alt="Germany" class="flag" src="https://static.hltv.org/images/bigflags/30x20/DE.gif" title="Germany"/> <span class="team" title="ALTERNATE aTTaX">ALTERNATE aTTaX</span></div>
+<div class="teamrow teamLost"><img alt="Latvia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/LV.gif" title="Latvia"/> <span class="team" title="FTW">FTW</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow won ">16</div>
+<div class="twoRowExtraRow lost teamLost">10</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star0-filter"><a class="eventname" href="/events/3720/zotac-cup-masters-2018-europe-closed-qualifier" title="ZOTAC Cup Masters 2018 Europe Closed Qualifier">ZOTAC Cup Masters 2018 Europe Closed Qualifier</a><a class="teambox a-reset" href="/matches/2323373/windigo-vs-prodigy-zotac-cup-masters-2018-europe-closed-qualifier">
+<div class="teamrows">
+<div class="teamrow "><img alt="Bulgaria" class="flag" src="https://static.hltv.org/images/bigflags/30x20/BG.gif" title="Bulgaria"/> <span class="team" title="Windigo">Windigo</span></div>
+<div class="teamrow teamLost"><img alt="Europe" class="flag" src="https://static.hltv.org/images/bigflags/30x20/EU.gif" title="Europe"/> <span class="team" title="Prodigy">Prodigy</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow won ">16</div>
+<div class="twoRowExtraRow lost teamLost">14</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star0-filter"><a class="eventname" href="/events/3720/zotac-cup-masters-2018-europe-closed-qualifier" title="ZOTAC Cup Masters 2018 Europe Closed Qualifier">ZOTAC Cup Masters 2018 Europe Closed Qualifier</a><a class="teambox a-reset" href="/matches/2323370/singularity-vs-superjymy-zotac-cup-masters-2018-europe-closed-qualifier">
+<div class="teamrows">
+<div class="teamrow teamLost"><img alt="Sweden" class="flag" src="https://static.hltv.org/images/bigflags/30x20/SE.gif" title="Sweden"/> <span class="team" title="Singularity">Singularity</span></div>
+<div class="teamrow "><img alt="Finland" class="flag" src="https://static.hltv.org/images/bigflags/30x20/FI.gif" title="Finland"/> <span class="team" title="SuperJymy">SuperJymy</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow lost teamLost">11</div>
+<div class="twoRowExtraRow won ">16</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star0-filter"><a class="eventname" href="/events/3720/zotac-cup-masters-2018-europe-closed-qualifier" title="ZOTAC Cup Masters 2018 Europe Closed Qualifier">ZOTAC Cup Masters 2018 Europe Closed Qualifier</a><a class="teambox a-reset" href="/matches/2323371/ldlc-vs-sprout-zotac-cup-masters-2018-europe-closed-qualifier">
+<div class="teamrows">
+<div class="teamrow teamLost"><img alt="France" class="flag" src="https://static.hltv.org/images/bigflags/30x20/FR.gif" title="France"/> <span class="team" title="LDLC">LDLC</span></div>
+<div class="teamrow "><img alt="Denmark" class="flag" src="https://static.hltv.org/images/bigflags/30x20/DK.gif" title="Denmark"/> <span class="team" title="Sprout">Sprout</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow lost teamLost">7</div>
+<div class="twoRowExtraRow won ">16</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star0-filter"><a class="eventname" href="/events/3720/zotac-cup-masters-2018-europe-closed-qualifier" title="ZOTAC Cup Masters 2018 Europe Closed Qualifier">ZOTAC Cup Masters 2018 Europe Closed Qualifier</a><a class="teambox a-reset" href="/matches/2323369/kinguin-vs-without-warning-zotac-cup-masters-2018-europe-closed-qualifier">
+<div class="teamrows">
+<div class="teamrow "><img alt="Poland" class="flag" src="https://static.hltv.org/images/bigflags/30x20/PL.gif" title="Poland"/> <span class="team" title="Kinguin">Kinguin</span></div>
+<div class="teamrow teamLost"><img alt="Europe" class="flag" src="https://static.hltv.org/images/bigflags/30x20/EU.gif" title="Europe"/> <span class="team" title="Without Warning">Without Warning</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow won ">16</div>
+<div class="twoRowExtraRow lost teamLost">8</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star0-filter"><a class="eventname" href="/events/3720/zotac-cup-masters-2018-europe-closed-qualifier" title="ZOTAC Cup Masters 2018 Europe Closed Qualifier">ZOTAC Cup Masters 2018 Europe Closed Qualifier</a><a class="teambox a-reset" href="/matches/2323375/euronics-vs-tomorrow-zotac-cup-masters-2018-europe-closed-qualifier">
+<div class="teamrows">
+<div class="teamrow teamLost"><img alt="Germany" class="flag" src="https://static.hltv.org/images/bigflags/30x20/DE.gif" title="Germany"/> <span class="team" title="EURONICS">EURONICS</span></div>
+<div class="teamrow "><img alt="Poland" class="flag" src="https://static.hltv.org/images/bigflags/30x20/PL.gif" title="Poland"/> <span class="team" title="tomorrow">tomorrow</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow lost teamLost">13</div>
+<div class="twoRowExtraRow won ">16</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star0-filter"><a class="eventname" href="/events/3720/zotac-cup-masters-2018-europe-closed-qualifier" title="ZOTAC Cup Masters 2018 Europe Closed Qualifier">ZOTAC Cup Masters 2018 Europe Closed Qualifier</a><a class="teambox a-reset" href="/matches/2323372/tempo-storm-vs-x-kom-zotac-cup-masters-2018-europe-closed-qualifier">
+<div class="teamrows">
+<div class="teamrow "><img alt="Europe" class="flag" src="https://static.hltv.org/images/bigflags/30x20/EU.gif" title="Europe"/> <span class="team" title="Tempo Storm">Tempo Storm</span></div>
+<div class="teamrow teamLost"><img alt="Poland" class="flag" src="https://static.hltv.org/images/bigflags/30x20/PL.gif" title="Poland"/> <span class="team" title="x-kom">x-kom</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow won ">16</div>
+<div class="twoRowExtraRow lost teamLost">7</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star2-filter"><a class="eventname" href="/events/3666/starseries-i-league-season-5" title="StarSeries i-League Season 5">StarSeries i-League Season 5</a><a class="teambox a-reset" href="/matches/2323134/nip-vs-tyloo-starseries-i-league-season-5">
+<div class="teamrows">
+<div class="teamrow "><img alt="Sweden" class="flag" src="https://static.hltv.org/images/bigflags/30x20/SE.gif" title="Sweden"/> <span class="team" title="NiP">NiP</span></div>
+<div class="teamrow teamLost"><img alt="China" class="flag" src="https://static.hltv.org/images/bigflags/30x20/CN.gif" title="China"/> <span class="team" title="TyLoo">TyLoo</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow won ">2</div>
+<div class="twoRowExtraRow lost teamLost">0</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star2-filter"><a class="eventname" href="/events/3666/starseries-i-league-season-5" title="StarSeries i-League Season 5">StarSeries i-League Season 5</a><a class="teambox a-reset" href="/matches/2323131/hellraisers-vs-north-starseries-i-league-season-5">
+<div class="teamrows">
+<div class="teamrow teamLost"><img alt="World" class="flag" src="https://static.hltv.org/images/bigflags/30x20/WORLD.gif" title="World"/> <span class="team" title="HellRaisers">HellRaisers</span></div>
+<div class="teamrow "><img alt="Denmark" class="flag" src="https://static.hltv.org/images/bigflags/30x20/DK.gif" title="Denmark"/> <span class="team" title="North">North</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow lost teamLost">0</div>
+<div class="twoRowExtraRow won ">2</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star0-filter"><a class="eventname" href="/events/3753/esea-mdl-season-28-australia" title="ESEA MDL Season 28 Australia">ESEA MDL Season 28 Australia</a><a class="teambox a-reset" href="/matches/2323323/ground-zero-vs-conspiracy-esea-mdl-season-28-australia">
+<div class="teamrows">
+<div class="teamrow "><img alt="Australia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/AU.gif" title="Australia"/> <span class="team" title="Ground Zero">Ground Zero</span></div>
+<div class="teamrow teamLost"><img alt="Australia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/AU.gif" title="Australia"/> <span class="team" title="Conspiracy">Conspiracy</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow won ">16</div>
+<div class="twoRowExtraRow lost teamLost">11</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star1-filter"><a class="eventname" href="/events/3666/starseries-i-league-season-5" title="StarSeries i-League Season 5">StarSeries i-League Season 5</a><a class="teambox a-reset" href="/matches/2323132/avangar-vs-godsent-starseries-i-league-season-5">
+<div class="teamrows">
+<div class="teamrow "><img alt="Kazakhstan" class="flag" src="https://static.hltv.org/images/bigflags/30x20/KZ.gif" title="Kazakhstan"/> <span class="team" title="AVANGAR">AVANGAR</span></div>
+<div class="teamrow teamLost"><img alt="Sweden" class="flag" src="https://static.hltv.org/images/bigflags/30x20/SE.gif" title="Sweden"/> <span class="team" title="GODSENT">GODSENT</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow won ">2</div>
+<div class="twoRowExtraRow lost teamLost">1</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star0-filter"><a class="eventname" href="/events/3753/esea-mdl-season-28-australia" title="ESEA MDL Season 28 Australia">ESEA MDL Season 28 Australia</a><a class="teambox a-reset" href="/matches/2323322/baldkrew-vs-syf-esea-mdl-season-28-australia">
+<div class="teamrows">
+<div class="teamrow teamLost"><img alt="Australia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/AU.gif" title="Australia"/> <span class="team" title="baldkrew">baldkrew</span></div>
+<div class="teamrow "><img alt="Australia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/AU.gif" title="Australia"/> <span class="team" title="SYF">SYF</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow lost teamLost">4</div>
+<div class="twoRowExtraRow won ">16</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star0-filter"><a class="eventname" href="/events/3753/esea-mdl-season-28-australia" title="ESEA MDL Season 28 Australia">ESEA MDL Season 28 Australia</a><a class="teambox a-reset" href="/matches/2323087/control-vs-grayhound-esea-mdl-season-28-australia">
+<div class="teamrows">
+<div class="teamrow teamLost"><img alt="Australia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/AU.gif" title="Australia"/> <span class="team" title="Control">Control</span></div>
+<div class="teamrow "><img alt="Australia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/AU.gif" title="Australia"/> <span class="team" title="Grayhound">Grayhound</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow lost teamLost">7</div>
+<div class="twoRowExtraRow won ">16</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star2-filter"><a class="eventname" href="/events/3666/starseries-i-league-season-5" title="StarSeries i-League Season 5">StarSeries i-League Season 5</a><a class="teambox a-reset" href="/matches/2323130/renegades-vs-gambit-starseries-i-league-season-5">
+<div class="teamrows">
+<div class="teamrow "><img alt="Australia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/AU.gif" title="Australia"/> <span class="team" title="Renegades">Renegades</span></div>
+<div class="teamrow teamLost"><img alt="Kazakhstan" class="flag" src="https://static.hltv.org/images/bigflags/30x20/KZ.gif" title="Kazakhstan"/> <span class="team" title="Gambit">Gambit</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow won ">2</div>
+<div class="twoRowExtraRow lost teamLost">1</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star0-filter"><a class="eventname" href="/events/3753/esea-mdl-season-28-australia" title="ESEA MDL Season 28 Australia">ESEA MDL Season 28 Australia</a><a class="teambox a-reset" href="/matches/2323320/grayhound-vs-trident-esea-mdl-season-28-australia">
+<div class="teamrows">
+<div class="teamrow "><img alt="Australia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/AU.gif" title="Australia"/> <span class="team" title="Grayhound">Grayhound</span></div>
+<div class="teamrow teamLost"><img alt="Australia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/AU.gif" title="Australia"/> <span class="team" title="TRIDENT">TRIDENT</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow won ">16</div>
+<div class="twoRowExtraRow lost teamLost">10</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star0-filter"><a class="eventname" href="/events/3753/esea-mdl-season-28-australia" title="ESEA MDL Season 28 Australia">ESEA MDL Season 28 Australia</a><a class="teambox a-reset" href="/matches/2323321/tainted-minds-vs-ground-zero-esea-mdl-season-28-australia">
+<div class="teamrows">
+<div class="teamrow "><img alt="Australia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/AU.gif" title="Australia"/> <span class="team" title="Tainted Minds">Tainted Minds</span></div>
+<div class="teamrow teamLost"><img alt="Australia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/AU.gif" title="Australia"/> <span class="team" title="Ground Zero">Ground Zero</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow won ">16</div>
+<div class="twoRowExtraRow lost teamLost">3</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star0-filter"><a class="eventname" href="/events/3753/esea-mdl-season-28-australia" title="ESEA MDL Season 28 Australia">ESEA MDL Season 28 Australia</a><a class="teambox a-reset" href="/matches/2323319/control-vs-galactica-esea-mdl-season-28-australia">
+<div class="teamrows">
+<div class="teamrow "><img alt="Australia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/AU.gif" title="Australia"/> <span class="team" title="Control">Control</span></div>
+<div class="teamrow teamLost"><img alt="Australia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/AU.gif" title="Australia"/> <span class="team" title="Galactica">Galactica</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow won ">16</div>
+<div class="twoRowExtraRow lost teamLost">7</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star0-filter"><a class="eventname" href="/events/3753/esea-mdl-season-28-australia" title="ESEA MDL Season 28 Australia">ESEA MDL Season 28 Australia</a><a class="teambox a-reset" href="/matches/2323318/grayhound-vs-legacy-esea-mdl-season-28-australia">
+<div class="teamrows">
+<div class="teamrow "><img alt="Australia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/AU.gif" title="Australia"/> <span class="team" title="Grayhound">Grayhound</span></div>
+<div class="teamrow teamLost"><img alt="Australia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/AU.gif" title="Australia"/> <span class="team" title="Legacy">Legacy</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow won ">16</div>
+<div class="twoRowExtraRow lost teamLost">9</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star0-filter"><a class="eventname" href="/events/3666/starseries-i-league-season-5" title="StarSeries i-League Season 5">StarSeries i-League Season 5</a><a class="teambox a-reset" href="/matches/2323129/vgflash-vs-nrg-starseries-i-league-season-5">
+<div class="teamrows">
+<div class="teamrow teamLost"><img alt="China" class="flag" src="https://static.hltv.org/images/bigflags/30x20/CN.gif" title="China"/> <span class="team" title="VG.Flash">VG.Flash</span></div>
+<div class="teamrow "><img alt="United States" class="flag" src="https://static.hltv.org/images/bigflags/30x20/US.gif" title="United States"/> <span class="team" title="NRG">NRG</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow lost teamLost">0</div>
+<div class="twoRowExtraRow won ">2</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star0-filter"><a class="eventname" href="/events/3811/aorus-league-2018-season-2-brazil" title="Aorus League 2018 Season 2 Brazil">Aorus League 2018 Season 2 Brazil</a><a class="teambox a-reset" href="/matches/2323354/virtue-vs-neets-aorus-league-2018-season-2-brazil">
+<div class="teamrows">
+<div class="teamrow "><img alt="Brazil" class="flag" src="https://static.hltv.org/images/bigflags/30x20/BR.gif" title="Brazil"/> <span class="team" title="Virtue">Virtue</span></div>
+<div class="teamrow teamLost"><img alt="Brazil" class="flag" src="https://static.hltv.org/images/bigflags/30x20/BR.gif" title="Brazil"/> <span class="team" title="nEEts">nEEts</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow won ">16</div>
+<div class="twoRowExtraRow lost teamLost">9</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star0-filter"><a class="eventname" href="/events/3688/esea-mdl-season-28-north-america" title="ESEA MDL Season 28 North America">ESEA MDL Season 28 North America</a><a class="teambox a-reset" href="/matches/2323355/ex-grizzlys-vs-f1-racecar-peek-esea-mdl-season-28-north-america">
+<div class="teamrows">
+<div class="teamrow teamLost"><img alt="Canada" class="flag" src="https://static.hltv.org/images/bigflags/30x20/CA.gif" title="Canada"/> <span class="team" title="ex-Grizzlys">ex-Grizzlys</span></div>
+<div class="teamrow "><img alt="United States" class="flag" src="https://static.hltv.org/images/bigflags/30x20/US.gif" title="United States"/> <span class="team" title="F1-racecar-PEEK">F1-racecar-PEEK</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow lost teamLost">12</div>
+<div class="twoRowExtraRow won ">16</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star0-filter"><a class="eventname" href="/events/3688/esea-mdl-season-28-north-america" title="ESEA MDL Season 28 North America">ESEA MDL Season 28 North America</a><a class="teambox a-reset" href="/matches/2323341/prospects-vs-gorilla-gang-esea-mdl-season-28-north-america">
+<div class="teamrows">
+<div class="teamrow teamLost"><img alt="Canada" class="flag" src="https://static.hltv.org/images/bigflags/30x20/CA.gif" title="Canada"/> <span class="team" title="Prospects">Prospects</span></div>
+<div class="teamrow "><img alt="United States" class="flag" src="https://static.hltv.org/images/bigflags/30x20/US.gif" title="United States"/> <span class="team" title="Gorilla Gang">Gorilla Gang</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow lost teamLost">0</div>
+<div class="twoRowExtraRow won ">16</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star0-filter"><a class="eventname" href="/events/3801/aorus-league-2018-season-2-latam-south" title="Aorus League 2018 Season 2 LatAm South">Aorus League 2018 Season 2 LatAm South</a><a class="teambox a-reset" href="/matches/2323347/andes-vs-hey-aorus-league-2018-season-2-latam-south">
+<div class="teamrows">
+<div class="teamrow teamLost"><img alt="Chile" class="flag" src="https://static.hltv.org/images/bigflags/30x20/CL.gif" title="Chile"/> <span class="team" title="Andes">Andes</span></div>
+<div class="teamrow "><img alt="Argentina" class="flag" src="https://static.hltv.org/images/bigflags/30x20/AR.gif" title="Argentina"/> <span class="team" title="HEY">HEY</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow lost teamLost">0</div>
+<div class="twoRowExtraRow won ">2</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star0-filter"><a class="eventname" href="/events/3688/esea-mdl-season-28-north-america" title="ESEA MDL Season 28 North America">ESEA MDL Season 28 North America</a><a class="teambox a-reset" href="/matches/2323340/mythic-vs-squirtle-squad-esea-mdl-season-28-north-america">
+<div class="teamrows">
+<div class="teamrow teamLost"><img alt="United States" class="flag" src="https://static.hltv.org/images/bigflags/30x20/US.gif" title="United States"/> <span class="team" title="Mythic">Mythic</span></div>
+<div class="teamrow "><img alt="United States" class="flag" src="https://static.hltv.org/images/bigflags/30x20/US.gif" title="United States"/> <span class="team" title="Squirtle Squad">Squirtle Squad</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow lost teamLost">8</div>
+<div class="twoRowExtraRow won ">16</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star0-filter"><a class="eventname" href="/events/3811/aorus-league-2018-season-2-brazil" title="Aorus League 2018 Season 2 Brazil">Aorus League 2018 Season 2 Brazil</a><a class="teambox a-reset" href="/matches/2323350/yeah-vs-c4-aorus-league-2018-season-2-brazil">
+<div class="teamrows">
+<div class="teamrow "><img alt="Brazil" class="flag" src="https://static.hltv.org/images/bigflags/30x20/BR.gif" title="Brazil"/> <span class="team" title="YeaH!">YeaH!</span></div>
+<div class="teamrow teamLost"><img alt="Brazil" class="flag" src="https://static.hltv.org/images/bigflags/30x20/BR.gif" title="Brazil"/> <span class="team" title="C4">C4</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow won ">16</div>
+<div class="twoRowExtraRow lost teamLost">10</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star0-filter"><a class="eventname" href="/events/3688/esea-mdl-season-28-north-america" title="ESEA MDL Season 28 North America">ESEA MDL Season 28 North America</a><a class="teambox a-reset" href="/matches/2323339/the-pioneers-vs-mythic-esea-mdl-season-28-north-america">
+<div class="teamrows">
+<div class="teamrow "><img alt="United States" class="flag" src="https://static.hltv.org/images/bigflags/30x20/US.gif" title="United States"/> <span class="team" title="The Pioneers">The Pioneers</span></div>
+<div class="teamrow teamLost"><img alt="United States" class="flag" src="https://static.hltv.org/images/bigflags/30x20/US.gif" title="United States"/> <span class="team" title="Mythic">Mythic</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow won ">16</div>
+<div class="twoRowExtraRow lost teamLost">9</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star0-filter"><a class="eventname" href="/events/3811/aorus-league-2018-season-2-brazil" title="Aorus League 2018 Season 2 Brazil">Aorus League 2018 Season 2 Brazil</a><a class="teambox a-reset" href="/matches/2323349/detona-vs-w7m-aorus-league-2018-season-2-brazil">
+<div class="teamrows">
+<div class="teamrow teamLost"><img alt="Brazil" class="flag" src="https://static.hltv.org/images/bigflags/30x20/BR.gif" title="Brazil"/> <span class="team" title="DETONA">DETONA</span></div>
+<div class="teamrow "><img alt="Brazil" class="flag" src="https://static.hltv.org/images/bigflags/30x20/BR.gif" title="Brazil"/> <span class="team" title="W7M">W7M</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow lost teamLost">15</div>
+<div class="twoRowExtraRow won ">19</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star0-filter"><a class="eventname" href="/events/3811/aorus-league-2018-season-2-brazil" title="Aorus League 2018 Season 2 Brazil">Aorus League 2018 Season 2 Brazil</a><a class="teambox a-reset" href="/matches/2323351/revoltz-vs-furia-academy-aorus-league-2018-season-2-brazil">
+<div class="teamrows">
+<div class="teamrow teamLost"><img alt="Brazil" class="flag" src="https://static.hltv.org/images/bigflags/30x20/BR.gif" title="Brazil"/> <span class="team" title="Revoltz">Revoltz</span></div>
+<div class="teamrow "><img alt="Brazil" class="flag" src="https://static.hltv.org/images/bigflags/30x20/BR.gif" title="Brazil"/> <span class="team" title="FURIA Academy">FURIA Academy</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow lost teamLost">3</div>
+<div class="twoRowExtraRow won ">16</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star0-filter"><a class="eventname" href="/events/3607/legend-series-5" title="Legend Series #5">Legend Series #5</a><a class="teambox a-reset" href="/matches/2323308/ha-masse-vs-k0pfsache-legend-series-5">
+<div class="teamrows">
+<div class="teamrow "><img alt="Russia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/RU.gif" title="Russia"/> <span class="team" title="Ha MaSSe">Ha MaSSe</span></div>
+<div class="teamrow teamLost"><img alt="Germany" class="flag" src="https://static.hltv.org/images/bigflags/30x20/DE.gif" title="Germany"/> <span class="team" title="k0pfsache">k0pfsache</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow won ">2</div>
+<div class="twoRowExtraRow lost teamLost">0</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star0-filter"><a class="eventname" href="/events/3687/esea-mdl-season-28-europe" title="ESEA MDL Season 28 Europe">ESEA MDL Season 28 Europe</a><a class="teambox a-reset" href="/matches/2323337/singularity-vs-asterion-esea-mdl-season-28-europe">
+<div class="teamrows">
+<div class="teamrow teamLost"><img alt="Sweden" class="flag" src="https://static.hltv.org/images/bigflags/30x20/SE.gif" title="Sweden"/> <span class="team" title="Singularity">Singularity</span></div>
+<div class="teamrow "><img alt="Europe" class="flag" src="https://static.hltv.org/images/bigflags/30x20/EU.gif" title="Europe"/> <span class="team" title="Asterion">Asterion</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow lost teamLost">14</div>
+<div class="twoRowExtraRow won ">16</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star0-filter"><a class="eventname" href="/events/3687/esea-mdl-season-28-europe" title="ESEA MDL Season 28 Europe">ESEA MDL Season 28 Europe</a><a class="teambox a-reset" href="/matches/2323336/ex-divizon-vs-valiance-esea-mdl-season-28-europe">
+<div class="teamrows">
+<div class="teamrow teamLost"><img alt="Germany" class="flag" src="https://static.hltv.org/images/bigflags/30x20/DE.gif" title="Germany"/> <span class="team" title="ex-DIVIZON">ex-DIVIZON</span></div>
+<div class="teamrow "><img alt="Serbia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/RS.gif" title="Serbia"/> <span class="team" title="Valiance">Valiance</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow lost teamLost">22</div>
+<div class="twoRowExtraRow won ">25</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star0-filter"><a class="eventname" href="/events/3755/streamme-gauntlet-cis-vs-eu-21" title="Stream.me Gauntlet: CIS vs EU #21">Stream.me Gauntlet: CIS vs EU #21</a><a class="teambox a-reset" href="/matches/2323329/nobo-vs-invictus-aquilas-streamme-gauntlet-cis-vs-eu-21">
+<div class="teamrows">
+<div class="teamrow "><img alt="France" class="flag" src="https://static.hltv.org/images/bigflags/30x20/FR.gif" title="France"/> <span class="team" title="NOBO">NOBO</span></div>
+<div class="teamrow teamLost"><img alt="Romania" class="flag" src="https://static.hltv.org/images/bigflags/30x20/RO.gif" title="Romania"/> <span class="team" title="Invictus Aquilas">Invictus Aquilas</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow won ">2</div>
+<div class="twoRowExtraRow lost teamLost">0</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star0-filter"><a class="eventname" href="/events/3687/esea-mdl-season-28-europe" title="ESEA MDL Season 28 Europe">ESEA MDL Season 28 Europe</a><a class="teambox a-reset" href="/matches/2323338/pride-vs-royal-bandits-esea-mdl-season-28-europe">
+<div class="teamrows">
+<div class="teamrow teamLost"><img alt="Poland" class="flag" src="https://static.hltv.org/images/bigflags/30x20/PL.gif" title="Poland"/> <span class="team" title="PRIDE">PRIDE</span></div>
+<div class="teamrow "><img alt="Turkey" class="flag" src="https://static.hltv.org/images/bigflags/30x20/TR.gif" title="Turkey"/> <span class="team" title="Royal Bandits">Royal Bandits</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow lost teamLost">6</div>
+<div class="twoRowExtraRow won ">16</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star0-filter"><a class="eventname" href="/events/3687/esea-mdl-season-28-europe" title="ESEA MDL Season 28 Europe">ESEA MDL Season 28 Europe</a><a class="teambox a-reset" href="/matches/2323335/japaleno-vs-igamecom-esea-mdl-season-28-europe">
+<div class="teamrows">
+<div class="teamrow "><img alt="Sweden" class="flag" src="https://static.hltv.org/images/bigflags/30x20/SE.gif" title="Sweden"/> <span class="team" title="Japaleno">Japaleno</span></div>
+<div class="teamrow teamLost"><img alt="Finland" class="flag" src="https://static.hltv.org/images/bigflags/30x20/FI.gif" title="Finland"/> <span class="team" title="iGame.com">iGame.com</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow won ">16</div>
+<div class="twoRowExtraRow lost teamLost">11</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star0-filter"><a class="eventname" href="/events/3687/esea-mdl-season-28-europe" title="ESEA MDL Season 28 Europe">ESEA MDL Season 28 Europe</a><a class="teambox a-reset" href="/matches/2323334/fragsters-vs-spirit-esea-mdl-season-28-europe">
+<div class="teamrows">
+<div class="teamrow "><img alt="Denmark" class="flag" src="https://static.hltv.org/images/bigflags/30x20/DK.gif" title="Denmark"/> <span class="team" title="Fragsters">Fragsters</span></div>
+<div class="teamrow teamLost"><img alt="Russia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/RU.gif" title="Russia"/> <span class="team" title="Spirit">Spirit</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow won ">16</div>
+<div class="twoRowExtraRow lost teamLost">14</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star0-filter"><a class="eventname" href="/events/3736/mgame-league-2" title="M.Game League 2">M.Game League 2</a><a class="teambox a-reset" href="/matches/2323328/epg-vs-hollywood-mgame-league-2">
+<div class="teamrows">
+<div class="teamrow teamLost"><img alt="Russia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/RU.gif" title="Russia"/> <span class="team" title="EPG">EPG</span></div>
+<div class="teamrow "><img alt="Russia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/RU.gif" title="Russia"/> <span class="team" title="HOLLYWOOD">HOLLYWOOD</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow lost teamLost">0</div>
+<div class="twoRowExtraRow won ">2</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star0-filter"><a class="eventname" href="/events/3607/legend-series-5" title="Legend Series #5">Legend Series #5</a><a class="teambox a-reset" href="/matches/2323307/pride-vs-tricked-legend-series-5">
+<div class="teamrows">
+<div class="teamrow teamLost"><img alt="Poland" class="flag" src="https://static.hltv.org/images/bigflags/30x20/PL.gif" title="Poland"/> <span class="team" title="PRIDE">PRIDE</span></div>
+<div class="teamrow "><img alt="Denmark" class="flag" src="https://static.hltv.org/images/bigflags/30x20/DK.gif" title="Denmark"/> <span class="team" title="Tricked">Tricked</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow lost teamLost">0</div>
+<div class="twoRowExtraRow won ">2</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star2-filter"><a class="eventname" href="/events/3666/starseries-i-league-season-5" title="StarSeries i-League Season 5">StarSeries i-League Season 5</a><a class="teambox a-reset" href="/matches/2323128/ago-vs-nip-starseries-i-league-season-5">
+<div class="teamrows">
+<div class="teamrow "><img alt="Poland" class="flag" src="https://static.hltv.org/images/bigflags/30x20/PL.gif" title="Poland"/> <span class="team" title="AGO">AGO</span></div>
+<div class="teamrow teamLost"><img alt="Sweden" class="flag" src="https://static.hltv.org/images/bigflags/30x20/SE.gif" title="Sweden"/> <span class="team" title="NiP">NiP</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow won ">2</div>
+<div class="twoRowExtraRow lost teamLost">0</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star2-filter"><a class="eventname" href="/events/3666/starseries-i-league-season-5" title="StarSeries i-League Season 5">StarSeries i-League Season 5</a><a class="teambox a-reset" href="/matches/2323127/godsent-vs-liquid-starseries-i-league-season-5">
+<div class="teamrows">
+<div class="teamrow teamLost"><img alt="Sweden" class="flag" src="https://static.hltv.org/images/bigflags/30x20/SE.gif" title="Sweden"/> <span class="team" title="GODSENT">GODSENT</span></div>
+<div class="teamrow "><img alt="North America" class="flag" src="https://static.hltv.org/images/bigflags/30x20/NAM.gif" title="North America"/> <span class="team" title="Liquid">Liquid</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow lost teamLost">1</div>
+<div class="twoRowExtraRow won ">2</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star0-filter"><a class="eventname" href="/events/3687/esea-mdl-season-28-europe" title="ESEA MDL Season 28 Europe">ESEA MDL Season 28 Europe</a><a class="teambox a-reset" href="/matches/2323331/kinguin-vs-alternate-attax-esea-mdl-season-28-europe">
+<div class="teamrows">
+<div class="teamrow teamLost"><img alt="Poland" class="flag" src="https://static.hltv.org/images/bigflags/30x20/PL.gif" title="Poland"/> <span class="team" title="Kinguin">Kinguin</span></div>
+<div class="teamrow "><img alt="Germany" class="flag" src="https://static.hltv.org/images/bigflags/30x20/DE.gif" title="Germany"/> <span class="team" title="ALTERNATE aTTaX">ALTERNATE aTTaX</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow lost teamLost">20</div>
+<div class="twoRowExtraRow won ">22</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star0-filter"><a class="eventname" href="/events/3687/esea-mdl-season-28-europe" title="ESEA MDL Season 28 Europe">ESEA MDL Season 28 Europe</a><a class="teambox a-reset" href="/matches/2323332/wind-and-rain-vs-nobo-esea-mdl-season-28-europe">
+<div class="teamrows">
+<div class="teamrow teamLost"><img alt="United Kingdom" class="flag" src="https://static.hltv.org/images/bigflags/30x20/GB.gif" title="United Kingdom"/> <span class="team" title="Wind and Rain">Wind and Rain</span></div>
+<div class="teamrow "><img alt="France" class="flag" src="https://static.hltv.org/images/bigflags/30x20/FR.gif" title="France"/> <span class="team" title="NOBO">NOBO</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow lost teamLost">13</div>
+<div class="twoRowExtraRow won ">16</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star0-filter"><a class="eventname" href="/events/3687/esea-mdl-season-28-europe" title="ESEA MDL Season 28 Europe">ESEA MDL Season 28 Europe</a><a class="teambox a-reset" href="/matches/2323333/valiance-vs-singularity-esea-mdl-season-28-europe">
+<div class="teamrows">
+<div class="teamrow teamLost"><img alt="Serbia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/RS.gif" title="Serbia"/> <span class="team" title="Valiance">Valiance</span></div>
+<div class="teamrow "><img alt="Sweden" class="flag" src="https://static.hltv.org/images/bigflags/30x20/SE.gif" title="Sweden"/> <span class="team" title="Singularity">Singularity</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow lost teamLost">12</div>
+<div class="twoRowExtraRow won ">16</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star1-filter"><a class="eventname" href="/events/3666/starseries-i-league-season-5" title="StarSeries i-League Season 5">StarSeries i-League Season 5</a><a class="teambox a-reset" href="/matches/2323126/sk-vs-avangar-starseries-i-league-season-5">
+<div class="teamrows">
+<div class="teamrow "><img alt="Brazil" class="flag" src="https://static.hltv.org/images/bigflags/30x20/BR.gif" title="Brazil"/> <span class="team" title="SK">SK</span></div>
+<div class="teamrow teamLost"><img alt="Kazakhstan" class="flag" src="https://static.hltv.org/images/bigflags/30x20/KZ.gif" title="Kazakhstan"/> <span class="team" title="AVANGAR">AVANGAR</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow won ">2</div>
+<div class="twoRowExtraRow lost teamLost">0</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star0-filter"><a class="eventname" href="/events/3687/esea-mdl-season-28-europe" title="ESEA MDL Season 28 Europe">ESEA MDL Season 28 Europe</a><a class="teambox a-reset" href="/matches/2323330/sprout-vs-valiance-esea-mdl-season-28-europe">
+<div class="teamrows">
+<div class="teamrow "><img alt="Denmark" class="flag" src="https://static.hltv.org/images/bigflags/30x20/DK.gif" title="Denmark"/> <span class="team" title="Sprout">Sprout</span></div>
+<div class="teamrow teamLost"><img alt="Serbia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/RS.gif" title="Serbia"/> <span class="team" title="Valiance">Valiance</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow won ">16</div>
+<div class="twoRowExtraRow lost teamLost">9</div>
+</div>
+</a></div>
+<div class="col-box-con result-box hidden originally-hidden star2-filter"><a class="eventname" href="/events/3666/starseries-i-league-season-5" title="StarSeries i-League Season 5">StarSeries i-League Season 5</a><a class="teambox a-reset" href="/matches/2323125/mousesports-vs-tyloo-starseries-i-league-season-5">
+<div class="teamrows">
+<div class="teamrow "><img alt="Europe" class="flag" src="https://static.hltv.org/images/bigflags/30x20/EU.gif" title="Europe"/> <span class="team" title="mousesports">mousesports</span></div>
+<div class="teamrow teamLost"><img alt="China" class="flag" src="https://static.hltv.org/images/bigflags/30x20/CN.gif" title="China"/> <span class="team" title="TyLoo">TyLoo</span></div>
+</div>
+<div class="twoRowExtra">
+<div class="twoRowExtraRow won ">2</div>
+<div class="twoRowExtraRow lost teamLost">0</div>
+</div>
+</a></div>
+<aside>
+<h1>STREAMS</h1>
+<div class="col-box-con"><a class="col-box streamer a-reset" href="/stream/1251/StarLadder" title="StarLadder"><img src="https://static.hltv.org/images/mod_csgo_caster.png" title="Caster"/> <img alt="United Kingdom" class="flag" src="https://static.hltv.org/images/bigflags/30x20/GB.gif" title="United Kingdom"/> <span class="name a-default">StarLadder</span>44763</a><a class="col-box streamer a-reset" href="/stream/1570/StarLadder%20%28BiDa%29" title="StarLadder (BiDa)"><img src="https://static.hltv.org/images/mod_csgo_caster.png" title="Caster"/> <img alt="Brazil" class="flag" src="https://static.hltv.org/images/bigflags/30x20/BR.gif" title="Brazil"/> <span class="name a-default">StarLadder (BiDa)</span>32387</a><a class="col-box streamer a-reset" href="/stream/33/StarLadder" title="StarLadder"><img src="https://static.hltv.org/images/mod_csgo_caster.png" title="Caster"/> <img alt="Russia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/RU.gif" title="Russia"/> <span class="name a-default">StarLadder</span>14774</a><a class="col-box streamer a-reset" href="/stream/1258/StarLadder%20%2899Damage%29" title="StarLadder (99Damage)"><img src="https://static.hltv.org/images/mod_csgo_caster.png" title="Caster"/> <img alt="Germany" class="flag" src="https://static.hltv.org/images/bigflags/30x20/DE.gif" title="Germany"/> <span class="name a-default">StarLadder (99Damage)</span>854</a><a class="col-box streamer a-reset" href="/stream/2286/x6tence" title="x6tence"><img src="https://static.hltv.org/images/mod_csgo_caster.png" title="Caster"/> <img alt="Spain" class="flag" src="https://static.hltv.org/images/bigflags/30x20/ES.gif" title="Spain"/> <span class="name a-default">x6tence</span>701</a><a class="col-box streamer a-reset" href="/stream/335/StarLadder%202" title="StarLadder 2"><img src="https://static.hltv.org/images/mod_csgo_caster.png" title="Caster"/> <img alt="Russia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/RU.gif" title="Russia"/> <span class="name a-default">StarLadder 2</span>685</a><a class="col-box streamer a-reset" href="/stream/2742/rafaelpaisgk" title="rafaelpaisgk"><img src="https://static.hltv.org/images/mod_csgo_caster.png" title="Caster"/> <img alt="Portugal" class="flag" src="https://static.hltv.org/images/bigflags/30x20/PT.gif" title="Portugal"/> <span class="name a-default">rafaelpaisgk</span>547</a><a class="col-box streamer a-reset" href="/stream/1038/LVPes2" title="LVPes2"><img src="https://static.hltv.org/images/mod_csgo_caster.png" title="Caster"/> <img alt="Spain" class="flag" src="https://static.hltv.org/images/bigflags/30x20/ES.gif" title="Spain"/> <span class="name a-default">LVPes2</span>500</a><a class="col-box streamer a-reset" href="/stream/2266/NVIDIA" title="NVIDIA"><img src="https://static.hltv.org/images/mod_csgo_caster.png" title="Caster"/> <img alt="Poland" class="flag" src="https://static.hltv.org/images/bigflags/30x20/PL.gif" title="Poland"/> <span class="name a-default">NVIDIA</span>496</a><a class="col-box streamer a-reset" href="/stream/93/ESL%20TV" title="ESL TV"><img src="https://static.hltv.org/images/mod_csgo_caster.png" title="Caster"/> <img alt="United Kingdom" class="flag" src="https://static.hltv.org/images/bigflags/30x20/GB.gif" title="United Kingdom"/> <span class="name a-default">ESL TV</span>451</a><a class="col-box streamer a-reset" href="/stream/1943/Hawka" title="Hawka"><img src="https://static.hltv.org/images/mod_csgo_caster.png" title="Caster"/> <img alt="Other" class="flag" src="https://static.hltv.org/images/bigflags/30x20/WORLD.gif" title="Other"/> <span class="name a-default">Hawka</span>326</a><a class="col-box streamer a-reset" href="/stream/2509/RTP%20Arena%20CS%3AGO" title="RTP Arena CS:GO"><img src="https://static.hltv.org/images/mod_csgo_caster.png" title="Caster"/> <img alt="Portugal" class="flag" src="https://static.hltv.org/images/bigflags/30x20/PT.gif" title="Portugal"/> <span class="name a-default">RTP Arena CS:GO</span>315</a><a class="col-box streamer a-reset" href="/stream/157/99Damage" title="99Damage"><img src="https://static.hltv.org/images/mod_csgo_caster.png" title="Caster"/> <img alt="Germany" class="flag" src="https://static.hltv.org/images/bigflags/30x20/DE.gif" title="Germany"/> <span class="name a-default">99Damage</span>267</a><a class="col-box streamer a-reset" href="/stream/2644/StarLadder%202%20%28BiDa%29" title="StarLadder 2 (BiDa)"><img src="https://static.hltv.org/images/mod_csgo_caster.png" title="Caster"/> <img alt="Brazil" class="flag" src="https://static.hltv.org/images/bigflags/30x20/BR.gif" title="Brazil"/> <span class="name a-default">StarLadder 2 (BiDa)</span>247</a><a class="col-box streamer a-reset" href="/stream/2437/Fortuna%20%28Youtube%29" title="Fortuna (Youtube)"><img src="https://static.hltv.org/images/mod_csgo_caster.png" title="Caster"/> <img alt="Serbia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/RS.gif" title="Serbia"/> <span class="name a-default">Fortuna (Youtube)</span>232</a><a class="col-box streamer a-reset" href="/stream/2775/PMU%20TV" title="PMU TV"><img src="https://static.hltv.org/images/mod_csgo_caster.png" title="Caster"/> <img alt="France" class="flag" src="https://static.hltv.org/images/bigflags/30x20/FR.gif" title="France"/> <span class="name a-default">PMU TV</span>165</a><a class="col-box streamer a-reset" href="/stream/2712/WeCastFin" title="WeCastFin"><img src="https://static.hltv.org/images/mod_csgo_caster.png" title="Caster"/> <img alt="Finland" class="flag" src="https://static.hltv.org/images/bigflags/30x20/FI.gif" title="Finland"/> <span class="name a-default">WeCastFin</span>156</a><a class="col-box streamer a-reset" href="/stream/1515/StarLadder%20%28Temporada%20de%20Juegos%29" title="StarLadder (Temporada de Juegos)"><img src="https://static.hltv.org/images/mod_csgo_caster.png" title="Caster"/> <img alt="Spain" class="flag" src="https://static.hltv.org/images/bigflags/30x20/ES.gif" title="Spain"/> <span class="name a-default">StarLadder (Temporada de Juegos)</span>111</a><a class="col-box streamer a-reset" href="/stream/2666/ESL%20Pro%20League" title="ESL Pro League"><img src="https://static.hltv.org/images/mod_csgo_caster.png" title="Caster"/> <img alt="Brazil" class="flag" src="https://static.hltv.org/images/bigflags/30x20/BR.gif" title="Brazil"/> <span class="name a-default">ESL Pro League</span>110</a><a class="col-box streamer a-reset" href="/stream/921/LeX" title="LeX"><img src="https://static.hltv.org/images/mod_csgo.png" title="LeX"/> <img alt="United States" class="flag" src="https://static.hltv.org/images/bigflags/30x20/US.gif" title="United States"/> <span class="name a-default">LeX</span>108</a><a class="col-box streamer a-reset" href="/stream/104/ESL%20TV" title="ESL TV"><img src="https://static.hltv.org/images/mod_csgo_caster.png" title="Caster"/> <img alt="France" class="flag" src="https://static.hltv.org/images/bigflags/30x20/FR.gif" title="France"/> <span class="name a-default">ESL TV</span>97</a><a class="col-box streamer a-reset" href="/stream/205/DreamHack" title="DreamHack"><img src="https://static.hltv.org/images/mod_csgo_caster.png" title="Caster"/> <img alt="Other" class="flag" src="https://static.hltv.org/images/bigflags/30x20/WORLD.gif" title="Other"/> <span class="name a-default">DreamHack</span>89</a><a class="col-box streamer a-reset" href="/stream/2358/der_metzger%20%28ESL%29" title="der_metzger (ESL)"><img src="https://static.hltv.org/images/mod_csgo_caster.png" title="Caster"/> <img alt="Germany" class="flag" src="https://static.hltv.org/images/bigflags/30x20/DE.gif" title="Germany"/> <span class="name a-default">der_metzger (ESL)</span>80</a><a class="col-box streamer a-reset" href="/stream/1232/ESL%20TV" title="ESL TV"><img src="https://static.hltv.org/images/mod_csgo_caster.png" title="Caster"/> <img alt="Spain" class="flag" src="https://static.hltv.org/images/bigflags/30x20/ES.gif" title="Spain"/> <span class="name a-default">ESL TV</span>79</a><a class="col-box streamer a-reset" href="/stream/1435/Zero" title="Zero"><img src="https://static.hltv.org/images/mod_csgo_player.png" title="Top player"/> <img alt="Slovakia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/SK.gif" title="Slovakia"/> <span class="name a-default">Zero</span>68</a><a class="col-box streamer a-reset" href="/stream/850/Hungarian%20Esport%20TV" title="Hungarian Esport TV"><img src="https://static.hltv.org/images/mod_csgo_caster.png" title="Caster"/> <img alt="Hungary" class="flag" src="https://static.hltv.org/images/bigflags/30x20/HU.gif" title="Hungary"/> <span class="name a-default">Hungarian Esport TV</span>59</a><a class="col-box streamer a-reset" href="/stream/2790/StarLadder%20%28Playtonia%29" title="StarLadder (Playtonia)"><img src="https://static.hltv.org/images/mod_csgo_caster.png" title="Caster"/> <img alt="India" class="flag" src="https://static.hltv.org/images/bigflags/30x20/IN.gif" title="India"/> <span class="name a-default">StarLadder (Playtonia)</span>57</a><a class="col-box streamer a-reset" href="/stream/2574/DynamoBrest" title="DynamoBrest"><img src="https://static.hltv.org/images/mod_csgo_caster.png" title="Caster"/> <img alt="Other" class="flag" src="https://static.hltv.org/images/bigflags/30x20/WORLD.gif" title="Other"/> <span class="name a-default">DynamoBrest</span>28</a><a class="col-box streamer a-reset" href="/stream/2590/Bitzer%20Esports" title="Bitzer Esports"><img src="https://static.hltv.org/images/mod_csgo_caster.png" title="Caster"/> <img alt="Portugal" class="flag" src="https://static.hltv.org/images/bigflags/30x20/PT.gif" title="Portugal"/> <span class="name a-default">Bitzer Esports</span>30</a><a class="col-box streamer a-reset" href="/stream/27/ESL%20TV" title="ESL TV"><img src="https://static.hltv.org/images/mod_csgo_caster.png" title="Caster"/> <img alt="Italy" class="flag" src="https://static.hltv.org/images/bigflags/30x20/IT.gif" title="Italy"/> <span class="name a-default">ESL TV</span>29</a><a class="col-box streamer a-reset" href="/stream/2384/GoodJob" title="GoodJob"><img src="https://static.hltv.org/images/mod_csgo_caster.png" title="Caster"/> <img alt="Belarus" class="flag" src="https://static.hltv.org/images/bigflags/30x20/BY.gif" title="Belarus"/> <span class="name a-default">GoodJob</span>28</a><a class="col-box streamer a-reset" href="/stream/2136/Jitko" title="Jitko"><img src="https://static.hltv.org/images/mod_csgo_caster.png" title="Caster"/> <img alt="Germany" class="flag" src="https://static.hltv.org/images/bigflags/30x20/DE.gif" title="Germany"/> <span class="name a-default">Jitko</span>27</a><a class="col-box streamer a-reset" href="/stream/2675/GoodGame" title="GoodGame"><img src="https://static.hltv.org/images/mod_csgo_caster.png" title="Caster"/> <img alt="Poland" class="flag" src="https://static.hltv.org/images/bigflags/30x20/PL.gif" title="Poland"/> <span class="name a-default">GoodGame</span>25</a><a class="col-box streamer a-reset" href="/stream/1490/CS%3AGO%20ITALIA" title="CS:GO ITALIA"><img src="https://static.hltv.org/images/mod_csgo_caster.png" title="Caster"/> <img alt="Italy" class="flag" src="https://static.hltv.org/images/bigflags/30x20/IT.gif" title="Italy"/> <span class="name a-default">CS:GO ITALIA</span>23</a><a class="col-box streamer a-reset" href="/stream/2291/ESL%20SEE" title="ESL SEE"><img src="https://static.hltv.org/images/mod_csgo_caster.png" title="Caster"/> <img alt="Other" class="flag" src="https://static.hltv.org/images/bigflags/30x20/WORLD.gif" title="Other"/> <span class="name a-default">ESL SEE</span>10</a><a class="col-box streamer a-reset" href="/stream/2336/UCC%20Academy" title="UCC Academy"><img src="https://static.hltv.org/images/mod_csgo_caster.png" title="Caster"/> <img alt="Russia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/RU.gif" title="Russia"/> <span class="name a-default">UCC Academy</span>9</a><a class="col-box streamer a-reset" href="/stream/2337/UCC%20Academy%202" title="UCC Academy 2"><img src="https://static.hltv.org/images/mod_csgo_caster.png" title="Caster"/> <img alt="Russia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/RU.gif" title="Russia"/> <span class="name a-default">UCC Academy 2</span>8</a><a class="col-box streamer a-reset" href="/stream/2122/Toy" title="Toy"><img src="https://static.hltv.org/images/mod_csgo_player.png" title="Top player"/> <img alt="United States" class="flag" src="https://static.hltv.org/images/bigflags/30x20/US.gif" title="United States"/> <span class="name a-default">Toy</span>8</a><a class="col-box streamer a-reset" href="/stream/1919/StarLadder%20%28fAwn%29" title="StarLadder (fAwn)"><img src="https://static.hltv.org/images/mod_csgo_caster.png" title="Caster"/> <img alt="Korea" class="flag" src="https://static.hltv.org/images/bigflags/30x20/KR.gif" title="Korea"/> <span class="name a-default">StarLadder (fAwn)</span>7</a><a class="col-box streamer a-reset" href="/stream/1368/CSHR%20TV" title="CSHR TV"><img src="https://static.hltv.org/images/mod_csgo_caster.png" title="Caster"/> <img alt="Croatia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/HR.gif" title="Croatia"/> <span class="name a-default">CSHR TV</span>6</a><a class="col-box streamer a-reset" href="/stream/2480/UCC%20Academy%203" title="UCC Academy 3"><img src="https://static.hltv.org/images/mod_csgo_caster.png" title="Caster"/> <img alt="Russia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/RU.gif" title="Russia"/> <span class="name a-default">UCC Academy 3</span>4</a></div>
+</aside>
+<div class="col-rek3" id="i3_bottom"></div>
+</div>
+<div class="right2Col">
+<aside>
+<h1><a class="a-reset" href="/forums">RECENT ACTIVITY</a></h1>
+<div class="col-box-con">
+<div class="activitylist"><a class="col-box activity a-reset csCat" href="/forums/threads/1788778/coldzera"><span class="topic a-default" title="Cs: COLDZERA">COLDZERA</span>42</a><a class="col-box activity a-reset csCat" href="/forums/threads/1788586/styko-apex"><span class="topic a-default" title="Cs: -styko +apEX">-styko +apEX</span>22</a><a class="col-box activity a-reset csCat" href="/forums/threads/1788787/ago-vp"><span class="topic a-default" title="Cs: AGO - VP">AGO - VP</span>3</a><a class="col-box activity a-reset matchCat" href="/matches/2323392/forge-vs-singularity-zotac-cup-masters-2018-europe-closed-qualifier"><span class="topic a-default" title="Match: Forge vs Singularity">Forge vs Singularity</span>2</a><a class="col-box activity a-reset csCat" href="/forums/threads/1775632/friendzone"><span class="topic a-default" title="Cs: Friendzone">Friendzone</span>335</a><a class="col-box activity a-reset csCat" href="/forums/threads/1788786/rip"><span class="topic a-default" title="Cs: rip">rip</span>2</a><a class="col-box activity a-reset csCat" href="/forums/threads/1788659/0330-pm"><span class="topic a-default" title="Cs: 03:30 PM">03:30 PM</span>40</a><a class="col-box activity a-reset csCat" href="/forums/threads/1786332/tell-me-ur-country"><span class="topic a-default" title="Cs: tell me ur country">tell me ur country</span>447</a><a class="col-box activity a-reset csCat" href="/forums/threads/1788785/styko-24-kills"><span class="topic a-default" title="Cs: Styko 24 kills">Styko 24 kills</span>4</a><a class="col-box activity a-reset csCat" href="/forums/threads/1788260/most-underrated-players"><span class="topic a-default" title="Cs: most underrated players">most underrated players</span>59</a><a class="col-box activity a-reset csCat" href="/forums/threads/1788664/michu-snatchie"><span class="topic a-default" title="Cs: -MICHU +snatchie">-MICHU +snatchie</span>30</a><a class="col-box activity a-reset matchCat" href="/matches/2323136/ago-vs-mousesports-starseries-i-league-season-5"><span class="topic a-default" title="Match: AGO vs mousesports">AGO vs mousesports</span>518</a><a class="col-box activity a-reset matchCat" href="/matches/2323135/sk-vs-liquid-starseries-i-league-season-5"><span class="topic a-default" title="Match: SK vs Liquid">SK vs Liquid</span>268</a><a class="col-box activity a-reset matchCat" href="/matches/2323396/windigo-vs-alternate-attax-zotac-cup-masters-2018-europe-closed-qualifier"><span class="topic a-default" title="Match: Windigo vs ALTERNATE aTTaX">Windigo vs ALTERNATE aTTaX</span>4</a><a class="col-box activity a-reset csCat" href="/forums/threads/1788061/greeceger"><span class="topic a-default" title="Cs: GREECE&gt;&gt;GER">GREECE&gt;&gt;GER</span>55</a><a class="col-box activity a-reset csCat" href="/forums/threads/1788790/any-good-betting-site"><span class="topic a-default" title="Cs: Any good betting site">Any good betting site</span>0</a><a class="col-box activity a-reset csCat" href="/forums/threads/1788750/germany"><span class="topic a-default" title="Cs: germany">germany</span>13</a><a class="col-box activity a-reset csCat" href="/forums/threads/1788780/if-sk"><span class="topic a-default" title="Cs: IF SK">IF SK</span>17</a><a class="col-box activity a-reset csCat" href="/forums/threads/1788759/movies-to-watch"><span class="topic a-default" title="Cs: MOVIES TO WATCH">MOVIES TO WATCH</span>11</a><a class="col-box activity a-reset csCat" href="/forums/threads/1788746/lot-of-ago-fans-suddenly"><span class="topic a-default" title="Cs: LOT OF AGO FANS SUDDENLY">LOT OF AGO FANS SUDDENLY</span>65</a></div>
+</div>
+</aside>
+<div class="col-rek3" id="g4_middle"></div>
+<aside>
+<h1><a class="a-reset" href="/results?content=vod">LATEST REPLAYS</a></h1>
+<div class="col-box-con"><a class="col-box a-reset" href="/matches/2323353/movistar-riders-vs-igamecom-esea-mdl-season-28-europe">
+<div class="teambox">
+<div class="teamrows">
+<div class="teamrow"><img alt="Spain" class="flag" src="https://static.hltv.org/images/bigflags/30x20/ES.gif" title="Spain"/> <span class="team">Movistar Riders</span></div>
+<div class="teamrow"><img alt="Finland" class="flag" src="https://static.hltv.org/images/bigflags/30x20/FI.gif" title="Finland"/> <span class="team">iGame.com</span></div>
+</div>
+<div class="middleExtra">DEMO</div>
+</div>
+</a><a class="col-box a-reset" href="/matches/2323136/ago-vs-mousesports-starseries-i-league-season-5">
+<div class="teambox">
+<div class="teamrows">
+<div class="teamrow"><img alt="Poland" class="flag" src="https://static.hltv.org/images/bigflags/30x20/PL.gif" title="Poland"/> <span class="team">AGO</span></div>
+<div class="teamrow"><img alt="Europe" class="flag" src="https://static.hltv.org/images/bigflags/30x20/EU.gif" title="Europe"/> <span class="team">mousesports</span></div>
+</div>
+<div class="middleExtra">DEMO</div>
+</div>
+</a><a class="col-box a-reset" href="/matches/2323133/virtuspro-vs-natus-vincere-starseries-i-league-season-5">
+<div class="teambox">
+<div class="teamrows">
+<div class="teamrow"><img alt="Poland" class="flag" src="https://static.hltv.org/images/bigflags/30x20/PL.gif" title="Poland"/> <span class="team">Virtus.pro</span></div>
+<div class="teamrow"><img alt="Ukraine" class="flag" src="https://static.hltv.org/images/bigflags/30x20/UA.gif" title="Ukraine"/> <span class="team">Natus Vincere</span></div>
+</div>
+<div class="middleExtra">DEMO</div>
+</div>
+</a><a class="col-box a-reset" href="/matches/2323134/nip-vs-tyloo-starseries-i-league-season-5">
+<div class="teambox">
+<div class="teamrows">
+<div class="teamrow"><img alt="Sweden" class="flag" src="https://static.hltv.org/images/bigflags/30x20/SE.gif" title="Sweden"/> <span class="team">NiP</span></div>
+<div class="teamrow"><img alt="China" class="flag" src="https://static.hltv.org/images/bigflags/30x20/CN.gif" title="China"/> <span class="team">TyLoo</span></div>
+</div>
+<div class="middleExtra">DEMO</div>
+</div>
+</a><a class="col-box a-reset" href="/matches/2323323/ground-zero-vs-conspiracy-esea-mdl-season-28-australia">
+<div class="teambox">
+<div class="teamrows">
+<div class="teamrow"><img alt="Australia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/AU.gif" title="Australia"/> <span class="team">Ground Zero</span></div>
+<div class="teamrow"><img alt="Australia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/AU.gif" title="Australia"/> <span class="team">Conspiracy</span></div>
+</div>
+<div class="middleExtra">DEMO</div>
+</div>
+</a><a class="col-box a-reset" href="/matches/2323131/hellraisers-vs-north-starseries-i-league-season-5">
+<div class="teambox">
+<div class="teamrows">
+<div class="teamrow"><img alt="World" class="flag" src="https://static.hltv.org/images/bigflags/30x20/WORLD.gif" title="World"/> <span class="team">HellRaisers</span></div>
+<div class="teamrow"><img alt="Denmark" class="flag" src="https://static.hltv.org/images/bigflags/30x20/DK.gif" title="Denmark"/> <span class="team">North</span></div>
+</div>
+<div class="middleExtra">DEMO</div>
+</div>
+</a><a class="col-box a-reset" href="/matches/2323322/baldkrew-vs-syf-esea-mdl-season-28-australia">
+<div class="teambox">
+<div class="teamrows">
+<div class="teamrow"><img alt="Australia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/AU.gif" title="Australia"/> <span class="team">baldkrew</span></div>
+<div class="teamrow"><img alt="Australia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/AU.gif" title="Australia"/> <span class="team">SYF</span></div>
+</div>
+<div class="middleExtra">DEMO</div>
+</div>
+</a><a class="col-box a-reset" href="/matches/2323087/control-vs-grayhound-esea-mdl-season-28-australia">
+<div class="teambox">
+<div class="teamrows">
+<div class="teamrow"><img alt="Australia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/AU.gif" title="Australia"/> <span class="team">Control</span></div>
+<div class="teamrow"><img alt="Australia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/AU.gif" title="Australia"/> <span class="team">Grayhound</span></div>
+</div>
+<div class="middleExtra">DEMO</div>
+</div>
+</a><a class="col-box a-reset" href="/matches/2323132/avangar-vs-godsent-starseries-i-league-season-5">
+<div class="teambox">
+<div class="teamrows">
+<div class="teamrow"><img alt="Kazakhstan" class="flag" src="https://static.hltv.org/images/bigflags/30x20/KZ.gif" title="Kazakhstan"/> <span class="team">AVANGAR</span></div>
+<div class="teamrow"><img alt="Sweden" class="flag" src="https://static.hltv.org/images/bigflags/30x20/SE.gif" title="Sweden"/> <span class="team">GODSENT</span></div>
+</div>
+<div class="middleExtra">VOD</div>
+</div>
+</a><a class="col-box a-reset" href="/matches/2323321/tainted-minds-vs-ground-zero-esea-mdl-season-28-australia">
+<div class="teambox">
+<div class="teamrows">
+<div class="teamrow"><img alt="Australia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/AU.gif" title="Australia"/> <span class="team">Tainted Minds</span></div>
+<div class="teamrow"><img alt="Australia" class="flag" src="https://static.hltv.org/images/bigflags/30x20/AU.gif" title="Australia"/> <span class="team">Ground Zero</span></div>
+</div>
+<div class="middleExtra">DEMO</div>
+</div>
+</a></div>
+</aside>
+<div class="col-rek3" id="g4_bottom"></div>
+</div>
+</div>
+<a href="http://www.youtube.com</a>
+</div>
+</div>
+<footer class="footer">
+<div class="widthControl footerlinks"><span><a class="footerlink" href="/jobs">Jobs</a></span><span><a class="footerlink" href="/contact">Contact</a></span><span><a class="footerlink" href="/terms">Terms</a></span><span><a class="footerlink" href="/privacy">Privacy policy</a></span><span><a class="footerlink" href="/rss/news">RSS</a></span><span><a class="footerlink socicon" href="https://www.facebook.com/HLTV.org" target="_blank"><i aria-hidden="true" class="fa fa-facebook"></i></a><a class="footerlink socicon" href="https://www.twitch.tv/hltvorg" target="_blank"><i aria-hidden="true" class="fa fa-twitch"></i></a><a class="footerlink socicon" href="https://www.youtube.com/user/wwwHLTVorg" target="_blank"><i aria-hidden="true" class="fa fa-youtube"></i></a><a class="footerlink socicon" href="https://www.twitter.com/HLTVorg" target="_blank"><i aria-hidden="true" class="fa fa-twitter"></i></a><a class="footerlink socicon" href="https://vk.com/hltvorg" target="_blank"><i aria-hidden="true" class="fa fa-vk"></i></a><a class="footerlink socicon" href="https://www.instagram.com/hltvorg/" target="_blank"><i aria-hidden="true" class="fa fa-instagram"></i></a></span><span><span class="footer-hltv">© HLTV.org</span><span class="footer-responsible">18+ Bet Responsibly<a href="https://www.gamblingtherapy.org"><img src="/img/static/gamcare.png"/></a></span></span></div>
+</footer>
+<!-- 
+Version: 2.1.143
+ -->
+<!-- 
+AddonNewsRepo.getLatestNews called 1 times
+AddonSliderRepo.getActiveHeros called 1 times
+ -->
+<div id="overlay"></div>
+<button class="leftColPullInButton"><i aria-hidden="true" class="fa fa-th-list"></i></button></body>
+</html>
