@@ -5,6 +5,34 @@ from bs4 import SoupStrainer, BeautifulSoup
 url1 = 'http://tmastream.tk/'
 url2 = 'https://www.youtube.com/watch?v=12m1rG0Tj7U'
 url3 = 'https://www.theverge.com'
+url4 = 'http://www2.solarmoviesc.com/movie/avengers-infinity-war-2018-i.1-solarmovie.html'
+
+htmlSources = 0
+
+
+userAgent = {'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3'}
+
+rp = requests.get(url4, headers = userAgent)
+headInfo = rp.headers
+contents = headInfo.get('content-type')
+urlContent = rp.content
+
+def getAllLinks(content):
+    links = []
+    numberofLinks = 0
+    for link in BeautifulSoup(content, 'html.parser', parse_only=SoupStrainer('a')):
+        if link.has_attr('href'):
+            links.append(link['href'])
+            numberofLinks = numberofLinks + 1
+    print("There are ", numberofLinks, " links on this site.")        
+    htmlSources = 0
+    for link in links:
+        headerInfo = rp.headers
+        contentType =headerInfo.get('content-type')
+        if('text/html' in contentType):
+            htmlSources+=1
+    print('There are ', htmlSources, ' HTML sources.')
+    return links
 
 
 def getInfo(url):
@@ -14,20 +42,9 @@ def getInfo(url):
     soup = BeautifulSoup(urlContent, 'html.parser')
     links = []
     links = getAllLinks(urlContent)
-    return links
+    #return links
 
 
-
-
-def getAllLinks(content):
-    links = []
-    numberofLinks = 0
-    for link in BeautifulSoup(content, 'html.parser', parse_only=SoupStrainer('a')):
-        if link.has_attr('href'):
-            links.append(link['href'])
-            numberofLinks+=1
-    print("There are ", numberofLinks, "on that site.")        
-    return links
 
 
 

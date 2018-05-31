@@ -11,6 +11,6 @@ print("")
 input = input("Enter a URL to be checked for video sources.")
 
 
-print(getInfo(input))
+(getInfo(input))
 
 #format_List()
