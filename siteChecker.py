@@ -1,4 +1,5 @@
 import requests, urllib3, webbrowser, re
+#import pC
 from bs4 import SoupStrainer, BeautifulSoup
 
 
@@ -20,9 +21,10 @@ urlContent = rp.content
 def getAllLinks(content):
     links = []
     numberofLinks = 0
-    for link in BeautifulSoup(content, 'html.parser', parse_only=SoupStrainer('a')):
+    for link in BeautifulSoup(content, 'html.parser', parse_only=SoupStrainer('src')):
         if link.has_attr('href'):
             links.append(link['href'])
+            print(link['href'])
             numberofLinks = numberofLinks + 1
     print("There are ", numberofLinks, " links on this site.")        
     htmlSources = 0
