@@ -24,8 +24,6 @@ def downloadVideo(link):
         title = x.get("title")
     print("Link: " + link + "\n")
     print(title)
-    #print("Title: " + title + "\n")
-
     #links = soup.findAll("a")
     #video_links = [link + link['href'] for link in links if link['href'].endswith('mp4')]
     print(videoLinks)

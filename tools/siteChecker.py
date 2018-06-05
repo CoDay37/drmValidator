@@ -20,6 +20,7 @@ urlContent = rp.content
 
 def getAllLinks(content):
     links = []
+    print("******************************8", links)
     numberofLinks = 0
     for link in BeautifulSoup(content, 'html.parser', parse_only=SoupStrainer('src')):
         if link.has_attr('href'):
@@ -44,43 +45,24 @@ def getInfo(url):
     soup = BeautifulSoup(urlContent, 'html.parser')
     links = []
     links = getAllLinks(urlContent)
-    #return links
+    return links
 
 getInfo(url4)
 
-
-
-
-
-
 #urls.update([a['href'] for a in soup.find_all('a', href=True)])
 #print(urls)
-
-
 #for link in soup.find_all('a'):
 #    print(link.get('href'))
-
 #holder = (link, '\n')
 #print(holder)
     #urls.append(holder)
-
 #print(samples)
-
-
-
 #a_Tags = SoupStrainer('a')
-
-
 #print(BeautifulSoup(url, 'html.parser', parse_only=a_Tags).prettify())
-
 #print(a_Tags)
-
 #auth = HTTPBasicAuth('fake@example.cm', 'password123')
-
 #SoupStrainer = SoupStrainer(r.url)
-
 #vidName = url2.split('/')[-1]
-
 #print('HEADERS SENT:', r.request.headers)
 #print(vidName)
 #if(r.status_code == 200):

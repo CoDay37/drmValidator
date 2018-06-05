@@ -11,10 +11,5 @@ elem.send_keys(Keys.RETURN)
 elem = driver.find_elements_by_class_name("m1-item")
 #elem.send_keys(Keys.RETURN)
 
-i = 0
-for line in elem:
-    print(elem[i])
-    i+=1
-print(elem)
 
 #driver.close()
