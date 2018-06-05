@@ -6,7 +6,7 @@ from bs4 import SoupStrainer, BeautifulSoup
 url1 = 'http://tmastream.tk/'
 url2 = 'https://www.youtube.com/watch?v=12m1rG0Tj7U'
 url3 = 'https://www.theverge.com'
-url4 = 'http://www2.solarmoviesc.com/movie/avengers-infinity-war-2018-i.1-solarmovie.html'
+url4 = 'http://www2.solarmoviesc.com/search/Infinity+Wars.html'
 
 htmlSources = 0
 
@@ -46,7 +46,7 @@ def getInfo(url):
     links = getAllLinks(urlContent)
     #return links
 
-
+getInfo(url4)
 
 
 

@@ -3,11 +3,8 @@
 #Prompt
 
 def format_List():
-        #File being written
         outputFile = open('output/formatWebsiteList.txt','w+')
-        #Source file of websites
         filepath = 'supportedsites.md'
-        #Opens file
         with open(filepath) as websiteList:
                 for line in websiteList:
                         for i in range(len(line) - 1, -1, -1):
