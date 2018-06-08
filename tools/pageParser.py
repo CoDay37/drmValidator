@@ -6,6 +6,7 @@ import urllib3
 import requests
 import os
 import re
+from requests.exceptions import MissingSchema
 
 websiteURL = 'https://www.theverge.com/'
 USER_AGENT = 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36'
@@ -29,7 +30,14 @@ def getSourceCode(string):
 def getAllLinks(listy):
         for element in listy: 
                 link = str(element)
-                r = requests.get(link,params=payload, headers={'User-Agent': USER_AGENT})
+                link = link[2:-2]
+                #print( link)
+                try:
+                        r = requests.get(link,params=payload, headers={'User-Agent': USER_AGENT})
+                except MissingSchema:
+                        print('Non working link: ' + link)
+                        print(type(link))
+                        print(link)
 
 def findLinks():
         halfParsed = []
@@ -59,15 +67,19 @@ def linkChecker():
         for element in reversed(nonCheckedLinks):
                 holder = str(element)
                 extensionCheck = (holder[-7:-2])
+                print("***", element)
+                if(("") in extensionCheck):
+                        nonCheckedLinks.remove(element) 
                 if((".jpg") in extensionCheck or ("png") in extensionCheck or ("svg") in extensionCheck or ("ico") in extensionCheck):
                         photoLinkList.append(element)
+                        print("****************", element)
                         nonCheckedLinks.remove(element)
                 if((".js") in extensionCheck or ("xml") in extensionCheck):
                         missLinkList.append(element)
                         nonCheckedLinks.remove(element)
                 if((".mp4") in extensionCheck):
                         videoLinkList.append(element)
-                        videoLinkList.remove(element)        
+                        videoLinkList.remove(element)    
 
 def controller(url):
         getSourceCode(url)
