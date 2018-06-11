@@ -6,83 +6,92 @@ import urllib3
 import requests
 import os
 import re
+import random
 from requests.exceptions import MissingSchema
 
 websiteURL = 'https://www.theverge.com/'
+
 USER_AGENT = 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36'
+
 payload = {'key': 'value1', 'key2': 'value2'}
 #path = os.getcwd()
 
-nonCheckedLinks = []
-htmlCheckedList = []
-photoLinkList = []
-videoLinkList = []
-missLinkList = []
-
+unCheckedLinks = set()
+htmlChecked = set()
+videoLinks = set()
+randomLinks = set()
 
 def getSourceCode(string):
-        r = requests.get(string,params=payload, headers={'User-Agent': USER_AGENT})
-        pageText = r.text
-        file = open("websiteSource.txt", "w")
-        file.write(pageText)
-        file.close
+        r = requests.get(string, headers={'User-Agent': USER_AGENT})
+        data = r.text
+        soup = BeautifulSoup(data,'html.parser')
+        fData = str(soup.prettify)
+        print("RESPONSE CODE", r.status_code)
+        """file = open("websiteSource.txt", "w")
+        file.write(fData)
+        file.close"""
+        #for link in soup.findAll("a")
 
 def getAllLinks(listy):
         for element in listy: 
                 link = str(element)
                 link = link[2:-2]
-                #print( link)
+                print(link)
                 try:
                         r = requests.get(link,params=payload, headers={'User-Agent': USER_AGENT})
+                        print("Response: ", r.status_code)
+                        sourceText = r.text
+                        file = open("websiteSource.txt", "w")
+                        file.write(sourceText)
+                        file.close()
                 except MissingSchema:
                         print('Non working link: ' + link)
                         print(type(link))
-                        print(link)
+                        print("***",link)
 
 def findLinks():
-        halfParsed = []
-        links = []
-        lineNum = 1
-        with open("websiteSource.txt") as sc:
-                lines = (line.rstrip() for line in sc)
-                lines = (line for line in lines if line)            
-                for line in enumerate(sc):
-                        line = sc.readline()
-                        if(line.isspace() == True):
-                                continue
-                        else:
-                                halfParsed.append(line)
-        for element in halfParsed:
-               foundLinks = re.search(r"https?", element)
-               if(foundLinks):
-                       links.append(element)
-        for element in links:
-                urls = re.findall('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', element)
-                nonCheckedLinks.append(urls)
+        r = requests.get(websiteURL, headers={'User-Agent': USER_AGENT})
+        print("Status: ", r.status_code)
+        data = r.text
+        soup = BeautifulSoup(data,'html.parser')
+        fData = str(soup.prettify)
+        for link in soup.findAll("a"):
+                sLink = link.get('href')
+                print("Link: ",sLink) 
+                unCheckedLinks.add(sLink)
+        for link in soup.findAll("link"):
+                sLink2 = link.get('href')
+                print("Link: ",sLink2) 
+                unCheckedLinks.add(sLink2)
+
 
 def linkChecker():
         notUsed = []
         numberof = 0
-        print("2")
-        for element in reversed(nonCheckedLinks):
+        for element in (unCheckedLinks):
                 holder = str(element)
                 extensionCheck = (holder[-7:-2])
-                print("***", element)
                 if(("") in extensionCheck):
-                        nonCheckedLinks.remove(element) 
-                if((".jpg") in extensionCheck or ("png") in extensionCheck or ("svg") in extensionCheck or ("ico") in extensionCheck):
-                        photoLinkList.append(element)
-                        print("****************", element)
-                        nonCheckedLinks.remove(element)
-                if((".js") in extensionCheck or ("xml") in extensionCheck):
-                        missLinkList.append(element)
-                        nonCheckedLinks.remove(element)
+                        unCheckedLinks.remove(element) 
+                if(("jpg") in extensionCheck or ("png") in extensionCheck or ("svg") in extensionCheck or ("ico") in extensionCheck) or ("jpeg") in extensionCheck:
+                        unCheckedLinks.remove(element)
+                        randomLinks.add(element)
+                if((".js") in extensionCheck or ("xml") in extensionCheck) or (".gif") in extensionCheck:
+                        randomLinks.add(element)
+                        unCheckedLinks.remove(element)
                 if((".mp4") in extensionCheck):
-                        videoLinkList.append(element)
-                        videoLinkList.remove(element)    
+                        videoLinks.add(element) 
+                        unCheckedLinks.remove(element)
+                else:
+                        htmlChecked.add(element)
+                        unCheckedLinks.remove(element)
 
 def controller(url):
-        getSourceCode(url)
+       # getSourceCode(url)
         findLinks()
-        linkChecker()
-        getAllLinks(nonCheckedLinks)
+       # linkChecker()
+       # getAllLinks(htmlChecked)
+        print("# of unchecked: ", len(unCheckedLinks))
+        print("# of vid", len(videoLinks))
+        print("# of random links", len(randomLinks))
+        print("# of html", len(htmlChecked))

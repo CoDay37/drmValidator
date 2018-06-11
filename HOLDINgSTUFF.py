@@ -77,3 +77,28 @@ with open('output111.txt', 'rt') as in_file:
  #  print re.search(r'"url":"(.*?)"', soup.script.text).group(1)
 #print(soup.find_all('p'))
 '''
+
+"""def findLinks():
+        halfParsed = []
+        links = []
+        lineNum = 1
+        with open("websiteSource.txt", "r") as sc:
+                lines = (line.rstrip() for line in sc)
+                lines = (line for line in lines if line)            
+                for line in enumerate(sc):
+                        line = sc.readline()
+                        if(line.isspace() == True):
+                                continue
+                        else:
+                                halfParsed.append(line)
+        for element in halfParsed:
+               foundLinks = re.search(r"https?", element)
+               if(foundLinks):
+                       links.append(element)
+        for element in links:
+                urls = re.findall('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', element)
+                print("********", type(urls))
+                #for x in urls
+                goingIn = str(urls)
+                htmlChecked.add(goingIn)
+                print(goingIn)"""
