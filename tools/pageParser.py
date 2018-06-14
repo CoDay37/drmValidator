@@ -1,7 +1,6 @@
 #pip install lxml
 #pip install requests
 from bs4 import BeautifulSoup, SoupStrainer
-from urllib.parse import urljoin
 import urllib3
 import requests
 import os
@@ -9,89 +8,77 @@ import re
 import random
 from requests.exceptions import MissingSchema
 
-websiteURL = 'https://www.theverge.com/'
-
 USER_AGENT = 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36'
-
 payload = {'key': 'value1', 'key2': 'value2'}
 #path = os.getcwd()
-
 unCheckedLinks = set()
-htmlChecked = set()
+parseHTML = set()
 videoLinks = set()
 randomLinks = set()
+holdLinks = set()
+lengthOf = len(parseHTML)
 
-def getSourceCode(string):
-        r = requests.get(string, headers={'User-Agent': USER_AGENT})
-        data = r.text
-        soup = BeautifulSoup(data,'html.parser')
-        fData = str(soup.prettify)
-        print("RESPONSE CODE", r.status_code)
-        """file = open("websiteSource.txt", "w")
-        file.write(fData)
-        file.close"""
-        #for link in soup.findAll("a")
 
-def getAllLinks(listy):
-        for element in listy: 
-                link = str(element)
-                link = link[2:-2]
-                print(link)
-                try:
-                        r = requests.get(link,params=payload, headers={'User-Agent': USER_AGENT})
-                        print("Response: ", r.status_code)
-                        sourceText = r.text
-                        file = open("websiteSource.txt", "w")
-                        file.write(sourceText)
-                        file.close()
-                except MissingSchema:
-                        print('Non working link: ' + link)
-                        print(type(link))
-                        print("***",link)
+def getAllLinks(parseHTML):
+        apple = parseHTML.copy()
+        print("Length of parseHTML: ", len(parseHTML))
+        for element in apple:
+                hold = element[2:-2]
+                print("*******", element)
+                findLinks(hold)
 
-def findLinks():
-        r = requests.get(websiteURL, headers={'User-Agent': USER_AGENT})
+def findLinks(link):
+        aLink = 'http'
+        bLink = 'https'
+        r = requests.get(link, headers={'User-Agent': USER_AGENT})
         print("Status: ", r.status_code)
         data = r.text
         soup = BeautifulSoup(data,'html.parser')
-        fData = str(soup.prettify)
         for link in soup.findAll("a"):
-                sLink = link.get('href')
-                print("Link: ",sLink) 
+                sLink = link.get('href') 
                 unCheckedLinks.add(sLink)
         for link in soup.findAll("link"):
                 sLink2 = link.get('href')
-                print("Link: ",sLink2) 
                 unCheckedLinks.add(sLink2)
-
+        for element in unCheckedLinks:
+                holding = str(element)
+                url = re.findall('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', holding)
+                link = str(url)
+                if not "http" in link or not "https" in link:
+                        continue
+                else:
+                        holdLinks.add(link)
+        unCheckedLinks.clear()
+        linkChecker()
+        #TO_DO TOMORROW
+        #duplicate set and use to control recurisive loop
+        #USE request.sessions to login with username/pW
 
 def linkChecker():
-        notUsed = []
-        numberof = 0
-        for element in (unCheckedLinks):
-                holder = str(element)
-                extensionCheck = (holder[-7:-2])
-                if(("") in extensionCheck):
-                        unCheckedLinks.remove(element) 
-                if(("jpg") in extensionCheck or ("png") in extensionCheck or ("svg") in extensionCheck or ("ico") in extensionCheck) or ("jpeg") in extensionCheck:
-                        unCheckedLinks.remove(element)
+        print("Length of HoldLinks: ", len(holdLinks))
+        for element in (holdLinks):
+                if 'ico' in element or 'png' in element or 'jpg' in element or "woff2" in element or 'css' in element or 'js' in element or "xml" in element:
                         randomLinks.add(element)
-                if((".js") in extensionCheck or ("xml") in extensionCheck) or (".gif") in extensionCheck:
-                        randomLinks.add(element)
-                        unCheckedLinks.remove(element)
-                if((".mp4") in extensionCheck):
-                        videoLinks.add(element) 
-                        unCheckedLinks.remove(element)
-                else:
-                        htmlChecked.add(element)
-                        unCheckedLinks.remove(element)
-
+                elif 'mp4' in element or 'mpeg' in element or 'wmv' in element or 'mov' in element:
+                        videoLinks.add(element)
+                if not element:
+                        continue
+                else: 
+                        parseHTML.add(element)
+        holdLinks.clear()
+                
+                        
 def controller(url):
-       # getSourceCode(url)
-        findLinks()
-       # linkChecker()
-       # getAllLinks(htmlChecked)
+        findLinks(url)
+        #linkChecker()
+        getAllLinks(parseHTML)
         print("# of unchecked: ", len(unCheckedLinks))
         print("# of vid", len(videoLinks))
         print("# of random links", len(randomLinks))
-        print("# of html", len(htmlChecked))
+
+        for elemet in randomLinks:
+                print("**", elemet)
+
+        for element in videoLinks:
+                print(element)
+

@@ -1,0 +1,43 @@
+from bs4 import BeautifulSoup, SoupStrainer
+import urllib3
+import requests
+import os
+import re
+
+websiteURL = 'https://www.theverge.com/'
+USER_AGENT = 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36'
+path = os.getcwd()
+
+
+def getSourceCode(string):
+        payload = {'key': 'value1', 'key2': 'value2'}
+        r = requests.get(string,params=payload, headers={'User-Agent': USER_AGENT})
+        pageText = r.text
+        file = open("websiteSource.txt", "w")
+        file.write(pageText)
+        file.close
+        findLinks()
+
+def findLinks():
+        halfParsed = []
+        links = []
+        lineNum = 1
+        with open("websiteSource.txt") as sc:
+                lines = (line.rstrip() for line in sc)
+                lines = (line for line in lines if line)            
+                for line in enumerate(sc):
+                        line = sc.readline()
+                        if(line.isspace() == True):
+                                continue
+                        else:
+                                halfParsed.append(line)
+        for element in halfParsed:
+               m = re.search(r"https?", element)
+               if(m):
+                       links.append(element)
+                       print("******", element)
+        #print(links)
+        for element in links:
+
+
+#To do tomorow  1) Take List of links and extract them down to just links  2) Recursivly go into all .html files and continue 3) Once all non-.html files are found, record and report if any are video
