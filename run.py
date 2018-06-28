@@ -11,10 +11,12 @@ url3 = 'https://play.hbogo.com'
 url4 = 'http://watch.cookingchanneltv.com/live'
 #nbc
 url5 = 'https://www.nbc.com'
+#spectrumsportnet
+url6 = 'http://www.spectrumsportsnet.com'
 
 
 
-(controller(url5))
+(controller(url6))
 
 
 #URL9 is HGTV

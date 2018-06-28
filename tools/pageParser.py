@@ -8,7 +8,8 @@ import re
 import random
 from requests.exceptions import MissingSchema
 
-USER_AGENT = 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36'
+USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.2526.73 Safari/537.36'
+#'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36'
 payload = {'key': 'value1', 'key2': 'value2'}
 #path = os.getcwd()
 unCheckedLinks = set()
@@ -20,7 +21,7 @@ placeHolder = set()
 htmlLinks = 0
 totalL = 0
 post = False
-base_URL = 'https://www.nbc.com'
+base_URL = 'http://www.spectrumsportsnet.com'
 
 
 payload = {#For Xfinity
@@ -46,24 +47,35 @@ def getVideoSource(videoSet):
         vidSet = videoSet.copy()
         lent = (len(vidSet))
         for n in vidSet:
-                print("Remaining: ", lent)
-                lent-=1
-                rq = requests.get(n, headers={'User-Agent': USER_AGENT})       
-                data =rq.content
-                souppy = BeautifulSoup(data, 'html.parser')
-                souppy.pretiffy
-        for ele in souppy.find_all('iframe', src=True):
-                print("**",ele)
-                if 'player.theplatform.com' in ele:
-                        print("Found Source")
-                        videoLinks.add(ele)
+                with requests.Session() as sess:        
+                        print("Remaining: ", lent)
+                        lent-=1
+                        print("Link: ", n)
+                        rq = requests.get(n, headers={'User-Agent': USER_AGENT})    
+                        print("Status: ", rq.status_code)
+                        data = rq.content
+                        soup2 = BeautifulSoup(data, 'html.parser')
+
+                        """bodyCheck = soup2.body
+                        for child in bodyCheck.descendants:
+                                if "iframe" in child:
+                                        print(child)
+"""
+                        """frameSource = soup2.find("id", "video-player__embed")
+                        print("framesource: ", f                        print(element)rameSource)
+                        el = frameSource.descendants
+                        print(el)
+                        print("YOLO ", frameSource)
+                        if "theplatform" in frameSource:
+                                print("Found Source")
+                                videoLinks.add(frameSource)"""
 
 
 def findLinks(link):
         with requests.Session() as s:
                 global post
                 if post:
-                        r = s.post(link, data=payload)
+                        r = s.post(link, data=payload2)
                         post = False
                 elif not post:
                         r = requests.get(link, headers={'User-Agent': USER_AGENT})
@@ -87,13 +99,18 @@ def findLinks(link):
                         elif (base_URL not in sLink):
                                 continue
                         elif (('https' in sLink) or ('http' in sLink)):
-                                unCheckedLinks.add(sLink)                     
+                                unCheckedLinks.add(sLink)                  
                         else:
                                 continue
+                for link in soup.findAll('video'):
+                        sLink = link.get('src')
+                        print("****",sLink)
+                        videoLinks.add(sLink)
 
-                for element in unCheckedLinks:
-                        if '/video/' in element:
+                for element in unCheckedLinks: # will have to adjust for links without video in URL
+                        if '/videos/' in element:
                                 parseHTML.add(element)
+                                print("AYEEE")
                         
                 unCheckedLinks.clear()
         """for element in unCheckedLinks:
@@ -135,7 +152,7 @@ def controller(url):
         holdSet = parseHTML.copy()
         for link in holdSet:
                 findLinks(link)
-        getVideoSource(parseHTML)
+        #getVideoSource(parseHTML)
         print("CHECK", len(videoLinks))
         for element in videoLinks:
                 print(element)
