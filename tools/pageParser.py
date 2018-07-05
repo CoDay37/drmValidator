@@ -15,10 +15,8 @@ payload = {'key': 'value1', 'key2': 'value2'}
 unCheckedLinks = set()
 parseHTML = set()
 videoLinks = set()
-randomLinks = set()
 holdLinks = set()
-placeHolder = set()
-htmlLinks = 0
+linksChecked = set()
 totalL = 0
 post = False
 base_URL = 'http://www.spectrumsportsnet.com'
@@ -47,28 +45,21 @@ def getVideoSource(videoSet):
         vidSet = videoSet.copy()
         lent = (len(vidSet))
         for n in vidSet:
-                with requests.Session() as sess:        
+                with requests.Session() as s:
                         print("Remaining: ", lent)
                         lent-=1
                         print("Link: ", n)
-                        rq = requests.get(n, headers={'User-Agent': USER_AGENT})    
-                        print("Status: ", rq.status_code)
-                        data = rq.content
+                        s = requests.get(n, headers={'User-Agent': USER_AGENT})    
+                        data = s.content
+                        print(s.status_code)
                         soup2 = BeautifulSoup(data, 'html.parser')
-
-                        """bodyCheck = soup2.body
-                        for child in bodyCheck.descendants:
-                                if "iframe" in child:
-                                        print(child)
-"""
-                        """frameSource = soup2.find("id", "video-player__embed")
-                        print("framesource: ", f                        print(element)rameSource)
-                        el = frameSource.descendants
-                        print(el)
-                        print("YOLO ", frameSource)
-                        if "theplatform" in frameSource:
-                                print("Found Source")
-                                videoLinks.add(frameSource)"""
+                        soup2.prettify
+                        for link in soup2.find('video'):
+                                print(type(link))
+                                print("CHECKING FOR LINK: ", link)
+                                sLink = link.get('src')
+                                print("****",sLink)
+                                videoLinks.add(sLink)
 
 
 def findLinks(link):
@@ -84,11 +75,13 @@ def findLinks(link):
                 soup.prettify
                 global totalL
                 totalL+=1
-                #print("Total Number of Links Parsed: ", totalL)
+                print("Total Number of Links Parsed: ", totalL)
                 print("Status:", r.status_code)
                 print("# of vid", len(videoLinks))
                 for link in soup.findAll("a"):
                         sLink = link.get('href')
+                        totalL+=1
+                        print("Total Number of Links Parsed: ", totalL)
                         if(sLink == ''):
                                 continue
                         elif (sLink is None):
@@ -102,15 +95,9 @@ def findLinks(link):
                                 unCheckedLinks.add(sLink)                  
                         else:
                                 continue
-                for link in soup.findAll('video'):
-                        sLink = link.get('src')
-                        print("****",sLink)
-                        videoLinks.add(sLink)
-
                 for element in unCheckedLinks: # will have to adjust for links without video in URL
                         if '/videos/' in element:
                                 parseHTML.add(element)
-                                print("AYEEE")
                         
                 unCheckedLinks.clear()
         """for element in unCheckedLinks:
@@ -133,8 +120,7 @@ def linkChecker():
                 elif base_URL in element:
                         parseHTML.add(element)
                 elif 'ico' in element or 'png' in element or 'jpg' in element or "woff2" in element or 'css' in element or 'js' in element or "xml" in element:
-                        randomLinks.add(element)
-                        print("Randomlink")
+                        continue
                 elif '.mp4' in element or '.mpeg' in element or '.wmv' in element or '.mov' in element:
                         videoLinks.add(element)
                         print("Video Link")
@@ -149,11 +135,24 @@ def linkChecker():
 
 def controller(url):
         findLinks(url)
-        holdSet = parseHTML.copy()
-        for link in holdSet:
-                findLinks(link)
-        #getVideoSource(parseHTML)
-        print("CHECK", len(videoLinks))
+        moreLinks = True
+        parseHTML.clear
+        counter = 0 
+        while counter < 5:
+                holdSet = parseHTML.copy()
+                for link in holdSet:
+                        findLinks(link)
+                        linksChecked.add(link)
+                holdSet.difference_update(linksChecked)
+                for link in parseHTML:
+                        holdSet.add(link)
+                print("LEFT: ", len(holdSet))
+                getVideoSource(holdSet)
+                if(len(holdSet)== 0):
+                        moreLinks = False
+                print("LENGTH OF VID", len(videoLinks))
+                print("LENGTH OF PARSE", len(parseHTML))
+                counter+=1
         for element in videoLinks:
                 print(element)
 

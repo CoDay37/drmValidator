@@ -1,0 +1,99 @@
+1530553989035	geckodriver	INFO	geckodriver 0.20.1
+1530553989043	geckodriver	INFO	Listening on 127.0.0.1:51637
+1530553990053	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.yLmar8GN17wH"
+1530553996795	Marionette	INFO	Listening on port 43707
+1530553996959	Marionette	WARN	TLS certificate errors will be ignored for this session
+1530554022676	geckodriver	INFO	geckodriver 0.20.1
+1530554022681	geckodriver	INFO	Listening on 127.0.0.1:45013
+1530554023685	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.xIoENFr5ki3r"
+1530554029621	Marionette	INFO	Listening on port 40433
+1530554029780	Marionette	WARN	TLS certificate errors will be ignored for this session
+1530554065839	geckodriver	INFO	geckodriver 0.20.1
+1530554065914	geckodriver	INFO	Listening on 127.0.0.1:40939
+1530554066848	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.nEoj0yOvNa5E"
+1530554073942	Marionette	INFO	Listening on port 45031
+1530554074274	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://pdk.theplatform.com/pdk/tpPdk.js, line 2342: unreachable code after return statement
+JavaScript warning: http://pdk.theplatform.com/pdk/tpPdk.js, line 2345: unreachable code after return statement
+JavaScript warning: http://pdk.theplatform.com/pdk/tpPdk.js, line 2350: unreachable code after return statement
+JavaScript warning: http://pdk.theplatform.com/pdk/tpPdk.js, line 2357: unreachable code after return statement
+JavaScript warning: https://sp.auth.adobe.com/entitlement/lib/AccessEnablerHelper.js, line 6: unreachable code after return statement
+1530555030359	geckodriver	INFO	geckodriver 0.20.1
+1530555030366	geckodriver	INFO	Listening on 127.0.0.1:34269
+1530555031363	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.CrGxe5XvU7xT"
+1530555036423	Marionette	INFO	Listening on port 43419
+1530555036569	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://pdk.theplatform.com/pdk/tpPdk.js, line 2342: unreachable code after return statement
+JavaScript warning: http://pdk.theplatform.com/pdk/tpPdk.js, line 2345: unreachable code after return statement
+JavaScript warning: http://pdk.theplatform.com/pdk/tpPdk.js, line 2350: unreachable code after return statement
+JavaScript warning: http://pdk.theplatform.com/pdk/tpPdk.js, line 2357: unreachable code after return statement
+JavaScript warning: https://sp.auth.adobe.com/entitlement/lib/AccessEnablerHelper.js, line 6: unreachable code after return statement
+JavaScript error: resource://gre/modules/PrivateBrowsingUtils.jsm, line 51: NS_NOINTERFACE: 
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530555062066	geckodriver	INFO	geckodriver 0.20.1
+1530555062071	geckodriver	INFO	Listening on 127.0.0.1:35305
+1530555063074	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Q7RFy4zZxogK"
+1530555065620	Marionette	INFO	Listening on port 39905
+1530555065712	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://pdk.theplatform.com/pdk/tpPdk.js, line 2342: unreachable code after return statement
+JavaScript warning: http://pdk.theplatform.com/pdk/tpPdk.js, line 2345: unreachable code after return statement
+JavaScript warning: http://pdk.theplatform.com/pdk/tpPdk.js, line 2350: unreachable code after return statement
+JavaScript warning: http://pdk.theplatform.com/pdk/tpPdk.js, line 2357: unreachable code after return statement
+JavaScript warning: https://sp.auth.adobe.com/entitlement/lib/AccessEnablerHelper.js, line 6: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530555094402	geckodriver	INFO	geckodriver 0.20.1
+1530555094407	geckodriver	INFO	Listening on 127.0.0.1:56825
+1530555095412	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.ZADKVwEho0rC"
+1530555097843	Marionette	INFO	Listening on port 43013
+1530555097932	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://pdk.theplatform.com/pdk/tpPdk.js, line 2342: unreachable code after return statement
+JavaScript warning: http://pdk.theplatform.com/pdk/tpPdk.js, line 2345: unreachable code after return statement
+JavaScript warning: http://pdk.theplatform.com/pdk/tpPdk.js, line 2350: unreachable code after return statement
+JavaScript warning: http://pdk.theplatform.com/pdk/tpPdk.js, line 2357: unreachable code after return statement
+JavaScript warning: https://sp.auth.adobe.com/entitlement/lib/AccessEnablerHelper.js, line 6: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1530555216177	geckodriver	INFO	geckodriver 0.20.1
+1530555216182	geckodriver	INFO	Listening on 127.0.0.1:45703
+1530555217187	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.YtOpfdt9WduP"
+1530555219691	Marionette	INFO	Listening on port 40641
+1530555219716	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://pdk.theplatform.com/pdk/tpPdk.js, line 2342: unreachable code after return statement
+JavaScript warning: http://pdk.theplatform.com/pdk/tpPdk.js, line 2345: unreachable code after return statement
+JavaScript warning: http://pdk.theplatform.com/pdk/tpPdk.js, line 2350: unreachable code after return statement
+JavaScript warning: http://pdk.theplatform.com/pdk/tpPdk.js, line 2357: unreachable code after return statement
+JavaScript warning: https://sp.auth.adobe.com/entitlement/lib/AccessEnablerHelper.js, line 6: unreachable code after return statement
+JavaScript warning: http://pdk.theplatform.com/pdk/tpPdk.js, line 2342: unreachable code after return statement
+JavaScript warning: http://pdk.theplatform.com/pdk/tpPdk.js, line 2345: unreachable code after return statement
+JavaScript warning: http://pdk.theplatform.com/pdk/tpPdk.js, line 2350: unreachable code after return statement
+JavaScript warning: http://pdk.theplatform.com/pdk/tpPdk.js, line 2357: unreachable code after return statement
+JavaScript warning: https://sp.auth.adobe.com/entitlement/lib/AccessEnablerHelper.js line 4 > eval, line 6: unreachable code after return statement
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox.js, line 1328: TypeError: currentPanel is undefined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+

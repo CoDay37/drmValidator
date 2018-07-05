@@ -2,6 +2,7 @@
 #from selenium.webdriver.common.keys import Keys
 from bs4 import BeautifulSoup, SoupStrainer
 import requests
+from selenium import webdriver
 """
 driver = webdriver.Firefox()
 driver.get("http://www2.solarmoviesc.com/")
@@ -13,20 +14,29 @@ elem.send_keys(Keys.RETURN)
 elem = driver.find_elements_by_class_name("m1-item")
 #
 #"""
+headers = 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.2526.73 Safari/537.36'
+site = 'http://www.spectrumsportsnet.com/videos/2018/07/james-worthy-reacts-to-lebron-james-coming-to-lakers'
 
-site = 'https://www.cbs.com'
 
-r = requests.get(site)
-data = r.text
-soup = BeautifulSoup(data, "html.parser")
+
+
+browser = webdriver.Chrome()
+browser.get(site)
+
+#browser.quit()
+"""print("site:", type(site))
+print("headers:", type(headers))
+
+r = requests.get(site, headers={'User-Agent': headers})
+
+soup = BeautifulSoup(r.text, "html.parser")
 soup.prettify
-for link in soup.findAll("a"):
-    print(link.get('href'))
 print()
-print()
-for link in soup.findAll("link"):
-    print(link.get('href'))
+for link in soup.findAll("video"):
+    print(link.get('src'))
 
+print(soup)
+"""
 
 
 listy = ['a','b','c','d','e']
