@@ -40,7 +40,6 @@ payload2 = {#CHARTER
     'gx_charset':'UTF-8'
 }
 
-
 def getVideoSource(videoSet):
         vidSet = videoSet.copy()
         lent = (len(vidSet))
@@ -49,18 +48,13 @@ def getVideoSource(videoSet):
                         print("Remaining: ", lent)
                         lent-=1
                         print("Link: ", n)
-                        s = requests.get(n, headers={'User-Agent': USER_AGENT})    
+                        s = requests.get(n, headers={'User-Agent': USER_AGENT})  
                         data = s.content
                         print(s.status_code)
                         soup2 = BeautifulSoup(data, 'html.parser')
                         soup2.prettify
-                        for link in soup2.find('video'):
-                                print(type(link))
-                                print("CHECKING FOR LINK: ", link)
-                                sLink = link.get('src')
-                                print("****",sLink)
-                                videoLinks.add(sLink)
-
+                        video = soup2.find("video").get("src")
+                        print("VIDOEEEEOEOEOEOE", video)
 
 def findLinks(link):
         with requests.Session() as s:
@@ -74,14 +68,12 @@ def findLinks(link):
                 soup = BeautifulSoup(data,'html.parser')
                 soup.prettify
                 global totalL
-                totalL+=1
                 print("Total Number of Links Parsed: ", totalL)
+                totalL+=1
                 print("Status:", r.status_code)
                 print("# of vid", len(videoLinks))
                 for link in soup.findAll("a"):
                         sLink = link.get('href')
-                        totalL+=1
-                        print("Total Number of Links Parsed: ", totalL)
                         if(sLink == ''):
                                 continue
                         elif (sLink is None):
