@@ -1,0 +1,31 @@
+1530907876711	geckodriver	INFO	geckodriver 0.21.0
+1530907876716	geckodriver	INFO	Listening on 127.0.0.1:56399
+1530907877719	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.3ju4xi25zEI4"
+1530907881708	Marionette	INFO	Listening on port 38307
+1530907881818	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://pdk.theplatform.com/pdk/tpPdk.js, line 2348: unreachable code after return statement
+JavaScript warning: http://pdk.theplatform.com/pdk/tpPdk.js, line 2355: unreachable code after return statement
+JavaScript warning: http://pdk.theplatform.com/pdk/tpPdk.js, line 2360: unreachable code after return statement
+JavaScript warning: http://pdk.theplatform.com/pdk/tpPdk.js, line 2363: unreachable code after return statement
+JavaScript warning: https://sp.auth.adobe.com/entitlement/lib/AccessEnablerHelper.js, line 6: unreachable code after return statement
+JavaScript error: http://www.spectrumsportsnet.com/videos/2018/07/james-worthy-reacts-to-lebron-james-coming-to-lakers, line 404: ReferenceError: event is not defined
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/toolbox.js, line 1266: TypeError: currentPanel is undefined
+JavaScript warning: http://pdk.theplatform.com/pdk/tpPdk.js, line 2348: unreachable code after return statement
+JavaScript warning: http://pdk.theplatform.com/pdk/tpPdk.js, line 2355: unreachable code after return statement
+JavaScript warning: http://pdk.theplatform.com/pdk/tpPdk.js, line 2360: unreachable code after return statement
+JavaScript warning: http://pdk.theplatform.com/pdk/tpPdk.js, line 2363: unreachable code after return statement
+JavaScript warning: https://sp.auth.adobe.com/entitlement/lib/AccessEnablerHelper.js line 4 > eval, line 6: unreachable code after return statement
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+1530908641319	geckodriver	INFO	geckodriver 0.21.0
+1530908641325	geckodriver	INFO	Listening on 127.0.0.1:52543
+1530908642326	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.OrPmMSVconYp"
+1530908644742	Marionette	INFO	Listening on port 35089
+1530908644764	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://pdk.theplatform.com/pdk/tpPdk.js, line 2348: unreachable code after return statement
+JavaScript warning: http://pdk.theplatform.com/pdk/tpPdk.js, line 2355: unreachable code after return statement
+JavaScript warning: http://pdk.theplatform.com/pdk/tpPdk.js, line 2360: unreachable code after return statement
+JavaScript warning: http://pdk.theplatform.com/pdk/tpPdk.js, line 2363: unreachable code after return statement
+Marionette threw an error: TypeError: this.curBrowser.contentBrowser is null
+GeckoDriver.prototype.get@chrome://marionette/content/driver.js:1072:3
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping

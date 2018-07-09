@@ -1,8 +1,8 @@
 #from selenium import webdriver
 #from selenium.webdriver.common.keys import Keys
-from bs4 import BeautifulSoup, SoupStrainer
 import requests
 from selenium import webdriver
+import re
 """
 driver = webdriver.Firefox()
 driver.get("http://www2.solarmoviesc.com/")
@@ -22,35 +22,10 @@ site = 'http://www.spectrumsportsnet.com/videos/2018/07/james-worthy-reacts-to-l
 
 browser = webdriver.Chrome()
 browser.get(site)
-
-#browser.quit()
-"""print("site:", type(site))
-print("headers:", type(headers))
-
-r = requests.get(site, headers={'User-Agent': headers})
-
-soup = BeautifulSoup(r.text, "html.parser")
-soup.prettify
-print()
-for link in soup.findAll("video"):
-    print(link.get('src'))
-
-print(soup)
-"""
-
-
-listy = ['a','b','c','d','e']
-tupy = ('apple','baby','collin','dog','eager')
-
-#listy.append(tupy[3])
-#listy.append(tupy[2])
-#listy.append(tupy[4])
-#listy.remove(tupy[2])
-
-print(listy)
-#for element in reversed(listy2):
-    #print("The element is ", element)
-    #print('b4', listy2)
-    #listy2.remove(element)
-    #print('after', listy2)
-    #print("")
+html = browser.page_source
+print(type(html))
+links = re.findall('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', html)
+for url in links:
+    if ("ns11.ns.twc") in url:
+        print(url)
+#browser.close()

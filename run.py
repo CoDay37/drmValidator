@@ -1,4 +1,4 @@
-from tools.pageParser import getVideoSource, findLinks, controller
+from pageParser import controller
 
 
 #hgtv
