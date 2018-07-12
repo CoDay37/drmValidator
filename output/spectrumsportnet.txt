@@ -1,0 +1,591 @@
+Total Number of Links Parsed:  1
+Status: 200
+Total Number of Links Parsed:  2
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/07/lakers-highlights-708.mp4
+Total Number of Links Parsed:  3
+Status: 200
+Total Number of Links Parsed:  4
+Status: 200
+Total Number of Links Parsed:  5
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/02/lakeshow-lonzo-bowwow-228.mp4
+Total Number of Links Parsed:  6
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/07/coming-to-la-intro-701.mp4
+Total Number of Links Parsed:  7
+Status: 200
+Total Number of Links Parsed:  8
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/06/backstage-draft-2018.mp4
+Total Number of Links Parsed:  9
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/05/randle-feature.mp4
+Total Number of Links Parsed:  10
+Status: 200
+Total Number of Links Parsed:  11
+Status: 200
+Total Number of Links Parsed:  12
+Status: 200
+Total Number of Links Parsed:  13
+Status: 200
+Total Number of Links Parsed:  14
+Status: 200
+Total Number of Links Parsed:  15
+Status: 200
+Total Number of Links Parsed:  16
+Status: 200
+Total Number of Links Parsed:  17
+Status: 200
+Total Number of Links Parsed:  18
+Status: 200
+Total Number of Links Parsed:  19
+Status: 200
+Total Number of Links Parsed:  20
+Status: 200
+Total Number of Links Parsed:  21
+Status: 200
+Total Number of Links Parsed:  22
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/07/fisher-reacts-701.mp4
+Total Number of Links Parsed:  23
+Status: 200
+Total Number of Links Parsed:  24
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/01/lq-trivia-126.mp4
+Total Number of Links Parsed:  25
+Status: 200
+Total Number of Links Parsed:  26
+Status: 200
+Total Number of Links Parsed:  27
+Status: 200
+Total Number of Links Parsed:  28
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/07/wagner-post-708.mp4
+Total Number of Links Parsed:  29
+Status: 200
+Total Number of Links Parsed:  30
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/07/james-worthy-lebron-701.mp4
+Total Number of Links Parsed:  31
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/07/lakers-highlights-707.mp4
+Total Number of Links Parsed:  32
+Status: 200
+Total Number of Links Parsed:  33
+Status: 200
+Total Number of Links Parsed:  34
+Status: 200
+Total Number of Links Parsed:  35
+Status: 200
+Total Number of Links Parsed:  36
+Status: 200
+Total Number of Links Parsed:  37
+Status: 200
+Total Number of Links Parsed:  38
+Status: 200
+Total Number of Links Parsed:  39
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/07/salary-cap-access-702.mp4
+Total Number of Links Parsed:  40
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/05/access-lakers-coon-randle.mp4
+Total Number of Links Parsed:  41
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/02/lakeshow-skills-challenge.mp4
+Total Number of Links Parsed:  42
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/06/beard-post-606.mp4
+Total Number of Links Parsed:  43
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/10/lakeshow-lopez-bros-1009.mp4
+Total Number of Links Parsed:  44
+Status: 200
+Total Number of Links Parsed:  45
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/07/sparks-sky-highlight-720.mp4
+Total Number of Links Parsed:  46
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/11/lakeshow-10-things-1107.mp4
+Total Number of Links Parsed:  47
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/02/access-lakers-trade.mp4
+Total Number of Links Parsed:  48
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/02/lakers-waive-brewer-228.mp4
+Total Number of Links Parsed:  49
+Status: 200
+Total Number of Links Parsed:  50
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/06/highlights-sparks-612.mp4
+Total Number of Links Parsed:  51
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/03/galaxy-nycfc-highlights-311.mp4
+Total Number of Links Parsed:  52
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/07/sparks-storm-highlight-725.mp4
+Total Number of Links Parsed:  53
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/07/sparks-highlights-707.mp4
+Total Number of Links Parsed:  54
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/07/galaxy-highligts-704.mp4
+Total Number of Links Parsed:  55
+Status: 200
+Total Number of Links Parsed:  56
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/04/access-lakers-worthy-chair-425.mp4
+Total Number of Links Parsed:  57
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/02/access-hart-injury-228.mp4
+Total Number of Links Parsed:  58
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/06/parker-602.mp4
+Total Number of Links Parsed:  59
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/07/galaxy-highlights-707.mp4
+Total Number of Links Parsed:  60
+Status: 200
+Total Number of Links Parsed:  61
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/06/highlights-sparks-612.mp4
+Total Number of Links Parsed:  62
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/05/access-galaxy-highlight-530.mp4
+Total Number of Links Parsed:  63
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/06/zlatan-post-609.mp4
+Total Number of Links Parsed:  64
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/06/access-lakeres-randle-627.mp4
+Total Number of Links Parsed:  65
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/07/wagner-post-702.mp4
+Total Number of Links Parsed:  66
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/04/galaxy-highlights-421.mp4
+Total Number of Links Parsed:  67
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/05/access-galaxy-531.mp4
+Total Number of Links Parsed:  68
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/06/full-rookie-press-626.mp4
+Total Number of Links Parsed:  69
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/06/access-lakers-mo-analysis-621.mp4
+Total Number of Links Parsed:  70
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/06/sparks-vs-fever-highlights-0619.mp4
+Total Number of Links Parsed:  71
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/07/access-lakers-highlight-705.mp4
+Total Number of Links Parsed:  72
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/06/sparks-wings-highlight-627.mp4
+Total Number of Links Parsed:  73
+Status: 200
+Total Number of Links Parsed:  74
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/07/galaxy-highlights-707.mp4
+Total Number of Links Parsed:  75
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/05/access-lakers-worthy-531.mp4
+Total Number of Links Parsed:  76
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/02/lakeshow-harlem-globetrotters.mp4
+Total Number of Links Parsed:  77
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/04/lakers-vs-rockets-highlights-0410.mp4
+Total Number of Links Parsed:  78
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/04/galaxy-red-bulls-highlights.mp4
+Total Number of Links Parsed:  79
+Status: 200
+Total Number of Links Parsed:  80
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/06/access-lakers-walton-621.mp4
+Total Number of Links Parsed:  81
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/05/access-sparks-510.mp4
+Total Number of Links Parsed:  82
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/06/zlatan-post-609.mp4
+Total Number of Links Parsed:  83
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/06/nneka-610.mp4
+Total Number of Links Parsed:  84
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/06/galaxy-highlights-609.mp4
+Total Number of Links Parsed:  85
+Status: 200
+Total Number of Links Parsed:  86
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/05/highlights-galaxy-dynamo.mp4
+Total Number of Links Parsed:  87
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/04/lakers-vs-clippers-highlights-0411.mp4
+Total Number of Links Parsed:  88
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/05/top10-dunks-503.mp4
+Total Number of Links Parsed:  89
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/05/Sparks-season-opener-517.mp4
+Total Number of Links Parsed:  90
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/05/access-galaxy-highlight-530.mp4
+Total Number of Links Parsed:  91
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/03/galaxy-nycfc-highlights-311.mp4
+Total Number of Links Parsed:  92
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/11/lakeshow-lonzo-stats-1120.mp4
+Total Number of Links Parsed:  93
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/07/highlights-lakers-702.mp4
+Total Number of Links Parsed:  94
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/07/lakers-highlights-703.mp4
+Total Number of Links Parsed:  95
+Status: 200
+Total Number of Links Parsed:  96
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/06/magic-post-626.mp4
+Total Number of Links Parsed:  97
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/02/access-lonzo-221-2.mp4
+Total Number of Links Parsed:  98
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/04/galaxy-red-bulls-highlights.mp4
+Total Number of Links Parsed:  99
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/06/sparks-highlight-615.mp4
+Total Number of Links Parsed:  100
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/04/galaxy-highlights-421.mp4
+Total Number of Links Parsed:  101
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/03/zlatan-ibrahimovic-signs-galaxy-323.mp4
+Total Number of Links Parsed:  102
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/04/best-of-access.mp4
+Total Number of Links Parsed:  103
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/06/sparks-highlight-615.mp4
+Total Number of Links Parsed:  104
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/04/access-lakers-coon2-419.mp4
+Total Number of Links Parsed:  105
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/07/galaxy-highligts-704.mp4
+Total Number of Links Parsed:  106
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/04/access-lakers-coon1-419.mp4
+Total Number of Links Parsed:  107
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/05/access-galaxy-510.mp4
+Total Number of Links Parsed:  108
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/04/thomas-post-surgery-409.mp4
+Total Number of Links Parsed:  109
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/05/access-galaxy-highlights-521.mp4
+Total Number of Links Parsed:  110
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/09/sparks-vs-mercury-recap-913.mp4
+Total Number of Links Parsed:  111
+Status: 200
+Total Number of Links Parsed:  112
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/06/sparks-wings-highlight-627.mp4
+Total Number of Links Parsed:  113
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/09/sparks-game3-highlights-929.mp4
+Total Number of Links Parsed:  114
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/04/access-lakers-coon1-new-427.mp4
+Total Number of Links Parsed:  115
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/05/highlights-galaxy-dynamo.mp4
+Total Number of Links Parsed:  116
+Status: 200
+Total Number of Links Parsed:  117
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/06/svi-626.mp4
+Total Number of Links Parsed:  118
+Status: 200
+Total Number of Links Parsed:  119
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/06/wagner-626.mp4
+Total Number of Links Parsed:  120
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/10/metta-lakeshow-1024.mp4
+Total Number of Links Parsed:  121
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/06/sparks-vs-fever-highlights-0619.mp4
+Total Number of Links Parsed:  122
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/05/access-serrano-517.mp4
+Total Number of Links Parsed:  123
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/07/galaxy-jonathan-dos-santos.mp4
+Total Number of Links Parsed:  124
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/07/access-galaxy-coaching-change-new-727.mp4
+Total Number of Links Parsed:  125
+Status: 200
+Total Number of Links Parsed:  126
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/08/sparks-highlight-822.mp4
+Total Number of Links Parsed:  127
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/06/nneka-602.mp4
+Total Number of Links Parsed:  128
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/06/access-lakers-draft-priorities.mp4
+Total Number of Links Parsed:  129
+Status: 200
+Total Number of Links Parsed:  130
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/05/access-galaxy-highlights-521.mp4
+Total Number of Links Parsed:  131
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/09/sparks-dream-highlight-901.mp4
+Total Number of Links Parsed:  132
+Status: 200
+Total Number of Links Parsed:  133
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/01/galaxy-training-camp-1-web.mp4
+Total Number of Links Parsed:  134
+Status: 200
+Total Number of Links Parsed:  135
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/07/sparks-sky-highlight-720.mp4
+Total Number of Links Parsed:  136
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/06/highlights-sparks-610.mp4
+Total Number of Links Parsed:  137
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/09/sparks-dream-highlight-901.mp4
+Total Number of Links Parsed:  138
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/08/sparks-sky-highlight-818.mp4
+Total Number of Links Parsed:  139
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/08/sparks-lynx-highlight-811.mp4
+Total Number of Links Parsed:  140
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/05/access-sparks-highlight-519.mp4
+Total Number of Links Parsed:  141
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/05/sparks-highlights-524.mp4
+Total Number of Links Parsed:  142
+Status: 200
+Total Number of Links Parsed:  143
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/08/sparks-liberty-highlight-804.mp4
+Total Number of Links Parsed:  144
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/06/sparks-highlights-606.mp4
+Total Number of Links Parsed:  145
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/06/access-sparks-highlight-630.mp4
+Total Number of Links Parsed:  146
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/07/access-sparks-stars-highlight-728.mp4
+Total Number of Links Parsed:  147
+Status: 200
+Total Number of Links Parsed:  148
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/07/sparks-storm-highlight-725.mp4
+Total Number of Links Parsed:  149
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/06/access-sparks-highlight-609.mp4
+Total Number of Links Parsed:  150
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/05/sparks-dream-highlights-527.mp4
+Total Number of Links Parsed:  151
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/06/access-sparks-highlight-615.mp4
+Total Number of Links Parsed:  152
+Status: 200
+URL:  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/08/sparks-highlight-822.mp4
+Link is downloadable
+1 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/06/beard-post-606.mp4
+Link is downloadable
+2 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/02/lakeshow-lonzo-bowwow-228.mp4
+Link is downloadable
+3 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/06/parker-602.mp4
+Link is downloadable
+4 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/06/backstage-draft-2018.mp4
+Link is downloadable
+5 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/04/galaxy-highlights-421.mp4
+Link is downloadable
+6 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/07/galaxy-highlights-707.mp4
+Link is downloadable
+7 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/06/sparks-highlights-606.mp4
+Link is downloadable
+8 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/08/sparks-sky-highlight-818.mp4
+Link is downloadable
+9 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/02/access-hart-injury-228.mp4
+Link is downloadable
+10 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/06/access-lakers-walton-621.mp4
+Link is downloadable
+11 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/05/access-galaxy-highlights-521.mp4
+Link is downloadable
+12 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/01/lq-trivia-126.mp4
+Link is downloadable
+13 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/10/metta-lakeshow-1024.mp4
+Link is downloadable
+14 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/04/access-lakers-worthy-chair-425.mp4
+Link is downloadable
+15 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/02/access-lonzo-221-2.mp4
+Link is downloadable
+16 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/06/sparks-vs-fever-highlights-0619.mp4
+Link is downloadable
+17 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/05/access-galaxy-highlight-530.mp4
+Link is downloadable
+18 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/07/lakers-highlights-707.mp4
+Link is downloadable
+19 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/06/sparks-highlight-615.mp4
+Link is downloadable
+20 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/06/magic-post-626.mp4
+Link is downloadable
+21 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/05/access-galaxy-510.mp4
+Link is downloadable
+22 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/06/access-sparks-highlight-630.mp4
+Link is downloadable
+23 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/07/wagner-post-708.mp4
+Link is downloadable
+24 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/01/galaxy-training-camp-1-web.mp4
+Link is downloadable
+25 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/05/access-lakers-coon-randle.mp4
+Link is downloadable
+26 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/05/sparks-highlights-524.mp4
+Link is downloadable
+27 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/09/sparks-game3-highlights-929.mp4
+Link is downloadable
+28 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/07/sparks-sky-highlight-720.mp4
+Link is downloadable
+29 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/07/access-lakers-highlight-705.mp4
+Link is downloadable
+30 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/05/access-serrano-517.mp4
+Link is downloadable
+31 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/05/highlights-galaxy-dynamo.mp4
+Link is downloadable
+32 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/04/lakers-vs-rockets-highlights-0410.mp4
+Link is downloadable
+33 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/11/lakeshow-10-things-1107.mp4
+Link is downloadable
+34 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/09/sparks-vs-mercury-recap-913.mp4
+Link is downloadable
+35 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/11/lakeshow-lonzo-stats-1120.mp4
+Link is downloadable
+36 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/05/top10-dunks-503.mp4
+Link is downloadable
+37 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/04/access-lakers-coon1-new-427.mp4
+Link is downloadable
+38 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/06/nneka-610.mp4
+Link is downloadable
+39 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/07/lakers-highlights-703.mp4
+Link is downloadable
+40 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/07/james-worthy-lebron-701.mp4
+Link is downloadable
+41 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/05/access-sparks-510.mp4
+Link is downloadable
+42 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/04/thomas-post-surgery-409.mp4
+Link is downloadable
+43 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/02/lakeshow-skills-challenge.mp4
+Link is downloadable
+44 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/04/access-lakers-coon2-419.mp4
+Link is downloadable
+45 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/08/sparks-liberty-highlight-804.mp4
+Link is downloadable
+46 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/06/access-lakeres-randle-627.mp4
+Link is downloadable
+47 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/06/access-lakers-draft-priorities.mp4
+Link is downloadable
+48 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/07/wagner-post-702.mp4
+Link is downloadable
+49 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/07/salary-cap-access-702.mp4
+Link is downloadable
+50 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/06/full-rookie-press-626.mp4
+Link is downloadable
+51 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/09/sparks-dream-highlight-901.mp4
+Link is downloadable
+52 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/06/highlights-sparks-610.mp4
+Link is downloadable
+53 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/04/best-of-access.mp4
+Link is downloadable
+54 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/07/access-galaxy-coaching-change-new-727.mp4
+Link is downloadable
+55 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/06/access-sparks-highlight-615.mp4
+Link is downloadable
+56 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/02/lakeshow-harlem-globetrotters.mp4
+Link is downloadable
+57 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/06/access-lakers-mo-analysis-621.mp4
+Link is downloadable
+58 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/07/highlights-lakers-702.mp4
+Link is downloadable
+59 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/03/galaxy-nycfc-highlights-311.mp4
+Link is downloadable
+60 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/08/sparks-lynx-highlight-811.mp4
+Link is downloadable
+61 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/07/sparks-storm-highlight-725.mp4
+Link is downloadable
+62 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/05/access-lakers-worthy-531.mp4
+Link is downloadable
+63 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/08/sparks-highlight-822.mp4
+Link is downloadable
+64 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/06/zlatan-post-609.mp4
+Link is downloadable
+65 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/10/lakeshow-lopez-bros-1009.mp4
+Link is downloadable
+66 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/05/access-sparks-highlight-519.mp4
+Link is downloadable
+67 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/05/randle-feature.mp4
+Link is downloadable
+68 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/05/access-galaxy-531.mp4
+Link is downloadable
+69 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/02/access-lakers-trade.mp4
+Link is downloadable
+70 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/06/svi-626.mp4
+Link is downloadable
+71 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/02/lakers-waive-brewer-228.mp4
+Link is downloadable
+72 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/03/zlatan-ibrahimovic-signs-galaxy-323.mp4
+Link is downloadable
+73 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/06/nneka-602.mp4
+Link is downloadable
+74 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/06/sparks-wings-highlight-627.mp4
+Link is downloadable
+75 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/06/wagner-626.mp4
+Link is downloadable
+76 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/06/access-sparks-highlight-609.mp4
+Link is downloadable
+77 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/07/fisher-reacts-701.mp4
+Link is downloadable
+78 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/07/sparks-highlights-707.mp4
+Link is downloadable
+79 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/07/access-sparks-stars-highlight-728.mp4
+Link is downloadable
+80 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/04/access-lakers-coon1-419.mp4
+Link is downloadable
+81 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/04/lakers-vs-clippers-highlights-0411.mp4
+Link is downloadable
+82 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/06/highlights-sparks-612.mp4
+Link is downloadable
+83 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/06/galaxy-highlights-609.mp4
+Link is downloadable
+84 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/05/Sparks-season-opener-517.mp4
+Link is downloadable
+85 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/07/galaxy-jonathan-dos-santos.mp4
+Link is downloadable
+86 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/07/lakers-highlights-708.mp4
+Link is downloadable
+87 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2017/05/sparks-dream-highlights-527.mp4
+Link is downloadable
+88 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/07/galaxy-highligts-704.mp4
+Link is downloadable
+89 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/07/coming-to-la-intro-701.mp4
+Link is downloadable
+90 :  http://ns11.ns.twc.com.edgesuite.net/rsn/SportsNet/2018/04/galaxy-red-bulls-highlights.mp4

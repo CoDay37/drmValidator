@@ -1,12 +1,14 @@
-#from selenium import webdriver
-#from selenium.webdriver.common.keys import Keys
 import requests
 from selenium import webdriver
+from selenium.webdriver.support import ui
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
 import re
 """
 driver = webdriver.Firefox()
 driver.get("http://www2.solarmoviesc.com/")
-elem = driver.find_element_by_class_name("form-control")
+elem = driver.find_element_by_class_name("form-control")12
+
 elem.clear()
 elem.send_keys("Infinity Wars")
 elem = driver.find_element_by_tag_name("button")
@@ -15,17 +17,33 @@ elem = driver.find_elements_by_class_name("m1-item")
 #
 #"""
 headers = 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.2526.73 Safari/537.36'
-site = 'http://www.spectrumsportsnet.com/videos/2018/07/james-worthy-reacts-to-lebron-james-coming-to-lakers'
+site = 'http://www.spectrumsportsnet.com/videos/livetv/player'
+site2 = 'http://watch.foodnetwork.com/live/?ic1=TVE_FN_Videos-textlink'
+site3 = 'http://watch.hgtv.com/live/?ic1=TVE_HGTV_Shows-ChannelPage-RightRail'
+site4 = 'http://www.dishanywhere.com/networks/tennis_channel_235'
 
+site5 = 'https://idp.aws.spectrum.net/openam/SSOPOST/metaAlias/charter/idp?SAMLRequest=nVhJl6LYEt77K%2FLYS08mg6jgqcw%2BlxkVZVRhx3AFlEEZRPj1DzXTZ1Xl69fdCxY3iPhi5kbw489LEr%2BcYV5EWfrex97Q%2FgtMvcyP0uC9bxr8K9n%2F86P3o3CSGD9OQVWGqQZPFSzKF1AUMC87OSZLiyqBuQ7zc%2BRBU1u898OyPBZTBCmOb04n9Ob4mQvfvCzpKMgVDdGBvPgNov%2FCdtBR6pQ3e75QIr%2BDqYs3L3TyEuZvKSynBDFEsiNMnQTR9ZWy0g0kgaUD4sgpkE%2FGq2D%2Fhc9yD95Mf%2B%2BXeQX7LxL73ndG%2BC4c%2BuTYGe0oPyB8chcF6M51J74zDDueQnGKIjrD9%2F7OiYurVFFUUEqL0knL9z6OYuQrOnnFMAOjphg6Ram3IUXa%2FRclz8rMy2I6Su9xrPJ0mjlFVEw7a2ExLb3p1fsp%2FoZO3TtTMRUNQ3m9utF%2FWX%2FlA7%2Fmo8tQWkzvGfhrrOOn4v7HPWHTm8X5M8JfAzhf%2Beh%2FPBLYSb39lsUfyLOCjx9%2BMdWjoEtblcNPdX5xz1%2BHUdf1Wz18y%2FIAwVEURVAK6Xj8Igr%2B6D9koS%2Blu%2Bx2ZJw0SyPPiaP2VggyLMPMfwFxkOVRGSb%2FAxhDMPQK%2FAov3quHEekffeRn0%2F4m0E8W5oXzWoQO9omlwR3MuxaBL6Ymvff%2F%2BD9ldJMxcictdlmeFD8f%2F5khMD3DuKt4%2F7X48ufTpr8P%2BH2IkN9tZKOga8R%2FE6%2BnWN1B1k5cwY%2FcMRrmaNXsGhkN5qUEzaYhrbFejoj3mwHPzDfCI9L34y818sjpXSLBtaNe1FpSib5AqsVC1kdYdihjkAEVGbnbTAXbkhxGerNK7ePAHBzy%2BDyZbSOcPAhMap23zDi6bB0HkiNM1yZz4XLJ6QO%2FrvbWEnIFbQQNwvCLcmaSHk2cm1gfajYxbzA3OTWNKPNJ1n0ALXuhkYEdeRUx0DfnYp826dxa6sMjtVttlxnLs7oZKcOJvB8rrkbrBnQ52ccHjkEz27NGKc5y4e%2B3q4KxmgMDCfyQHpE5oyuGB0RFPA%2FGHij31gjZMpeTwMrcVq9n2dJmGarg0IFvT8a5yOFbvj1pdTC62Kgg81kmK3i8bgfylrKpIZftuSYYahGwLsranlUI3sQR15CsjSzS2PSzJbxcvBK8vz9C%2FxTra%2FjnsHmkYjtCKdYpnceBuX5Edl0Dl%2FBDliSebRkGIDAAtUSDQFKV1eki6GNtxmeamFS8gBIVYoAlHRxO4SESqBqlgVrwgKUHslrUjGqxa1UVelw9W5st58t0IQDM5JhQNs1hXFqbEWpv5EDFqcYTqMbaakcXJy5iC3w6WK5pUBh8vBy5G77yhfVe4rWm52%2BXqMSNYl%2F0z15SXBYtKO%2FMsjF7ZuaWhbVdthIrBya%2B3vvbWSzxy9hL7diLaFbVQdmTOA%2BVaWLLGhwms16zbEEts93DZ1cacadJ7dI4YKt1Vgf24cK0YHZXaBkgXhuyJtdc52qv81ViwZG1NpejnVCNm8ShrHE1W9%2FiILIgNKwNEegJ1doGt5cZ7h6OoHbUjXa2EjPowtJ21pc9r6FnbrI8eynducl3cVIvHYLzGReZw%2BjG2WCxL8Sl3bki8XToDeVgzVtP8ZNlPl2GPXdTV94QVNZ2jTrMKLQFKrL10d7F0ToIuEgGqMDoJ0GX3CGrcl0WTQAIiWZrcH0%2FB1lXASor2IWU9%2BZWEFOYFZUVVIOJqZ1F8bKqKhietuIcQ1QyRLLBCRGHXjJ3g5oqFcgpgsWEO0vcKBuSzwvgEmdyFtDznrSzTdGaMVAbuIcN2VwUauSRIemx%2BQXuwsOOQcAuviietZu0zWxBCkqbkKudmfoIba4ibW2uhHk9qVyy6Q3ooymkw%2FOsEtbVAGXYmC%2BDpkvKpHUIZ7Uxd7yLpIrit0lMLXX8JHLRZViRwFoMeJYYj%2FdjIIumZ4gjq4cVZ5BuDHszw%2FcQOxyPhFsJymSPcOVADs2c8UlITIY6DuujwO%2BqBe9gpJkP1aC5CGeZXZSnzE%2FGxlZr6N5pTKkC6pu4sNT3dXW2UVDzuDaSObReRJQLApkGQNgHAZ93rUfbLQivGRQ1jhP2wApCu7U2WLFIl3VvkfCYLwSVda%2BZysKpUgaHay35XK0yMgA1G3Q1p6EKUEXkmjoQbDoV6I1npqobmVYFhimEXpdqnq5lmg6CnA44nlY9Fuzpu3YdcJs9bcm8JdAJpFnAMd07WWbkm%2FBdVqL50M98Uat7XpudF7ja1VrX3Lh0s2yBL2uvBfGTgg4E2MKn0Lcyw1nd67prd7dC5gQWbAJa21kyFR747S7kZDNKwKk4r8cUJ1uTFuT3eJHcjAWRzDCBeAJeGB7vlq0i8ty1xy9alu0iWTYuS2%2BfrOvCpS1k7lCLtSXNa4umVVOUgSBweIj6Ihj3Fg3Ves2ohRtsbzP3NpoFz8xzQUjuzM%2B8VnTjvRliDWfote16z33H1Pe%2BAyrIZ%2BPartci7de%2BNBar9aj0OHUsN8SR4I%2FZjEkjo%2FCJtaGQ2kRk8mjOUMeev4HUXiMRi1zlx0vBosQFL6k9PcJ2urJoXHwgzNCGWLM78az6vsg6JhrgSuUsvLVC24ultfQXlubGJhH1Bl2f1PJhPR%2BTFnAGKwEKNU4sjTYnDOBxRya2Jf0ERptsuBWjhLaFXfe5Fng1RA%2B7ho%2FXhQP2E6dKXbLsmTZI6nkyULoFYBzNitFCYnfjaAcRC5b8amRRBpMQZnvccxmpyzFvOe4pOrWluL44mMaSYwafVH43LkT7nlln1DGu45Je1GRRuw4RrLZsWeGe1d0zyr6JDMnbl5W7zpTjdjgfbkZt0y6ZlYRGt6vx1%2BvuQbxfiMjzVfnTVfrxtVNxlxKm13G%2FG7y8OIJpOfWyNIXedfKVlM9p%2Bv7mPr1%2FckXpdVy7Dcj3CR4%2BkPofeLeN4MM3HEPf8B%2FIN7gfP7LYc6Y%2BvK5sRnP8Gtuv1E81jhvD2HHvtP7H77Qp9oZ9IryWHcT06P1AfoH9xikdev9dE%2F6pY7dd7BuP7qAPbXcDlNgpb3Pxv9O16XazrC4e2n4G%2Fcazpzj%2BU11mekizOv3Gs3sUkW%2FK5ZO07PY4iVWyOPKablaPs5rJYVeMX9suf9P615vflRL5r3cDp%2BV1Gbia0X%2FRlSu8WnXL2C6C%2BdNm%2F%2B1i%2BK%2FWVeThiu5lx24bfpw%2F%2FzXAXGI%2FjE03Ba80Q19yxiMczwwP4gMF%2Bea%2Fxcd%2FAA%3D%3D&RelayState=KYTwUgVgJgEg1gSwPILAaQGoEYCKCAyAwmADYBGAtgLLKoBCVEAqgEwBKADAHJcCSCAdwQBNAOoAPAHa8IAewQAtAOIkQvSRwB0mgLR0AghBISAbIQoIALABUAGmwBumkBQDKYAKIAzDB9FYdUQBmAFZ9AFcsAC8uVyiEAAsQABEMDAgvYEJksBNJAXCSJQBnEAxZFgRiy3EcMlFJOmKAY2EmLwAHEgETEA5LAH0AFx0OqjgKfQBOUWFkyw6EhS4WfQ8kChMOcKUWAEMEqcsQAA4vMFs0VwEBADEPJT2ABTISVw4YW73knR0BtnEmDcOCgLCo4Qoe3CACcqGQOjAcMUBmBiqI4AJXMJbq5krYvCcAOYQMhMXg4KLAVzWBJkrjhcJQVx7DjJJCuMggJgnGCSHQQawQQiyYT6BwDLgIKYUQgIKjAWTJdRBACOligXDQ-nCokI0K4OBOyX0XlukjQHUsbAehIoHRAQUIMGhMCmIAQdBArmACgG4gEOAGJzQaC4AiexUWej2AnElh01nEwg41jIDmalg8DmAFBV4johS8ZAN7hwdAokgSCTI1i4zSiFHSvDubCwaVs0KQHSGLAMGC8ISGXhgLCCMBOWBgAHZeEhbGAVXAgs1odCBjhBjswHQp1hwg5oSwkFM9oSvAI6AIHFBbBAEoQ0M0KAopgMpmhbAxgLxeAokDB3SgNgMAcUQFFEUQQHEaElC8ZoqCnLgOl4J4TBCIIBF7QlJBIKZXCeBYqEIUQTg8HASH0MA4D2FEOigMAmA4YRrAEWBblEDoohsKZkiiDAKCmQkpiUYB9CGKAGTIKYvDgQg2BVac6gSXgdCQFUKGKEw6FsJgIGAJgpjgDoKDgfQThALSPEJDAuNufRRDlLApLQZJZCYRQomqaw0EsZJwm9BJbg4fQFAEE5LBOIY2D0tAlCgYRbDgBQPCYZJrCiawVToNBZCgKIpnwZIPGsfQBBIZo2CiFhmhVLwoBILhoVuBIHDYIJvRgJ5RAoXgmC4EzJCJaF8BAEIpw8EBJFcLx9F%2BZpmjIJRCSnHQlGrOsPBOfA4HEJQMAGeMcBofQKrgJ5hA0ug6AGAYOluWxbA8SqWAcKIOlkCAuQccKsAo6wnWKHATCGNwyCgfQ0BIOgHCUKZJCefR8BCAQQj6p5xFcE4mFPDxhAUFU9n0EIdBVIIHEIARoR0ChZHCbdqQSfAPxCNhmqQLAIA4KAcB8phCCGAZ9EIfKojALg6BIHA4EsWGOGmhJmmKJAQgcAQsF%2BlgOASOsoGaDIXqmJ58DoDxNAgUQxY8LAVXCPM0RNqBWuhHDCX0IA&redir=true'
+site6 = 'https://www.discovery.com/watch/discovery'
+site7 = 'https://www.epix.com/series/deep-state/season/1/episode/1/old-habits?play=true'
 
-
+userNameLogin = ''
+passwordLogin = ''
 
 browser = webdriver.Chrome()
-browser.get(site)
-html = browser.page_source
-print(type(html))
-links = re.findall('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', html)
+browser.get(site7)
+
+htmlcode = browser.page_source
+"""print(type(htmlcode))
+print(htmlcode)
+"""
+#browser.find_element_by_class_name("nav-link").click()
+browser.find_element_by_class_name("nav-link").click()
+
+
+htmlcode = browser.page_source
+
+"""links = re.findall('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', html)
 for url in links:
     if ("ns11.ns.twc") in url:
         print(url)
-#browser.close()
+#browser.close()"""

@@ -1,4 +1,5 @@
 from requests.exceptions import MissingSchema
+from selenium.webdriver import ActionChains
 from bs4 import BeautifulSoup, SoupStrainer
 from selenium import webdriver
 import requests
@@ -13,7 +14,7 @@ payload = {'key': 'value1', 'key2': 'value2'}
 unCheckedLinks = set()
 parseHTML = set()
 videoLinks = set()
-totalL = 0
+totalL = 1
 post = False
 base_URL = 'http://www.spectrumsportsnet.com'
 
@@ -36,15 +37,16 @@ payload2 = {#CHARTER
     'gx_charset':'UTF-8'
 }
 
-def getVideoSource(videoSet):
+def getVideoSource(site):
         browser = webdriver.Chrome()
         browser.get(site)
         html = browser.page_source
-        print(type(html))
+        browser.close()
         links = re.findall('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', html)
         for url in links:
                 if ("ns11.ns.twc") in url:
-                print(url)
+                        print("URL: ", url)
+                        videoLinks.add(url)
 
 def findLinks(link):
         with requests.Session() as s:
@@ -56,7 +58,6 @@ def findLinks(link):
                         r = requests.get(link, headers={'User-Agent': USER_AGENT})
                 data = r.content #Get html content
                 soup = BeautifulSoup(data,'html.parser')
-                print(soup.prettify)
                 global totalL
                 print("Total Number of Links Parsed: ", totalL)
                 totalL+=1
@@ -76,21 +77,50 @@ def findLinks(link):
                                 unCheckedLinks.add(sLink)                  
                         else:
                                 continue
+                
                 for element in unCheckedLinks: # will have to adjust for links without video in URL
-                        if '/videos/' in element:
+                        if ('/videos/' in element) or (base_URL in element):
                                 parseHTML.add(element)
                         
                 unCheckedLinks.clear()
 
+def downloadVideo(url):
+        """browser = webdriver.Chrome()
+        browser.get(site)
+        actionChains = Action2"""
+        r = requests.head(url)
+        header = r.headers
+        content_type = header.get('content-type')
+        if 'text' in content_type.lower():
+                return False
+        elif 'html' in content_type.lower():
+                return False
+        else:
+                return True
+
+
 def controller(url):
         findLinks(url)
         linksChecked = set() ##Going to hold all links parsed and checked
-        for link in parseHTML:
-                linksChecked.add(link)
+        keepLooping = True
+        while keepLooping:
+                holdingLinks = parseHTML.copy()
+                for link in holdingLinks:
+                        linksChecked.add(link)
+                        findLinks(link)
+                        getVideoSource(link)
+                for link in linksChecked:
+                        parseHTML.discard(link)
+                if(len(parseHTML) == 0):
+                        keepLooping = False
+                
         
-        
-        
-        
+        counter = 1
+        for element in videoLinks:
+                if (downloadVideo(element)) == True:
+                        print("Link is downloadable")
+                print(counter, ': ', element)
+                counter+=1
         
         
         
