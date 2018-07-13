@@ -18,7 +18,6 @@ totalL = 1
 post = False
 base_URL = 'http://www.spectrumsportsnet.com'
 
-
 payload = {#For Xfinity
     'user': 'nctatech',
     'passwd': 'TechLab!',
@@ -37,6 +36,12 @@ payload2 = {#CHARTER
     'gx_charset':'UTF-8'
 }
 
+def get_Page(url):
+        r = requests.get(url)
+        content = r.content.decode('utf-8')
+        return BeautifulSoup(content, 'html.parser')
+
+
 def getVideoSource(site):
         browser = webdriver.Chrome()
         browser.get(site)
@@ -47,6 +52,12 @@ def getVideoSource(site):
                 if ("ns11.ns.twc") in url:
                         print("URL: ", url)
                         videoLinks.add(url)
+
+def readOver(data):
+        r.requestorID("https://")
+        if(r.equals("http://"))#GET RID OFF
+                r.post(site, parameters)
+
 
 def findLinks(link):
         with requests.Session() as s:
@@ -85,9 +96,6 @@ def findLinks(link):
                 unCheckedLinks.clear()
 
 def downloadVideo(url):
-        """browser = webdriver.Chrome()
-        browser.get(site)
-        actionChains = Action2"""
         r = requests.head(url)
         header = r.headers
         content_type = header.get('content-type')

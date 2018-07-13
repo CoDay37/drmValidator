@@ -119,3 +119,588 @@ IPDL protocol error: Handler returned error code!
 
 ###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
 
+1531427219009	geckodriver	INFO	geckodriver 0.21.0
+1531427219015	geckodriver	INFO	Listening on 127.0.0.1:34661
+1531427220027	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.YCVjOqXDKa6j"
+1531427222982	Marionette	INFO	Listening on port 44165
+1531427223065	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://idp.aws.spectrum.net/openam/charter_ui/default/js/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1531427243573	geckodriver	INFO	geckodriver 0.21.0
+1531427243582	geckodriver	INFO	Listening on 127.0.0.1:49099
+1531427244581	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vePO9M0CLBc0"
+1531427247261	Marionette	INFO	Listening on port 45393
+1531427247361	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://idp.aws.spectrum.net/openam/charter_ui/default/js/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1531428044031	geckodriver	INFO	geckodriver 0.21.0
+1531428044037	geckodriver	INFO	Listening on 127.0.0.1:46889
+1531428045036	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.5uiHZPpgOL1D"
+1531428048459	Marionette	INFO	Listening on port 40773
+1531428048558	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://idp.aws.spectrum.net/openam/charter_ui/default/js/jquery-1.10.2.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2D001A,name=PContent::Msg_RegisterChromeItem) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x160001,name=PBrowser::Msg_AsyncMessage) Channel error: cannot send/recv
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  SessionStore: flushing all windows
+          Phase: quit-application-granted
+          State: {"total":-1,"current":-1}
+WARNING: [Exception... "Unexpected error"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource:///modules/sessionstore/TabStateFlusher.jsm :: flush :: line 85"  data: no]
+WARNING: flush@resource:///modules/sessionstore/TabStateFlusher.jsm:85:5
+flushWindow@resource:///modules/sessionstore/TabStateFlusher.jsm:108:23
+flushWindow@resource:///modules/sessionstore/TabStateFlusher.jsm:31:12
+flushAllWindowsAsync@resource:///modules/sessionstore/SessionStore.jsm:1681:34
+ssi_onQuitApplicationGranted/<@resource:///modules/sessionstore/SessionStore.jsm:1624:27
+trigger@resource://gre/modules/AsyncShutdown.jsm:710:23
+_wait@resource://gre/modules/AsyncShutdown.jsm:857:7
+wait@resource://gre/modules/AsyncShutdown.jsm:841:28
+observe@resource://gre/modules/AsyncShutdown.jsm:524:17
+
+1531494666797	geckodriver	INFO	geckodriver 0.21.0
+1531494666809	geckodriver	INFO	Listening on 127.0.0.1:58607
+1531494667804	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.YyBDvP6oF082"
+1531494672855	Marionette	INFO	Listening on port 33527
+1531494672930	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1531494688421	geckodriver	INFO	geckodriver 0.21.0
+1531494688431	geckodriver	INFO	Listening on 127.0.0.1:36795
+1531494689429	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.JR1sw29gEbjw"
+1531494691604	Marionette	INFO	Listening on port 37531
+1531494691684	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.fsgstatic.com/builds/site-core/f5f8478dbae0e2ea48dfa7a1d00f2bdf775f9aa3_1529954080/scripts/site-core.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://www.fsgstatic.com/sections/video/builds/2602c4d0d3f6c859fbc15a5c8a2f9e8af3f5ca5a_1529697611/scripts/index-desktop.js, line 36: TypeError: self.onPlayMedia is not a function
+[Parent 9103, Gecko_IOThread] WARNING: pipe error (101): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1531494727429	geckodriver	INFO	geckodriver 0.21.0
+1531494727435	geckodriver	INFO	Listening on 127.0.0.1:33731
+1531494728435	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.EaZG9ES7299q"
+1531494731464	Marionette	INFO	Listening on port 37689
+1531494731498	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.fsgstatic.com/builds/site-core/f5f8478dbae0e2ea48dfa7a1d00f2bdf775f9aa3_1529954080/scripts/site-core.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://www.fsgstatic.com/sections/video/builds/2602c4d0d3f6c859fbc15a5c8a2f9e8af3f5ca5a_1529697611/scripts/index-desktop.js, line 47: TypeError: this.feedItems is undefined
+JavaScript warning: https://www.fsgstatic.com/builds/site-core/f5f8478dbae0e2ea48dfa7a1d00f2bdf775f9aa3_1529954080/scripts/site-core.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1531496584453	geckodriver	INFO	geckodriver 0.21.0
+1531496584458	geckodriver	INFO	Listening on 127.0.0.1:47509
+1531496585461	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.17JKBFfR8qFY"
+1531496588562	Marionette	INFO	Listening on port 37043
+1531496588626	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.fsgstatic.com/builds/site-core/f5f8478dbae0e2ea48dfa7a1d00f2bdf775f9aa3_1529954080/scripts/site-core.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://www.fsgstatic.com/sections/video/builds/2602c4d0d3f6c859fbc15a5c8a2f9e8af3f5ca5a_1529697611/scripts/index-desktop.js, line 36: TypeError: self.onPlayMedia is not a function
+WebGL(0x7f0d43ea5800)::ForceLoseContext
+WebGL(0x7f0d45ebc000)::ForceLoseContext
+1531504393051	geckodriver	INFO	geckodriver 0.21.0
+1531504393056	geckodriver	INFO	Listening on 127.0.0.1:45423
+1531504394055	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rV3KQqoB6k0n"
+1531504396812	Marionette	INFO	Listening on port 39353
+1531504396907	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.fsgstatic.com/builds/site-core/f5f8478dbae0e2ea48dfa7a1d00f2bdf775f9aa3_1529954080/scripts/site-core.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://www.fsgstatic.com/sections/video/builds/2602c4d0d3f6c859fbc15a5c8a2f9e8af3f5ca5a_1529697611/scripts/index-desktop.js, line 36: TypeError: self.onPlayMedia is not a function
+1531504472252	geckodriver	INFO	geckodriver 0.21.0
+1531504472264	geckodriver	INFO	Listening on 127.0.0.1:52065
+1531504473259	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Dpi83HSE5fep"
+1531504477014	Marionette	INFO	Listening on port 33733
+1531504477055	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.fsgstatic.com/builds/site-core/f5f8478dbae0e2ea48dfa7a1d00f2bdf775f9aa3_1529954080/scripts/site-core.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: https://www.fsgstatic.com/sections/video/builds/2602c4d0d3f6c859fbc15a5c8a2f9e8af3f5ca5a_1529697611/scripts/index-desktop.js, line 48: Error: Request blocked by client, probably adblock
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2D00B0,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2D00B0,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2D00B0,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2D00B0,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x550016,name=PNecko::Msg_PredLearn) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2D00B0,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2D00B0,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2D00B0,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1531509600466	geckodriver	INFO	geckodriver 0.21.0
+1531509600471	geckodriver	INFO	Listening on 127.0.0.1:50855
+1531509602712	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.b8mHTRbokRus"
+1531509602919	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider", "XPIInternal"]
+1531509602929	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1531509602952	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+1531509602956	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+1531509602958	addons.manager	DEBUG	Starting provider: XPIProvider
+1531509602960	addons.xpi	DEBUG	startup
+1531509602961	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1531509602961	addons.xpi	DEBUG	checkForChanges
+1531509602964	addons.xpi	DEBUG	Loaded add-on state: {"app-system-defaults":{"addons":{"activity-stream@mozilla.org":{"enabled":true,"lastModifiedTime":1530726180000,"path":"activity-stream@mozilla.org.xpi","telemetryKey":"activity-stream%40mozilla.org:2018.06.29.1026-fa231556","version":"2018.06.29.1026-fa231556","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"aushelper@mozilla.org":{"enabled":true,"lastModifiedTime":1530726180000,"path":"aushelper@mozilla.org.xpi","telemetryKey":"aushelper%40mozilla.org:2.0","version":"2.0","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"firefox@getpocket.com":{"enabled":true,"lastModifiedTime":1530726180000,"path":"firefox@getpocket.com.xpi","telemetryKey":"firefox%40getpocket.com:1.0.5","version":"1.0.5","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"followonsearch@mozilla.com":{"enabled":true,"lastModifiedTime":1530726180000,"path":"followonsearch@mozilla.com.xpi","telemetryKey":"followonsearch%40mozilla.com:0.9.7","version":"0.9.7","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"formautofill@mozilla.org":{"enabled":true,"lastModifiedTime":1530726180000,"path":"formautofill@mozilla.org.xpi","telemetryKey":"formautofill%40mozilla.org:1.0","version":"1.0","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"onboarding@mozilla.org":{"enabled":true,"lastModifiedTime":1530726180000,"path":"onboarding@mozilla.org.xpi","telemetryKey":"onboarding%40mozilla.org:1.0","version":"1.0","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"screenshots@mozilla.org":{"enabled":true,"lastModifiedTime":1530726180000,"path":"screenshots@mozilla.org.xpi","telemetryKey":"screenshots%40mozilla.org:32.1.0","version":"32.1.0","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"webcompat-reporter@mozilla.org":{"enabled":true,"lastModifiedTime":1530726180000,"path":"webcompat-reporter@mozilla.org.xpi","telemetryKey":"webcompat-reporter%40mozilla.org:1.0.0","version":"1.0.0","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"webcompat@mozilla.org":{"enabled":true,"lastModifiedTime":1530726180000,"path":"webcompat@mozilla.org.xpi","telemetryKey":"webcompat%40mozilla.org:2.0","version":"2.0","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":true}},"staged":{},"path":"/usr/lib/firefox/browser/features"},"app-global":{"addons":{"langpack-en-GB@firefox.mozilla.org":{"enabled":true,"lastModifiedTime":1530726180000,"path":"langpack-en-GB@firefox.mozilla.org.xpi","signedState":0,"telemetryKey":"langpack-en-GB%40firefox.mozilla.org:61.0","version":"61.0","type":"webextension-langpack","bootstrapped":true,"dependencies":[],"runInSafeMode":false,"hasEmbeddedWebExtension":false,"startupData":{"chromeEntries":[["locale","necko","en-GB","chrome/en-GB/locale/en-GB/necko/"],["locale","pdf.js","en-GB","browser/chrome/en-GB/locale/pdfviewer/"],["locale","global","en-GB","chrome/en-GB/locale/en-GB/global/"],["locale","onboarding","en-GB","browser/features/onboarding@mozilla.org/en-GB/locale/en-GB/"],["locale","devtools","en-GB","browser/chrome/en-GB/locale/en-GB/devtools/client/"],["locale","pipnss","en-GB","chrome/en-GB/locale/en-GB/pipnss/"],["locale","alerts","en-GB","chrome/en-GB/locale/en-GB/alerts/"],["locale","devtools-startup","en-GB","browser/chrome/en-GB/locale/en-GB/devtools/startup/"],["locale","branding","en-GB","browser/chrome/en-GB/locale/branding/"],["locale","autoconfig","en-GB","chrome/en-GB/locale/en-GB/autoconfig/"],["locale","devtools-shared","en-GB","browser/chrome/en-GB/locale/en-GB/devtools/shared/"],["locale","global-platform","en-GB","chrome/en-GB/locale/en-GB/global-platform/unix/"],["locale","browser-region","en-GB","browser/chrome/en-GB/locale/browser-region/"],["locale","mozapps","en-GB","chrome/en-GB/locale/en-GB/mozapps/"],["locale","pluginproblem","en-GB","chrome/en-GB/locale/en-GB/pluginproblem/"],["locale","formautofill","en-GB","browser/features/formautofill@mozilla.org/en-GB/locale/en-GB/"],["locale","weave","en-GB","chrome/en-GB/locale/en-GB/services/"],["locale","pocket","en-GB","browser/features/firefox@getpocket.com/en-GB/locale/en-GB/"],["locale","places","en-GB","chrome/en-GB/locale/en-GB/places/"],["locale","passwordmgr","en-GB","chrome/en-GB/locale/en-GB/passwordmgr/"],["locale","pippki","en-GB","chrome/en-GB/locale/en-GB/pippki/"],["locale","webcompat-reporter","en-GB","browser/features/webcompat-reporter@mozilla.org/en-GB/locale/en-GB/"],["locale","browser","en-GB","browser/chrome/en-GB/locale/browser/"]],"langpackId":"langpack-en-GB-browser","l10nRegistrySources":{"browser":"browser/"},"languages":["en-GB"]},"currentModifiedTime":1530726180000},"langpack-en-ZA@firefox.mozilla.org":{"enabled":true,"lastModifiedTime":1530726180000,"path":"langpack-en-ZA@firefox.mozilla.org.xpi","signedState":0,"telemetryKey":"langpack-en-ZA%40firefox.mozilla.org:61.0","version":"61.0","type":"webextension-langpack","bootstrapped":true,"dependencies":[],"runInSafeMode":false,"hasEmbeddedWebExtension":false,"startupData":{"chromeEntries":[["locale","necko","en-ZA","chrome/en-ZA/locale/en-ZA/necko/"],["locale","pdf.js","en-ZA","browser/chrome/en-ZA/locale/pdfviewer/"],["locale","global","en-ZA","chrome/en-ZA/locale/en-ZA/global/"],["locale","onboarding","en-ZA","browser/features/onboarding@mozilla.org/en-ZA/locale/en-ZA/"],["locale","devtools","en-ZA","browser/chrome/en-ZA/locale/en-ZA/devtools/client/"],["locale","pipnss","en-ZA","chrome/en-ZA/locale/en-ZA/pipnss/"],["locale","alerts","en-ZA","chrome/en-ZA/locale/en-ZA/alerts/"],["locale","devtools-startup","en-ZA","browser/chrome/en-ZA/locale/en-ZA/devtools/startup/"],["locale","branding","en-ZA","browser/chrome/en-ZA/locale/branding/"],["locale","autoconfig","en-ZA","chrome/en-ZA/locale/en-ZA/autoconfig/"],["locale","devtools-shared","en-ZA","browser/chrome/en-ZA/locale/en-ZA/devtools/shared/"],["locale","global-platform","en-ZA","chrome/en-ZA/locale/en-ZA/global-platform/unix/"],["locale","browser-region","en-ZA","browser/chrome/en-ZA/locale/browser-region/"],["locale","mozapps","en-ZA","chrome/en-ZA/locale/en-ZA/mozapps/"],["locale","pluginproblem","en-ZA","chrome/en-ZA/locale/en-ZA/pluginproblem/"],["locale","formautofill","en-ZA","browser/features/formautofill@mozilla.org/en-ZA/locale/en-ZA/"],["locale","weave","en-ZA","chrome/en-ZA/locale/en-ZA/services/"],["locale","pocket","en-ZA","browser/features/firefox@getpocket.com/en-ZA/locale/en-ZA/"],["locale","places","en-ZA","chrome/en-ZA/locale/en-ZA/places/"],["locale","passwordmgr","en-ZA","chrome/en-ZA/locale/en-ZA/passwordmgr/"],["locale","pippki","en-ZA","chrome/en-ZA/locale/en-ZA/pippki/"],["locale","webcompat-reporter","en-ZA","browser/features/webcompat-reporter@mozilla.org/en-ZA/locale/en-ZA/"],["locale","browser","en-ZA","browser/chrome/en-ZA/locale/browser/"]],"langpackId":"langpack-en-ZA-browser","l10nRegistrySources":{"browser":"browser/"},"languages":["en-ZA"]},"currentModifiedTime":1530726180000}},"staged":{},"path":"/usr/lib/firefox/browser/extensions","checkStartupModifications":true}}
+1531509602966	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+1531509602967	addons.xpi	DEBUG	No changes found
+1531509602979	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi
+1531509602981	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi
+1531509602985	addons.xpi	DEBUG	Calling bootstrap method startup on activity-stream@mozilla.org version 2018.06.29.1026-fa231556
+1531509602986	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/aushelper@mozilla.org.xpi
+1531509602986	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/aushelper@mozilla.org.xpi
+1531509602989	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1531509602989	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/firefox@getpocket.com.xpi
+1531509602990	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/firefox@getpocket.com.xpi
+1531509602994	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1531509603001	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/followonsearch@mozilla.com.xpi
+1531509603002	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/followonsearch@mozilla.com.xpi
+1531509603005	addons.xpi	DEBUG	Calling bootstrap method startup on followonsearch@mozilla.com version 0.9.7
+1531509603006	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/formautofill@mozilla.org.xpi
+1531509603006	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/formautofill@mozilla.org.xpi
+1531509603010	addons.xpi	DEBUG	Calling bootstrap method startup on formautofill@mozilla.org version 1.0
+1531509603011	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/extensions/langpack-en-GB@firefox.mozilla.org.xpi
+1531509603033	addons.xpi	DEBUG	Calling bootstrap method startup on langpack-en-GB@firefox.mozilla.org version 61.0
+1531509603039	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/extensions/langpack-en-ZA@firefox.mozilla.org.xpi
+1531509603040	addons.xpi	DEBUG	Calling bootstrap method startup on langpack-en-ZA@firefox.mozilla.org version 61.0
+1531509603041	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/onboarding@mozilla.org.xpi
+1531509603041	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/onboarding@mozilla.org.xpi
+1531509603044	addons.xpi	DEBUG	Calling bootstrap method startup on onboarding@mozilla.org version 1.0
+1531509603046	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/screenshots@mozilla.org.xpi
+1531509603047	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/screenshots@mozilla.org.xpi
+1531509603050	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 32.1.0
+1531509603050	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/webcompat-reporter@mozilla.org.xpi
+1531509603050	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/webcompat-reporter@mozilla.org.xpi
+1531509603053	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat-reporter@mozilla.org version 1.0.0
+1531509603053	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/webcompat@mozilla.org.xpi
+1531509603053	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/webcompat@mozilla.org.xpi
+1531509603056	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 2.0
+1531509603059	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1531509603060	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1531509603060	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1531509603060	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1531509603060	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1531509603061	addons.manager	DEBUG	Starting provider: GMPProvider
+1531509603064	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1531509603064	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1531509603064	addons.manager	DEBUG	Starting provider: PluginProvider
+1531509603064	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1531509603064	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1531509603065	addons.manager	DEBUG	Completed startup sequence
+1531509604185	addons.xpi-utils	DEBUG	Starting async load of XPI database /tmp/rust_mozprofile.b8mHTRbokRus/extensions.json
+1531509604227	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
+1531509604230	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1531509604232	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1531509604232	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
+1531509604233	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1531509604233	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1531509604233	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1531509604233	addons.xpi	DEBUG	Existing add-on webcompat-reporter@mozilla.org in app-system-defaults
+1531509604233	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1531509604234	addons.xpi	DEBUG	Existing add-on langpack-en-GB@firefox.mozilla.org in app-global
+1531509604234	addons.xpi	DEBUG	Existing add-on langpack-en-ZA@firefox.mozilla.org in app-global
+1531509604234	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+1531509604322	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1531509604326	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1531509604330	addons.xpi-utils	DEBUG	Successfully read XPI database
+1531509604814	Marionette	INFO	Listening on port 34283
+1531509604850	Marionette	WARN	TLS certificate errors will be ignored for this session
+1531509605020	geckodriver	INFO	geckodriver 0.21.0
+1531509605030	geckodriver	INFO	Listening on 127.0.0.1:36571
+*** Blocklist::_preloadBlocklistFile: blocklist is disabled
+1531509606021	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8VCxeAZiJkSX"
+1531509608488	Marionette	INFO	Listening on port 43709
+1531509608586	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.fsgstatic.com/builds/site-core/f5f8478dbae0e2ea48dfa7a1d00f2bdf775f9aa3_1529954080/scripts/site-core.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://www.fsgstatic.com/sections/video/builds/2602c4d0d3f6c859fbc15a5c8a2f9e8af3f5ca5a_1529697611/scripts/index-desktop.js, line 47: TypeError: this.feedItems is undefined
+JavaScript error: https://tags.tiqcdn.com/utag/foxsports/fsgo-web/prod/utag.js, line 106: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data
+JavaScript warning: https://www.fsgstatic.com/builds/site-core/f5f8478dbae0e2ea48dfa7a1d00f2bdf775f9aa3_1529954080/scripts/site-core.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: resource:///modules/ContentMetaHandler.jsm, line 155: NS_ERROR_ILLEGAL_VALUE: 
+JavaScript error: https://www.fsgstatic.com/builds/site-core/f5f8478dbae0e2ea48dfa7a1d00f2bdf775f9aa3_1529954080/scripts/site-core.js, line 19: Error: Script error for "//www.fsgstatic.com/builds/site-core/f5f8478dbae0e2ea48dfa7a1d00f2bdf775f9aa3_1529954080/scripts/site-desktop.js"
+http://requirejs.org/docs/errors.html#scripterror
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1531509635149	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 2.0
+1531509635152	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat-reporter@mozilla.org version 1.0.0
+1531509635154	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 32.1.0
+1531509635166	addons.xpi	DEBUG	Calling bootstrap method shutdown on onboarding@mozilla.org version 1.0
+1531509635168	addons.xpi	DEBUG	Calling bootstrap method shutdown on langpack-en-ZA@firefox.mozilla.org version 61.0
+1531509635177	addons.xpi	DEBUG	Calling bootstrap method shutdown on langpack-en-GB@firefox.mozilla.org version 61.0
+1531509635185	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1531509635188	addons.xpi	DEBUG	Calling bootstrap method shutdown on followonsearch@mozilla.com version 0.9.7
+1531509635192	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1531509635192	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+1531509635193	addons.xpi	DEBUG	Calling bootstrap method shutdown on activity-stream@mozilla.org version 2018.06.29.1026-fa231556
+1531509635311	addons.manager	DEBUG	shutdown
+1531509635316	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1531509635317	addons.xpi	DEBUG	shutdown
+1531509635317	addons.xpi-utils	DEBUG	shutdown
+1531509635317	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1531509635317	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1531509635318	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1531509635327	addons.manager	DEBUG	Async provider shutdown done
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1531509713202	geckodriver	INFO	geckodriver 0.21.0
+1531509713208	geckodriver	INFO	Listening on 127.0.0.1:60875
+1531509715613	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8M9ikgVyULVu"
+1531509715840	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider", "XPIInternal"]
+1531509715850	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1531509715874	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+1531509715877	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+1531509715879	addons.manager	DEBUG	Starting provider: XPIProvider
+1531509715880	addons.xpi	DEBUG	startup
+1531509715881	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1531509715884	addons.xpi	DEBUG	checkForChanges
+1531509715884	addons.xpi	DEBUG	Loaded add-on state: {"app-system-defaults":{"addons":{"activity-stream@mozilla.org":{"enabled":true,"lastModifiedTime":1530726180000,"path":"activity-stream@mozilla.org.xpi","telemetryKey":"activity-stream%40mozilla.org:2018.06.29.1026-fa231556","version":"2018.06.29.1026-fa231556","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"aushelper@mozilla.org":{"enabled":true,"lastModifiedTime":1530726180000,"path":"aushelper@mozilla.org.xpi","telemetryKey":"aushelper%40mozilla.org:2.0","version":"2.0","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"firefox@getpocket.com":{"enabled":true,"lastModifiedTime":1530726180000,"path":"firefox@getpocket.com.xpi","telemetryKey":"firefox%40getpocket.com:1.0.5","version":"1.0.5","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"followonsearch@mozilla.com":{"enabled":true,"lastModifiedTime":1530726180000,"path":"followonsearch@mozilla.com.xpi","telemetryKey":"followonsearch%40mozilla.com:0.9.7","version":"0.9.7","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"formautofill@mozilla.org":{"enabled":true,"lastModifiedTime":1530726180000,"path":"formautofill@mozilla.org.xpi","telemetryKey":"formautofill%40mozilla.org:1.0","version":"1.0","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"onboarding@mozilla.org":{"enabled":true,"lastModifiedTime":1530726180000,"path":"onboarding@mozilla.org.xpi","telemetryKey":"onboarding%40mozilla.org:1.0","version":"1.0","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"screenshots@mozilla.org":{"enabled":true,"lastModifiedTime":1530726180000,"path":"screenshots@mozilla.org.xpi","telemetryKey":"screenshots%40mozilla.org:32.1.0","version":"32.1.0","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"webcompat-reporter@mozilla.org":{"enabled":true,"lastModifiedTime":1530726180000,"path":"webcompat-reporter@mozilla.org.xpi","telemetryKey":"webcompat-reporter%40mozilla.org:1.0.0","version":"1.0.0","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"webcompat@mozilla.org":{"enabled":true,"lastModifiedTime":1530726180000,"path":"webcompat@mozilla.org.xpi","telemetryKey":"webcompat%40mozilla.org:2.0","version":"2.0","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":true}},"staged":{},"path":"/usr/lib/firefox/browser/features"},"app-global":{"addons":{"langpack-en-GB@firefox.mozilla.org":{"enabled":true,"lastModifiedTime":1530726180000,"path":"langpack-en-GB@firefox.mozilla.org.xpi","signedState":0,"telemetryKey":"langpack-en-GB%40firefox.mozilla.org:61.0","version":"61.0","type":"webextension-langpack","bootstrapped":true,"dependencies":[],"runInSafeMode":false,"hasEmbeddedWebExtension":false,"startupData":{"chromeEntries":[["locale","necko","en-GB","chrome/en-GB/locale/en-GB/necko/"],["locale","pdf.js","en-GB","browser/chrome/en-GB/locale/pdfviewer/"],["locale","global","en-GB","chrome/en-GB/locale/en-GB/global/"],["locale","onboarding","en-GB","browser/features/onboarding@mozilla.org/en-GB/locale/en-GB/"],["locale","devtools","en-GB","browser/chrome/en-GB/locale/en-GB/devtools/client/"],["locale","pipnss","en-GB","chrome/en-GB/locale/en-GB/pipnss/"],["locale","alerts","en-GB","chrome/en-GB/locale/en-GB/alerts/"],["locale","devtools-startup","en-GB","browser/chrome/en-GB/locale/en-GB/devtools/startup/"],["locale","branding","en-GB","browser/chrome/en-GB/locale/branding/"],["locale","autoconfig","en-GB","chrome/en-GB/locale/en-GB/autoconfig/"],["locale","devtools-shared","en-GB","browser/chrome/en-GB/locale/en-GB/devtools/shared/"],["locale","global-platform","en-GB","chrome/en-GB/locale/en-GB/global-platform/unix/"],["locale","browser-region","en-GB","browser/chrome/en-GB/locale/browser-region/"],["locale","mozapps","en-GB","chrome/en-GB/locale/en-GB/mozapps/"],["locale","pluginproblem","en-GB","chrome/en-GB/locale/en-GB/pluginproblem/"],["locale","formautofill","en-GB","browser/features/formautofill@mozilla.org/en-GB/locale/en-GB/"],["locale","weave","en-GB","chrome/en-GB/locale/en-GB/services/"],["locale","pocket","en-GB","browser/features/firefox@getpocket.com/en-GB/locale/en-GB/"],["locale","places","en-GB","chrome/en-GB/locale/en-GB/places/"],["locale","passwordmgr","en-GB","chrome/en-GB/locale/en-GB/passwordmgr/"],["locale","pippki","en-GB","chrome/en-GB/locale/en-GB/pippki/"],["locale","webcompat-reporter","en-GB","browser/features/webcompat-reporter@mozilla.org/en-GB/locale/en-GB/"],["locale","browser","en-GB","browser/chrome/en-GB/locale/browser/"]],"langpackId":"langpack-en-GB-browser","l10nRegistrySources":{"browser":"browser/"},"languages":["en-GB"]},"currentModifiedTime":1530726180000},"langpack-en-ZA@firefox.mozilla.org":{"enabled":true,"lastModifiedTime":1530726180000,"path":"langpack-en-ZA@firefox.mozilla.org.xpi","signedState":0,"telemetryKey":"langpack-en-ZA%40firefox.mozilla.org:61.0","version":"61.0","type":"webextension-langpack","bootstrapped":true,"dependencies":[],"runInSafeMode":false,"hasEmbeddedWebExtension":false,"startupData":{"chromeEntries":[["locale","necko","en-ZA","chrome/en-ZA/locale/en-ZA/necko/"],["locale","pdf.js","en-ZA","browser/chrome/en-ZA/locale/pdfviewer/"],["locale","global","en-ZA","chrome/en-ZA/locale/en-ZA/global/"],["locale","onboarding","en-ZA","browser/features/onboarding@mozilla.org/en-ZA/locale/en-ZA/"],["locale","devtools","en-ZA","browser/chrome/en-ZA/locale/en-ZA/devtools/client/"],["locale","pipnss","en-ZA","chrome/en-ZA/locale/en-ZA/pipnss/"],["locale","alerts","en-ZA","chrome/en-ZA/locale/en-ZA/alerts/"],["locale","devtools-startup","en-ZA","browser/chrome/en-ZA/locale/en-ZA/devtools/startup/"],["locale","branding","en-ZA","browser/chrome/en-ZA/locale/branding/"],["locale","autoconfig","en-ZA","chrome/en-ZA/locale/en-ZA/autoconfig/"],["locale","devtools-shared","en-ZA","browser/chrome/en-ZA/locale/en-ZA/devtools/shared/"],["locale","global-platform","en-ZA","chrome/en-ZA/locale/en-ZA/global-platform/unix/"],["locale","browser-region","en-ZA","browser/chrome/en-ZA/locale/browser-region/"],["locale","mozapps","en-ZA","chrome/en-ZA/locale/en-ZA/mozapps/"],["locale","pluginproblem","en-ZA","chrome/en-ZA/locale/en-ZA/pluginproblem/"],["locale","formautofill","en-ZA","browser/features/formautofill@mozilla.org/en-ZA/locale/en-ZA/"],["locale","weave","en-ZA","chrome/en-ZA/locale/en-ZA/services/"],["locale","pocket","en-ZA","browser/features/firefox@getpocket.com/en-ZA/locale/en-ZA/"],["locale","places","en-ZA","chrome/en-ZA/locale/en-ZA/places/"],["locale","passwordmgr","en-ZA","chrome/en-ZA/locale/en-ZA/passwordmgr/"],["locale","pippki","en-ZA","chrome/en-ZA/locale/en-ZA/pippki/"],["locale","webcompat-reporter","en-ZA","browser/features/webcompat-reporter@mozilla.org/en-ZA/locale/en-ZA/"],["locale","browser","en-ZA","browser/chrome/en-ZA/locale/browser/"]],"langpackId":"langpack-en-ZA-browser","l10nRegistrySources":{"browser":"browser/"},"languages":["en-ZA"]},"currentModifiedTime":1530726180000}},"staged":{},"path":"/usr/lib/firefox/browser/extensions","checkStartupModifications":true}}
+1531509715887	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+1531509715887	addons.xpi	DEBUG	No changes found
+1531509715897	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi
+1531509715899	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi
+1531509715902	addons.xpi	DEBUG	Calling bootstrap method startup on activity-stream@mozilla.org version 2018.06.29.1026-fa231556
+1531509715902	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/aushelper@mozilla.org.xpi
+1531509715902	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/aushelper@mozilla.org.xpi
+1531509715907	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1531509715908	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/firefox@getpocket.com.xpi
+1531509715908	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/firefox@getpocket.com.xpi
+1531509715913	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1531509715920	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/followonsearch@mozilla.com.xpi
+1531509715921	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/followonsearch@mozilla.com.xpi
+1531509715924	addons.xpi	DEBUG	Calling bootstrap method startup on followonsearch@mozilla.com version 0.9.7
+1531509715925	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/formautofill@mozilla.org.xpi
+1531509715926	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/formautofill@mozilla.org.xpi
+1531509715928	addons.xpi	DEBUG	Calling bootstrap method startup on formautofill@mozilla.org version 1.0
+1531509715931	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/extensions/langpack-en-GB@firefox.mozilla.org.xpi
+1531509715952	addons.xpi	DEBUG	Calling bootstrap method startup on langpack-en-GB@firefox.mozilla.org version 61.0
+1531509715957	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/extensions/langpack-en-ZA@firefox.mozilla.org.xpi
+1531509715959	addons.xpi	DEBUG	Calling bootstrap method startup on langpack-en-ZA@firefox.mozilla.org version 61.0
+1531509715961	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/onboarding@mozilla.org.xpi
+1531509715962	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/onboarding@mozilla.org.xpi
+1531509715965	addons.xpi	DEBUG	Calling bootstrap method startup on onboarding@mozilla.org version 1.0
+1531509715966	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/screenshots@mozilla.org.xpi
+1531509715966	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/screenshots@mozilla.org.xpi
+1531509715968	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 32.1.0
+1531509715969	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/webcompat-reporter@mozilla.org.xpi
+1531509715969	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/webcompat-reporter@mozilla.org.xpi
+1531509715971	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat-reporter@mozilla.org version 1.0.0
+1531509715971	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/webcompat@mozilla.org.xpi
+1531509715974	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/webcompat@mozilla.org.xpi
+1531509715976	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 2.0
+1531509715979	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1531509715979	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1531509715980	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1531509715981	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1531509715981	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1531509715981	addons.manager	DEBUG	Starting provider: GMPProvider
+1531509715984	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1531509715984	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1531509715984	addons.manager	DEBUG	Starting provider: PluginProvider
+1531509715984	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1531509715985	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1531509715985	addons.manager	DEBUG	Completed startup sequence
+1531509717081	addons.xpi-utils	DEBUG	Starting async load of XPI database /tmp/rust_mozprofile.8M9ikgVyULVu/extensions.json
+1531509717135	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
+1531509717137	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1531509717137	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1531509717137	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
+1531509717138	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1531509717138	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1531509717138	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1531509717138	addons.xpi	DEBUG	Existing add-on webcompat-reporter@mozilla.org in app-system-defaults
+1531509717138	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1531509717139	addons.xpi	DEBUG	Existing add-on langpack-en-GB@firefox.mozilla.org in app-global
+1531509717139	addons.xpi	DEBUG	Existing add-on langpack-en-ZA@firefox.mozilla.org in app-global
+1531509717139	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+1531509717208	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1531509717212	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1531509717217	addons.xpi-utils	DEBUG	Successfully read XPI database
+1531509717781	Marionette	INFO	Listening on port 41549
+1531509717856	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** Blocklist::_preloadBlocklistFile: blocklist is disabled
+JavaScript warning: https://www.fsgstatic.com/builds/site-core/f5f8478dbae0e2ea48dfa7a1d00f2bdf775f9aa3_1529954080/scripts/site-core.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://www.fsgstatic.com/sections/video/builds/2602c4d0d3f6c859fbc15a5c8a2f9e8af3f5ca5a_1529697611/scripts/index-desktop.js, line 36: TypeError: self.onPlayMedia is not a function
+JavaScript error: resource:///modules/FormSubmitObserver.jsm, line 214: TypeError: this._mm is null
+1531509819953	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 2.0
+1531509819956	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat-reporter@mozilla.org version 1.0.0
+1531509819959	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 32.1.0
+1531509819967	addons.xpi	DEBUG	Calling bootstrap method shutdown on onboarding@mozilla.org version 1.0
+1531509819973	addons.xpi	DEBUG	Calling bootstrap method shutdown on langpack-en-ZA@firefox.mozilla.org version 61.0
+1531509819984	addons.xpi	DEBUG	Calling bootstrap method shutdown on langpack-en-GB@firefox.mozilla.org version 61.0
+1531509819992	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1531509819996	addons.xpi	DEBUG	Calling bootstrap method shutdown on followonsearch@mozilla.com version 0.9.7
+1531509819997	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1531509819998	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+1531509820001	addons.xpi	DEBUG	Calling bootstrap method shutdown on activity-stream@mozilla.org version 2018.06.29.1026-fa231556
+1531509820129	addons.manager	DEBUG	shutdown
+1531509820134	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1531509820135	addons.xpi	DEBUG	shutdown
+1531509820135	addons.xpi-utils	DEBUG	shutdown
+1531509820135	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1531509820135	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1531509820139	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1531509820153	addons.manager	DEBUG	Async provider shutdown done
+1531510236751	geckodriver	INFO	geckodriver 0.21.0
+1531510236757	geckodriver	INFO	Listening on 127.0.0.1:39947
+1531510239061	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.5JqTlCybpulA"
+1531510239274	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider", "XPIInternal"]
+1531510239280	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1531510239305	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+1531510239311	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+1531510239311	addons.manager	DEBUG	Starting provider: XPIProvider
+1531510239311	addons.xpi	DEBUG	startup
+1531510239314	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1531510239314	addons.xpi	DEBUG	checkForChanges
+1531510239315	addons.xpi	DEBUG	Loaded add-on state: {"app-system-defaults":{"addons":{"activity-stream@mozilla.org":{"enabled":true,"lastModifiedTime":1530726180000,"path":"activity-stream@mozilla.org.xpi","telemetryKey":"activity-stream%40mozilla.org:2018.06.29.1026-fa231556","version":"2018.06.29.1026-fa231556","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"aushelper@mozilla.org":{"enabled":true,"lastModifiedTime":1530726180000,"path":"aushelper@mozilla.org.xpi","telemetryKey":"aushelper%40mozilla.org:2.0","version":"2.0","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"firefox@getpocket.com":{"enabled":true,"lastModifiedTime":1530726180000,"path":"firefox@getpocket.com.xpi","telemetryKey":"firefox%40getpocket.com:1.0.5","version":"1.0.5","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"followonsearch@mozilla.com":{"enabled":true,"lastModifiedTime":1530726180000,"path":"followonsearch@mozilla.com.xpi","telemetryKey":"followonsearch%40mozilla.com:0.9.7","version":"0.9.7","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"formautofill@mozilla.org":{"enabled":true,"lastModifiedTime":1530726180000,"path":"formautofill@mozilla.org.xpi","telemetryKey":"formautofill%40mozilla.org:1.0","version":"1.0","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"onboarding@mozilla.org":{"enabled":true,"lastModifiedTime":1530726180000,"path":"onboarding@mozilla.org.xpi","telemetryKey":"onboarding%40mozilla.org:1.0","version":"1.0","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"screenshots@mozilla.org":{"enabled":true,"lastModifiedTime":1530726180000,"path":"screenshots@mozilla.org.xpi","telemetryKey":"screenshots%40mozilla.org:32.1.0","version":"32.1.0","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"webcompat-reporter@mozilla.org":{"enabled":true,"lastModifiedTime":1530726180000,"path":"webcompat-reporter@mozilla.org.xpi","telemetryKey":"webcompat-reporter%40mozilla.org:1.0.0","version":"1.0.0","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"webcompat@mozilla.org":{"enabled":true,"lastModifiedTime":1530726180000,"path":"webcompat@mozilla.org.xpi","telemetryKey":"webcompat%40mozilla.org:2.0","version":"2.0","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":true}},"staged":{},"path":"/usr/lib/firefox/browser/features"},"app-global":{"addons":{"langpack-en-GB@firefox.mozilla.org":{"enabled":true,"lastModifiedTime":1530726180000,"path":"langpack-en-GB@firefox.mozilla.org.xpi","signedState":0,"telemetryKey":"langpack-en-GB%40firefox.mozilla.org:61.0","version":"61.0","type":"webextension-langpack","bootstrapped":true,"dependencies":[],"runInSafeMode":false,"hasEmbeddedWebExtension":false,"startupData":{"chromeEntries":[["locale","necko","en-GB","chrome/en-GB/locale/en-GB/necko/"],["locale","pdf.js","en-GB","browser/chrome/en-GB/locale/pdfviewer/"],["locale","global","en-GB","chrome/en-GB/locale/en-GB/global/"],["locale","onboarding","en-GB","browser/features/onboarding@mozilla.org/en-GB/locale/en-GB/"],["locale","devtools","en-GB","browser/chrome/en-GB/locale/en-GB/devtools/client/"],["locale","pipnss","en-GB","chrome/en-GB/locale/en-GB/pipnss/"],["locale","alerts","en-GB","chrome/en-GB/locale/en-GB/alerts/"],["locale","devtools-startup","en-GB","browser/chrome/en-GB/locale/en-GB/devtools/startup/"],["locale","branding","en-GB","browser/chrome/en-GB/locale/branding/"],["locale","autoconfig","en-GB","chrome/en-GB/locale/en-GB/autoconfig/"],["locale","devtools-shared","en-GB","browser/chrome/en-GB/locale/en-GB/devtools/shared/"],["locale","global-platform","en-GB","chrome/en-GB/locale/en-GB/global-platform/unix/"],["locale","browser-region","en-GB","browser/chrome/en-GB/locale/browser-region/"],["locale","mozapps","en-GB","chrome/en-GB/locale/en-GB/mozapps/"],["locale","pluginproblem","en-GB","chrome/en-GB/locale/en-GB/pluginproblem/"],["locale","formautofill","en-GB","browser/features/formautofill@mozilla.org/en-GB/locale/en-GB/"],["locale","weave","en-GB","chrome/en-GB/locale/en-GB/services/"],["locale","pocket","en-GB","browser/features/firefox@getpocket.com/en-GB/locale/en-GB/"],["locale","places","en-GB","chrome/en-GB/locale/en-GB/places/"],["locale","passwordmgr","en-GB","chrome/en-GB/locale/en-GB/passwordmgr/"],["locale","pippki","en-GB","chrome/en-GB/locale/en-GB/pippki/"],["locale","webcompat-reporter","en-GB","browser/features/webcompat-reporter@mozilla.org/en-GB/locale/en-GB/"],["locale","browser","en-GB","browser/chrome/en-GB/locale/browser/"]],"langpackId":"langpack-en-GB-browser","l10nRegistrySources":{"browser":"browser/"},"languages":["en-GB"]},"currentModifiedTime":1530726180000},"langpack-en-ZA@firefox.mozilla.org":{"enabled":true,"lastModifiedTime":1530726180000,"path":"langpack-en-ZA@firefox.mozilla.org.xpi","signedState":0,"telemetryKey":"langpack-en-ZA%40firefox.mozilla.org:61.0","version":"61.0","type":"webextension-langpack","bootstrapped":true,"dependencies":[],"runInSafeMode":false,"hasEmbeddedWebExtension":false,"startupData":{"chromeEntries":[["locale","necko","en-ZA","chrome/en-ZA/locale/en-ZA/necko/"],["locale","pdf.js","en-ZA","browser/chrome/en-ZA/locale/pdfviewer/"],["locale","global","en-ZA","chrome/en-ZA/locale/en-ZA/global/"],["locale","onboarding","en-ZA","browser/features/onboarding@mozilla.org/en-ZA/locale/en-ZA/"],["locale","devtools","en-ZA","browser/chrome/en-ZA/locale/en-ZA/devtools/client/"],["locale","pipnss","en-ZA","chrome/en-ZA/locale/en-ZA/pipnss/"],["locale","alerts","en-ZA","chrome/en-ZA/locale/en-ZA/alerts/"],["locale","devtools-startup","en-ZA","browser/chrome/en-ZA/locale/en-ZA/devtools/startup/"],["locale","branding","en-ZA","browser/chrome/en-ZA/locale/branding/"],["locale","autoconfig","en-ZA","chrome/en-ZA/locale/en-ZA/autoconfig/"],["locale","devtools-shared","en-ZA","browser/chrome/en-ZA/locale/en-ZA/devtools/shared/"],["locale","global-platform","en-ZA","chrome/en-ZA/locale/en-ZA/global-platform/unix/"],["locale","browser-region","en-ZA","browser/chrome/en-ZA/locale/browser-region/"],["locale","mozapps","en-ZA","chrome/en-ZA/locale/en-ZA/mozapps/"],["locale","pluginproblem","en-ZA","chrome/en-ZA/locale/en-ZA/pluginproblem/"],["locale","formautofill","en-ZA","browser/features/formautofill@mozilla.org/en-ZA/locale/en-ZA/"],["locale","weave","en-ZA","chrome/en-ZA/locale/en-ZA/services/"],["locale","pocket","en-ZA","browser/features/firefox@getpocket.com/en-ZA/locale/en-ZA/"],["locale","places","en-ZA","chrome/en-ZA/locale/en-ZA/places/"],["locale","passwordmgr","en-ZA","chrome/en-ZA/locale/en-ZA/passwordmgr/"],["locale","pippki","en-ZA","chrome/en-ZA/locale/en-ZA/pippki/"],["locale","webcompat-reporter","en-ZA","browser/features/webcompat-reporter@mozilla.org/en-ZA/locale/en-ZA/"],["locale","browser","en-ZA","browser/chrome/en-ZA/locale/browser/"]],"langpackId":"langpack-en-ZA-browser","l10nRegistrySources":{"browser":"browser/"},"languages":["en-ZA"]},"currentModifiedTime":1530726180000}},"staged":{},"path":"/usr/lib/firefox/browser/extensions","checkStartupModifications":true}}
+1531510239320	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+1531510239321	addons.xpi	DEBUG	No changes found
+1531510239331	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi
+1531510239333	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi
+1531510239336	addons.xpi	DEBUG	Calling bootstrap method startup on activity-stream@mozilla.org version 2018.06.29.1026-fa231556
+1531510239338	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/aushelper@mozilla.org.xpi
+1531510239338	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/aushelper@mozilla.org.xpi
+1531510239341	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1531510239342	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/firefox@getpocket.com.xpi
+1531510239343	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/firefox@getpocket.com.xpi
+1531510239347	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1531510239355	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/followonsearch@mozilla.com.xpi
+1531510239356	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/followonsearch@mozilla.com.xpi
+1531510239359	addons.xpi	DEBUG	Calling bootstrap method startup on followonsearch@mozilla.com version 0.9.7
+1531510239361	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/formautofill@mozilla.org.xpi
+1531510239361	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/formautofill@mozilla.org.xpi
+1531510239364	addons.xpi	DEBUG	Calling bootstrap method startup on formautofill@mozilla.org version 1.0
+1531510239366	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/extensions/langpack-en-GB@firefox.mozilla.org.xpi
+1531510239389	addons.xpi	DEBUG	Calling bootstrap method startup on langpack-en-GB@firefox.mozilla.org version 61.0
+1531510239394	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/extensions/langpack-en-ZA@firefox.mozilla.org.xpi
+1531510239396	addons.xpi	DEBUG	Calling bootstrap method startup on langpack-en-ZA@firefox.mozilla.org version 61.0
+1531510239398	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/onboarding@mozilla.org.xpi
+1531510239398	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/onboarding@mozilla.org.xpi
+1531510239401	addons.xpi	DEBUG	Calling bootstrap method startup on onboarding@mozilla.org version 1.0
+1531510239402	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/screenshots@mozilla.org.xpi
+1531510239402	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/screenshots@mozilla.org.xpi
+1531510239406	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 32.1.0
+1531510239406	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/webcompat-reporter@mozilla.org.xpi
+1531510239406	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/webcompat-reporter@mozilla.org.xpi
+1531510239409	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat-reporter@mozilla.org version 1.0.0
+1531510239409	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/webcompat@mozilla.org.xpi
+1531510239409	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/webcompat@mozilla.org.xpi
+1531510239412	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 2.0
+1531510239415	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1531510239416	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1531510239416	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1531510239416	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1531510239416	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1531510239417	addons.manager	DEBUG	Starting provider: GMPProvider
+1531510239420	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1531510239420	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1531510239420	addons.manager	DEBUG	Starting provider: PluginProvider
+1531510239420	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1531510239420	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1531510239421	addons.manager	DEBUG	Completed startup sequence
+1531510240555	addons.xpi-utils	DEBUG	Starting async load of XPI database /tmp/rust_mozprofile.5JqTlCybpulA/extensions.json
+1531510240597	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
+1531510240604	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1531510240607	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1531510240607	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
+1531510240607	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1531510240607	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1531510240607	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1531510240608	addons.xpi	DEBUG	Existing add-on webcompat-reporter@mozilla.org in app-system-defaults
+1531510240608	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1531510240610	addons.xpi	DEBUG	Existing add-on langpack-en-GB@firefox.mozilla.org in app-global
+1531510240610	addons.xpi	DEBUG	Existing add-on langpack-en-ZA@firefox.mozilla.org in app-global
+1531510240610	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+1531510240677	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1531510240682	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1531510240688	addons.xpi-utils	DEBUG	Successfully read XPI database
+1531510241414	Marionette	INFO	Listening on port 33945
+1531510241528	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** Blocklist::_preloadBlocklistFile: blocklist is disabled
+JavaScript warning: https://www.fsgstatic.com/builds/site-core/f5f8478dbae0e2ea48dfa7a1d00f2bdf775f9aa3_1529954080/scripts/site-core.js, line 19: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://connect.facebook.net/en_US/fbevents.js, line 25: NS_ERROR_FAILURE: 
+JavaScript warning: http://w3.cdn.anvato.net/player/prod/v3/g6ulcwtjcv6rw/scripts/anvplayer.min.js, line 0: Successfully compiled asm.js code (loaded from cache in 35ms)
+[Child 12778, MediaPlayback #3] WARNING: Decoder=7fd00626b6a0 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-oscv9o/firefox-61.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3411
+[Child 12778, MediaPlayback #1] WARNING: Decoder=7fd00626b6a0 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-oscv9o/firefox-61.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3411
+1531510339250	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 2.0
+1531510339252	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat-reporter@mozilla.org version 1.0.0
+1531510339253	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 32.1.0
+1531510339265	addons.xpi	DEBUG	Calling bootstrap method shutdown on onboarding@mozilla.org version 1.0
+1531510339268	addons.xpi	DEBUG	Calling bootstrap method shutdown on langpack-en-ZA@firefox.mozilla.org version 61.0
+1531510339282	addons.xpi	DEBUG	Calling bootstrap method shutdown on langpack-en-GB@firefox.mozilla.org version 61.0
+1531510339296	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1531510339298	addons.xpi	DEBUG	Calling bootstrap method shutdown on followonsearch@mozilla.com version 0.9.7
+1531510339298	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1531510339301	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+1531510339302	addons.xpi	DEBUG	Calling bootstrap method shutdown on activity-stream@mozilla.org version 2018.06.29.1026-fa231556
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x16007F,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+
+1531510339473	addons.manager	DEBUG	shutdown
+1531510339476	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1531510339476	addons.xpi	DEBUG	shutdown
+1531510339478	addons.xpi-utils	DEBUG	shutdown
+1531510339478	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1531510339478	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1531510339478	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1531510339489	addons.manager	DEBUG	Async provider shutdown done
+1531510477996	geckodriver	INFO	geckodriver 0.21.0
+1531510478001	geckodriver	INFO	Listening on 127.0.0.1:49007
+1531510480419	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.qL9LewrYmzlW"
+1531510480702	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider", "XPIInternal"]
+1531510480711	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1531510480742	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+1531510480746	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+1531510480749	addons.manager	DEBUG	Starting provider: XPIProvider
+1531510480751	addons.xpi	DEBUG	startup
+1531510480752	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1531510480756	addons.xpi	DEBUG	checkForChanges
+1531510480757	addons.xpi	DEBUG	Loaded add-on state: {"app-system-defaults":{"addons":{"activity-stream@mozilla.org":{"enabled":true,"lastModifiedTime":1530726180000,"path":"activity-stream@mozilla.org.xpi","telemetryKey":"activity-stream%40mozilla.org:2018.06.29.1026-fa231556","version":"2018.06.29.1026-fa231556","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"aushelper@mozilla.org":{"enabled":true,"lastModifiedTime":1530726180000,"path":"aushelper@mozilla.org.xpi","telemetryKey":"aushelper%40mozilla.org:2.0","version":"2.0","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"firefox@getpocket.com":{"enabled":true,"lastModifiedTime":1530726180000,"path":"firefox@getpocket.com.xpi","telemetryKey":"firefox%40getpocket.com:1.0.5","version":"1.0.5","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"followonsearch@mozilla.com":{"enabled":true,"lastModifiedTime":1530726180000,"path":"followonsearch@mozilla.com.xpi","telemetryKey":"followonsearch%40mozilla.com:0.9.7","version":"0.9.7","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"formautofill@mozilla.org":{"enabled":true,"lastModifiedTime":1530726180000,"path":"formautofill@mozilla.org.xpi","telemetryKey":"formautofill%40mozilla.org:1.0","version":"1.0","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"onboarding@mozilla.org":{"enabled":true,"lastModifiedTime":1530726180000,"path":"onboarding@mozilla.org.xpi","telemetryKey":"onboarding%40mozilla.org:1.0","version":"1.0","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"screenshots@mozilla.org":{"enabled":true,"lastModifiedTime":1530726180000,"path":"screenshots@mozilla.org.xpi","telemetryKey":"screenshots%40mozilla.org:32.1.0","version":"32.1.0","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"webcompat-reporter@mozilla.org":{"enabled":true,"lastModifiedTime":1530726180000,"path":"webcompat-reporter@mozilla.org.xpi","telemetryKey":"webcompat-reporter%40mozilla.org:1.0.0","version":"1.0.0","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":false},"webcompat@mozilla.org":{"enabled":true,"lastModifiedTime":1530726180000,"path":"webcompat@mozilla.org.xpi","telemetryKey":"webcompat%40mozilla.org:2.0","version":"2.0","bootstrapped":true,"dependencies":[],"runInSafeMode":true,"hasEmbeddedWebExtension":true}},"staged":{},"path":"/usr/lib/firefox/browser/features"},"app-global":{"addons":{"langpack-en-GB@firefox.mozilla.org":{"enabled":true,"lastModifiedTime":1530726180000,"path":"langpack-en-GB@firefox.mozilla.org.xpi","signedState":0,"telemetryKey":"langpack-en-GB%40firefox.mozilla.org:61.0","version":"61.0","type":"webextension-langpack","bootstrapped":true,"dependencies":[],"runInSafeMode":false,"hasEmbeddedWebExtension":false,"startupData":{"chromeEntries":[["locale","necko","en-GB","chrome/en-GB/locale/en-GB/necko/"],["locale","pdf.js","en-GB","browser/chrome/en-GB/locale/pdfviewer/"],["locale","global","en-GB","chrome/en-GB/locale/en-GB/global/"],["locale","onboarding","en-GB","browser/features/onboarding@mozilla.org/en-GB/locale/en-GB/"],["locale","devtools","en-GB","browser/chrome/en-GB/locale/en-GB/devtools/client/"],["locale","pipnss","en-GB","chrome/en-GB/locale/en-GB/pipnss/"],["locale","alerts","en-GB","chrome/en-GB/locale/en-GB/alerts/"],["locale","devtools-startup","en-GB","browser/chrome/en-GB/locale/en-GB/devtools/startup/"],["locale","branding","en-GB","browser/chrome/en-GB/locale/branding/"],["locale","autoconfig","en-GB","chrome/en-GB/locale/en-GB/autoconfig/"],["locale","devtools-shared","en-GB","browser/chrome/en-GB/locale/en-GB/devtools/shared/"],["locale","global-platform","en-GB","chrome/en-GB/locale/en-GB/global-platform/unix/"],["locale","browser-region","en-GB","browser/chrome/en-GB/locale/browser-region/"],["locale","mozapps","en-GB","chrome/en-GB/locale/en-GB/mozapps/"],["locale","pluginproblem","en-GB","chrome/en-GB/locale/en-GB/pluginproblem/"],["locale","formautofill","en-GB","browser/features/formautofill@mozilla.org/en-GB/locale/en-GB/"],["locale","weave","en-GB","chrome/en-GB/locale/en-GB/services/"],["locale","pocket","en-GB","browser/features/firefox@getpocket.com/en-GB/locale/en-GB/"],["locale","places","en-GB","chrome/en-GB/locale/en-GB/places/"],["locale","passwordmgr","en-GB","chrome/en-GB/locale/en-GB/passwordmgr/"],["locale","pippki","en-GB","chrome/en-GB/locale/en-GB/pippki/"],["locale","webcompat-reporter","en-GB","browser/features/webcompat-reporter@mozilla.org/en-GB/locale/en-GB/"],["locale","browser","en-GB","browser/chrome/en-GB/locale/browser/"]],"langpackId":"langpack-en-GB-browser","l10nRegistrySources":{"browser":"browser/"},"languages":["en-GB"]},"currentModifiedTime":1530726180000},"langpack-en-ZA@firefox.mozilla.org":{"enabled":true,"lastModifiedTime":1530726180000,"path":"langpack-en-ZA@firefox.mozilla.org.xpi","signedState":0,"telemetryKey":"langpack-en-ZA%40firefox.mozilla.org:61.0","version":"61.0","type":"webextension-langpack","bootstrapped":true,"dependencies":[],"runInSafeMode":false,"hasEmbeddedWebExtension":false,"startupData":{"chromeEntries":[["locale","necko","en-ZA","chrome/en-ZA/locale/en-ZA/necko/"],["locale","pdf.js","en-ZA","browser/chrome/en-ZA/locale/pdfviewer/"],["locale","global","en-ZA","chrome/en-ZA/locale/en-ZA/global/"],["locale","onboarding","en-ZA","browser/features/onboarding@mozilla.org/en-ZA/locale/en-ZA/"],["locale","devtools","en-ZA","browser/chrome/en-ZA/locale/en-ZA/devtools/client/"],["locale","pipnss","en-ZA","chrome/en-ZA/locale/en-ZA/pipnss/"],["locale","alerts","en-ZA","chrome/en-ZA/locale/en-ZA/alerts/"],["locale","devtools-startup","en-ZA","browser/chrome/en-ZA/locale/en-ZA/devtools/startup/"],["locale","branding","en-ZA","browser/chrome/en-ZA/locale/branding/"],["locale","autoconfig","en-ZA","chrome/en-ZA/locale/en-ZA/autoconfig/"],["locale","devtools-shared","en-ZA","browser/chrome/en-ZA/locale/en-ZA/devtools/shared/"],["locale","global-platform","en-ZA","chrome/en-ZA/locale/en-ZA/global-platform/unix/"],["locale","browser-region","en-ZA","browser/chrome/en-ZA/locale/browser-region/"],["locale","mozapps","en-ZA","chrome/en-ZA/locale/en-ZA/mozapps/"],["locale","pluginproblem","en-ZA","chrome/en-ZA/locale/en-ZA/pluginproblem/"],["locale","formautofill","en-ZA","browser/features/formautofill@mozilla.org/en-ZA/locale/en-ZA/"],["locale","weave","en-ZA","chrome/en-ZA/locale/en-ZA/services/"],["locale","pocket","en-ZA","browser/features/firefox@getpocket.com/en-ZA/locale/en-ZA/"],["locale","places","en-ZA","chrome/en-ZA/locale/en-ZA/places/"],["locale","passwordmgr","en-ZA","chrome/en-ZA/locale/en-ZA/passwordmgr/"],["locale","pippki","en-ZA","chrome/en-ZA/locale/en-ZA/pippki/"],["locale","webcompat-reporter","en-ZA","browser/features/webcompat-reporter@mozilla.org/en-ZA/locale/en-ZA/"],["locale","browser","en-ZA","browser/chrome/en-ZA/locale/browser/"]],"langpackId":"langpack-en-ZA-browser","l10nRegistrySources":{"browser":"browser/"},"languages":["en-ZA"]},"currentModifiedTime":1530726180000}},"staged":{},"path":"/usr/lib/firefox/browser/extensions","checkStartupModifications":true}}
+1531510480768	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+1531510480769	addons.xpi	DEBUG	No changes found
+1531510480778	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi
+1531510480780	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi
+1531510480790	addons.xpi	DEBUG	Calling bootstrap method startup on activity-stream@mozilla.org version 2018.06.29.1026-fa231556
+1531510480791	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/aushelper@mozilla.org.xpi
+1531510480794	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/aushelper@mozilla.org.xpi
+1531510480798	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1531510480799	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/firefox@getpocket.com.xpi
+1531510480799	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/firefox@getpocket.com.xpi
+1531510480804	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1531510480814	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/followonsearch@mozilla.com.xpi
+1531510480817	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/followonsearch@mozilla.com.xpi
+1531510480820	addons.xpi	DEBUG	Calling bootstrap method startup on followonsearch@mozilla.com version 0.9.7
+1531510480821	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/formautofill@mozilla.org.xpi
+1531510480821	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/formautofill@mozilla.org.xpi
+1531510480825	addons.xpi	DEBUG	Calling bootstrap method startup on formautofill@mozilla.org version 1.0
+1531510480826	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/extensions/langpack-en-GB@firefox.mozilla.org.xpi
+1531510480871	addons.xpi	DEBUG	Calling bootstrap method startup on langpack-en-GB@firefox.mozilla.org version 61.0
+1531510480881	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/extensions/langpack-en-ZA@firefox.mozilla.org.xpi
+1531510480885	addons.xpi	DEBUG	Calling bootstrap method startup on langpack-en-ZA@firefox.mozilla.org version 61.0
+1531510480887	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/onboarding@mozilla.org.xpi
+1531510480887	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/onboarding@mozilla.org.xpi
+1531510480892	addons.xpi	DEBUG	Calling bootstrap method startup on onboarding@mozilla.org version 1.0
+1531510480893	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/screenshots@mozilla.org.xpi
+1531510480893	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/screenshots@mozilla.org.xpi
+1531510480897	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 32.1.0
+1531510480899	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/webcompat-reporter@mozilla.org.xpi
+1531510480899	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/webcompat-reporter@mozilla.org.xpi
+1531510480902	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat-reporter@mozilla.org version 1.0.0
+1531510480902	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/webcompat@mozilla.org.xpi
+1531510480902	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/webcompat@mozilla.org.xpi
+1531510480908	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 2.0
+1531510480914	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1531510480916	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1531510480917	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1531510480917	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1531510480917	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1531510480918	addons.manager	DEBUG	Starting provider: GMPProvider
+1531510480921	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1531510480921	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1531510480921	addons.manager	DEBUG	Starting provider: PluginProvider
+1531510480921	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1531510480921	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1531510480922	addons.manager	DEBUG	Completed startup sequence
+1531510482244	addons.xpi-utils	DEBUG	Starting async load of XPI database /tmp/rust_mozprofile.qL9LewrYmzlW/extensions.json
+1531510482326	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
+1531510482337	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1531510482340	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1531510482340	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
+1531510482341	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1531510482341	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1531510482341	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1531510482341	addons.xpi	DEBUG	Existing add-on webcompat-reporter@mozilla.org in app-system-defaults
+1531510482341	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1531510482342	addons.xpi	DEBUG	Existing add-on langpack-en-GB@firefox.mozilla.org in app-global
+1531510482342	addons.xpi	DEBUG	Existing add-on langpack-en-ZA@firefox.mozilla.org in app-global
+1531510482343	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+1531510482431	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1531510482433	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1531510482439	addons.xpi-utils	DEBUG	Successfully read XPI database
+1531510483147	Marionette	INFO	Listening on port 38101
+1531510483209	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** Blocklist::_preloadBlocklistFile: blocklist is disabled
+JavaScript error: https://connect.facebook.net/en_US/fbevents.js, line 25: NS_ERROR_FAILURE: 
+JavaScript warning: http://w3.cdn.anvato.net/player/prod/v3/g6ulcwtjcv6rw/scripts/anvplayer.min.js, line 0: Successfully compiled asm.js code (loaded from cache in 12ms)
+[Child 13017, MediaPlayback #2] WARNING: Decoder=7fed1e9bc4c0 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-oscv9o/firefox-61.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3411
+[Child 13017, MediaPlayback #2] WARNING: Decoder=7fed1e9bc4c0 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-oscv9o/firefox-61.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3411
+[Child 13017, MediaPlayback #1] WARNING: Decoder=7fed1e9bc4c0 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-oscv9o/firefox-61.0.1+build1/dom/media/MediaDecoderStateMachine.cpp, line 3411
+1531510538992	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 2.0
+1531510538994	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat-reporter@mozilla.org version 1.0.0
+1531510539000	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 32.1.0
+1531510539008	addons.xpi	DEBUG	Calling bootstrap method shutdown on onboarding@mozilla.org version 1.0
+1531510539011	addons.xpi	DEBUG	Calling bootstrap method shutdown on langpack-en-ZA@firefox.mozilla.org version 61.0
+1531510539018	addons.xpi	DEBUG	Calling bootstrap method shutdown on langpack-en-GB@firefox.mozilla.org version 61.0
+1531510539024	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1531510539027	addons.xpi	DEBUG	Calling bootstrap method shutdown on followonsearch@mozilla.com version 0.9.7
+1531510539028	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1531510539029	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+1531510539029	addons.xpi	DEBUG	Calling bootstrap method shutdown on activity-stream@mozilla.org version 2018.06.29.1026-fa231556
+1531510539209	addons.manager	DEBUG	shutdown
+1531510539211	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1531510539215	addons.xpi	DEBUG	shutdown
+1531510539215	addons.xpi-utils	DEBUG	shutdown
+1531510539215	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1531510539215	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1531510539215	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+[Parent 12976, Gecko_IOThread] WARNING: pipe error (91): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 12976, Gecko_IOThread] WARNING: pipe error (39): Connection reset by peer: file /build/firefox-oscv9o/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1531510539248	addons.manager	DEBUG	Async provider shutdown done
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
