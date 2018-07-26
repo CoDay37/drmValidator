@@ -53,19 +53,13 @@ def getVideoSource(site):
                         print("URL: ", url)
                         videoLinks.add(url)
 
-def readOver(data):
-        r.requestorID("https://")
-        if(r.equals("http://"))#GET RID OFF
-                r.post(site, parameters)
-
-
 def findLinks(link):
         with requests.Session() as s:
                 global post
-                if post: #If using a login page
+                if post:
                         r = s.post(link, data=payload2)
                         post = False
-                elif not post: #Not needing a login
+                elif not post:
                         r = requests.get(link, headers={'User-Agent': USER_AGENT})
                 data = r.content #Get html content
                 soup = BeautifulSoup(data,'html.parser')
