@@ -35,12 +35,11 @@ headers = 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like 
 
 ffProfile = webdriver.FirefoxProfile('/home/cday/.mozilla/firefox/kv4pspx2.cdayP')
 driver = webdriver.Firefox(ffProfile)
-
+#links = re.findall('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', html)
 driver.get(site8)
 driver.implicitly_wait(100)
 linky = driver.find_element_by_xpath("/html/body/div[1]/div[2]/div[1]/div/div/div/div[2]/div[1]/div[1]/div[2]/video").get_attribute('src')
 driver.execute_script('console.log("hello")')
-
 
 driver.execute_script="document.getElementsByName()"
 actualTag = driver.page_source

@@ -13,10 +13,13 @@ url4 = 'http://watch.cookingchanneltv.com/live'
 url5 = 'https://www.nbc.com'
 #spectrumsportnet
 url6 = 'http://www.spectrumsportsnet.com'
+#mtv
+url7 = 'http://www.mtv.com/episodes/y7pn7w/jersey-shore-family-vacation-meatball-training-day-season-1-ep-110'
+url07 = 'http://www.mtv.com/full-episodes'
 
 
 
-(controller(url6))
+(controller(url07))
 
 
 #URL9 is HGTV
