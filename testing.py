@@ -32,22 +32,17 @@ site10 = 'http://www.foxnews.com'
 
 headers = 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.2526.73 Safari/537.36'
 
-
+use = 'https://play.hbogo.com/episode/urn:hbo:episode:GWukCJAu0e4uHwwEAAAB5?reentered=true&userProfileType=liteUserProfile'
 ffProfile = webdriver.FirefoxProfile('/home/cday/.mozilla/firefox/kv4pspx2.cdayP')
 driver = webdriver.Firefox(ffProfile)
 #links = re.findall('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', html)
-driver.get(site8)
-driver.implicitly_wait(100)
+driver.get(use)
+driver.implicitly_wait(30)
+page = driver.page_source
 linky = driver.find_element_by_xpath("/html/body/div[1]/div[2]/div[1]/div/div/div/div[2]/div[1]/div[1]/div[2]/video").get_attribute('src')
 driver.execute_script('console.log("hello")')
 
-driver.execute_script="document.getElementsByName()"
-actualTag = driver.page_source
-print("SOURCE: ", actualTag)
-print("Length: ", len(linky))
-print("Type: ", type(linky))                 
-print(driver.current_url)
-print("link: ", linky)
+
 
 """usrName = driver.find_element_by_name('username').send_keys('Mtooley@aol.com')
 pWord = driver.find_element_by_name('password').send_keys('tur44tle')
