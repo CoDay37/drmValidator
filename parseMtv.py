@@ -21,6 +21,9 @@ base_URL = 'http://www.mtv.com'
 ffProfile = webdriver.FirefoxProfile('/home/cday/.mozilla/firefox/kv4pspx2.cdayP')
 
 def getVideoSource(site):
+    if('episodes' not in site):
+        prnt('')
+    else:
         global totalL
         totalL+=1
         print('Video Number: ', totalL)
@@ -28,7 +31,7 @@ def getVideoSource(site):
         driver = webdriver.Firefox(ffProfile)
         try:
                 driver.get(site)
-                driver.implicitly_wait(45)
+                driver.implicitly_wait(60)
         except selenium.common.exceptions.TimeoutException:
                 raise print("Selenium got stuck")
 
@@ -60,6 +63,7 @@ def findLinks(link):
                 else:
                         continue
         holdSet = unCheckedLinks.copy()
+        unCheckedLinks.clear()
         for element in holdSet:
             findEpisodes(element)  
         for element in unCheckedLinks: # will have to adjust for links without video in URL
@@ -69,20 +73,7 @@ def findLinks(link):
 def findEpisodes(url):
         if('/episodes/' in url):
             unCheckedLinks.add(url)
-            """req = requests.get(url, headers={'User-Agent': USER_AGENT})
-            print(url, " ", req.status_code)
-            dataContent = req.content
-            soupy = BeautifulSoup(dataContent,'html.parser')
-            for link in soupy.findAll('a'):
-                if('mtv' not in link):
-                    continue
-                elif('/episodes/' in url):
-                    sourceLink = link.get('href')
-                    print("#", sourceLink)
-                    unCheckedLinks.add(sourceLink)
-                else:
-                    continue"""
-
+            
 def controller(url):
         findLinks(url)
         linksChecked = set() ##Going to hold all links parsed and checked
