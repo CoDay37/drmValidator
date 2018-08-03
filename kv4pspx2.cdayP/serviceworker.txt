@@ -1,0 +1,11 @@
+8
+
+https://www.nbc.com/
+https://www.nbc.com/sw.min.js
+false
+{1ce2334b-2040-46ac-8913-c3c7befb7bab}
+0
+1532976135787446
+1532976135813547
+1532976134510200
+#
