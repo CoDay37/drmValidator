@@ -16,7 +16,7 @@ videoLinks = set()
 totalL = 0
 
 
-base_URL = 'http://watch.cookingchanneltv.com/live'
+base_URL = 'http://www.nbc.com'
 
 ffProfile = webdriver.FirefoxProfile('/home/cday/.mozilla/firefox/kv4pspx2.cdayP')
 
@@ -32,13 +32,13 @@ def getVideoSource(site):
         except selenium.common.exceptions.TimeoutException:
                 raise print("Selenium got stuck")
         html = driver.page_source    
-                #MTV
-                #vidLink = driver.find_element_by_xpath("/html/body/div[1]/div[2]/div[1]/div/div/div/div[2]/div[1]/div[1]/div[2]/video").get_attribute('src')
-                #HGTV
+        #MTV
+        #vidLink = driver.find_element_by_xpath("/html/body/div[1]/div[2]/div[1]/div/div/div/div[2]/div[1]/div[1]/div[2]/video").get_attribute('src')
+        #HGTV
         #vidLink = driver.find_element_by_xpath("//*[@id='player_193-video-content]")
-        iframe= driver.find_element_by_id('player_139')
-        driver.switch_to_frame(iframe)
-        vidLink = driver.find_element_by_class_name('any-video-content')
+        #nbc
+        driver.find_element_by_id('load-button full-width').click()
+
         driver.execute_script("url = document.getElementsByTagName('video');var a = document.createElement('a');document.body.appendChild(a);a.style = 'display: none';a.href = url;a.setAttribute('download','Aname');a.click();window.URL.revokeObjectURL(url);")
         videoLinks.add(vidLink)
         print(vidLink)
@@ -85,17 +85,6 @@ def findEpisodes(url):
                         else:
                                 sourceLink = link.get('href')
                                 unCheckedLinks.add(sourceLink)
-
-def downloadVideo(url):
-        r = requests.head(url)
-        header = r.headers
-        content_type = header.get('content-type')
-        if 'text' in content_type.lower():
-                return False
-        elif 'html' in content_type.lower():
-                return False
-        else:
-                return True
 
 def controller(url):
         findLinks(url)
