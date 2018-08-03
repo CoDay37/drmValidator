@@ -1,5 +1,5 @@
 
-from parseMtv import controller
+from parseCookingChannel import controller
 #hgtv-home
 url2 = 'http://watch.hgtv.com/live/'
 url3 = 'https://play.hbogo.com'  #uses selenium from start for stream
@@ -12,10 +12,9 @@ url10 = 'http://www.watch.foodnetwork.com/shows/'#//*[@id='player_139-video-cont
 url11 = 'http://www.watch.cookingchanneltv.com/live/'# //*[@id='player_139-video-content"]
 url12 = 'https://www.discovery.com' #//*[@id="eos-hls-ssdai-video"]
 
-qwe = 'http://www.mtv.com/live-tv'
 url07 = 'http://www.mtv.com/full-episodes'
-url7 = 'http://www.mtv.com/episodes/y7pn7w/jersey-shore-family-vacation-meatball-training-day-season-1-ep-110'
 
-(controller(url07))
+
+(controller(url4))
 
 
