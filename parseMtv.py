@@ -68,19 +68,20 @@ def findLinks(link):
 
 def findEpisodes(url):
         if('/episodes/' in url):
-            print("CHECKED ", url)
-            req = requests.get(url, headers={'User-Agent': USER_AGENT})
-            print(req.status_code)
+            unCheckedLinks.add(url)
+            """req = requests.get(url, headers={'User-Agent': USER_AGENT})
+            print(url, " ", req.status_code)
             dataContent = req.content
             soupy = BeautifulSoup(dataContent,'html.parser')
             for link in soupy.findAll('a'):
-                print("Link:", link)
                 if('mtv' not in link):
                     continue
-                else:
+                elif('/episodes/' in url):
                     sourceLink = link.get('href')
                     print("#", sourceLink)
                     unCheckedLinks.add(sourceLink)
+                else:
+                    continue"""
 
 def controller(url):
         findLinks(url)
